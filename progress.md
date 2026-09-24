@@ -34,6 +34,13 @@
   **https://diogobr23.github.io/estudo-obmep-mirim-3-ano/** (redireciona para `roteiro/`). Atualizar = `git push`.
 - `provas/` (70 MB) fora do git; entram só as de 2ª fase, na vez dos simulados.
 
+## Dia 0 (24/09, pedido do Diogo)
+- Card novo antes do Dia 1, só com vídeos de divisão (~30 min, fim de semana 26–27/09):
+  Khan `pt.khanacademy.org/.../division-intro/v/division-1` (URL vista em busca; plano B no próprio passo:
+  Khan Portugal no YouTube `kr-kNxzoFYs`, 3:46) + Gis com Giz "Resolução de problemas de divisão"
+  (`ociudK7Oovg`, 18:13, 305 mil views; duas ideias da divisão + interpretação de enunciado).
+  Conferidos por oEmbed/descrição, **não assistidos** — Diogo, olhar antes. Duração do vídeo da Khan não confirmada.
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 3. Montar a semana 2 com isso (rascunho em `PLANO.md`).
