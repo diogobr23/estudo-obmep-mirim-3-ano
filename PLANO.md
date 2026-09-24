@@ -31,7 +31,7 @@ ficam recolhidos. Pular um dia não atrasa nada; a data sugerida aparece só com
 | Semana | Dias |
 |---|---|
 | S1 28/09–02/10 | D1 Como ler uma pergunta · D2 Palavras-armadilha · D3 Repartir em partes iguais (divisão) · D4 Espelho: dentro e fora · D5 Relógio: horas e minutos |
-| S2 05–09/10 | metade, dobro e fazer ao contrário · grupos iguais e fileiras (× e ÷ disfarçadas) · girar figuras · contar todas as possibilidades · calendário · **sáb 10/10 simulado 2022** |
+| S2 05–09/10 | metade, dobro e fazer ao contrário · grupos iguais e fileiras (× e ÷ disfarçadas; aqui entra o vídeo da Gis "Resolução de problemas de divisão", `ociudK7Oovg`, tirado do Dia 0) · girar figuras · contar todas as possibilidades · calendário · **sáb 10/10 simulado 2022** |
 | S3 12–16/10 | encaixar e montar figuras · soma e diferença / dinheiro · tabelinha lógica · vistas · fila e posição |
 | S4 19–23/10 | planificação do cubo · sequências e padrões · mínimo e máximo · direita e esquerda · dominó · **sáb 24/10 simulado 2023** |
 | S5 26–30/10 | revisão dos ⭐ e dos erros · **sáb 31/10 simulado 2024** |

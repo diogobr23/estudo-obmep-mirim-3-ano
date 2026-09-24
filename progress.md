@@ -58,6 +58,13 @@
   `novalidate` + filtro só-dígitos).
 - A tabuada do 2º dia em diante é o termômetro: Diogo pode ver no card quais tabuadas já estão no jogo.
 
+## Dia 0 ajustado (24/09, depois do 1º uso)
+- A criança fez o Dia 0, menos o vídeo da Gis (problemas): Diogo achou complexo por exigir interpretação.
+  **Vídeo da Gis saiu do Dia 0 → semana 2** (dia de grupos iguais), depois do treino de leitura.
+- No lugar: `d0p4` treino de divisão na chave (Nível 1: tabuadas 2/5/10 · Nível 2: 3 e 4 · desafio opcional
+  casa por casa, sem "vai um") com link para rever o Smile and Learn + truque de conferir (resultado × divisor)
+  + `d0tab` 1 rodada da Tabuada relâmpago. `d0p3` virou "mostra uma conta que armou e como conferiu".
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 2. Montar a semana 2 com isso (rascunho em `PLANO.md`).
