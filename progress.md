@@ -40,6 +40,11 @@
   Khan Portugal no YouTube `kr-kNxzoFYs`, 3:46) + Gis com Giz "Resolução de problemas de divisão"
   (`ociudK7Oovg`, 18:13, 305 mil views; duas ideias da divisão + interpretação de enunciado).
   Conferidos por oEmbed/descrição, **não assistidos** — Diogo, olhar antes. Duração do vídeo da Khan não confirmada.
+- 24/09 (2º pedido): a criança **não sabe montar a conta de dividir** → passo novo `d0p1b` entre os dois vídeos,
+  com 2 opções (escolher uma): Smile and Learn "Divisão na chave" (`-KOePuj1czE`, 5:00, 785 mil views,
+  animação, divisor de 1 algarismo) ou Prof. Rafaela Mazetto "Armando a divisão – 3º ano" (`Jif4RIhw5xA`, 14:14,
+  344 mil views) + armar 12 ÷ 3 e 15 ÷ 5. Reserva não usada: Gis com Giz "Divisão com um número na chave"
+  (`n-z62Hux6zU`, 7:47). Card do adulto ajustado: conta armada "é bom saber, mas não é o que a prova cobra".
 
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
