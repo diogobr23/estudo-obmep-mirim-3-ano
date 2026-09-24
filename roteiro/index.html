@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meu treino da Olimpíada</title>
+<style>
+  :root { --bg:#f6f7fb; --card:#fff; --ink:#1d2330; --muted:#5b6475; --line:#e3e6ee;
+          --mat:#2b6cb0; --ok:#2f9e44; --dica:#fff7d6; --dica-ink:#6b4e00; --adulto:#7048b0; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:20px 16px 60px }
+  h1 { font-size:26px; margin:0 0 4px }
+  .sub { color:var(--muted); margin:0 0 18px }
+  .count { display:inline-block; background:var(--ink); color:#fff; border-radius:999px; padding:4px 12px; font-weight:600 }
+  .como { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 16px; margin-bottom:18px }
+  .como ol { margin:6px 0 0 20px; padding:0 } .como li { margin:4px 0 }
+  .onde { background:var(--ink); color:#fff; border-radius:14px; padding:12px 16px; margin-bottom:16px }
+  .onde b { font-size:17px } .onde .t { color:#c8cedb; font-size:15px; margin:2px 0 0 }
+  .btn-sec { background:none; border:0; color:var(--muted); font:inherit; font-size:15px; text-decoration:underline; cursor:pointer; padding:6px }
+  .dia { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; margin-bottom:16px }
+  .dia h2 { margin:0; font-size:21px } .dia .quando { color:var(--muted); font-size:15px; margin:2px 0 10px }
+  .dia.fora { display:none } body.tudo .dia.fora { display:block }
+  .dia.hoje { border-color:var(--mat); box-shadow:0 0 0 2px rgba(43,108,176,.18) }
+  .hoje-tag { display:inline-block; font-size:12px; font-weight:700; color:#fff; background:var(--ok); border-radius:6px; padding:2px 8px; margin-left:6px; vertical-align:middle }
+  .tag { display:inline-block; font-size:13px; font-weight:700; color:#fff; background:var(--mat); border-radius:6px; padding:2px 8px; margin-left:6px; vertical-align:middle }
+  .tag.sim { background:#c0392b } .tag.ler { background:#b7770d } .tag.rev { background:var(--ok) }
+  .ref { background:var(--card); border:2px solid #b7770d; border-radius:16px; padding:16px; margin-bottom:16px }
+  .ref.adulto { border-color:var(--adulto) }
+  .ref h2 { margin:0 0 2px; font-size:21px } .ref .quando { color:var(--muted); font-size:15px; margin:0 0 10px }
+  .ref h3 { font-size:17px; margin:16px 0 6px }
+  .ref ol, .ref ul { margin:6px 0 0 22px; padding:0 } .ref li { margin:6px 0 }
+  .ref details.abrir { margin-top:8px } .ref details.abrir > summary { font-size:17px }
+  .passos5 { list-style:none; margin:10px 0 0 !important; padding:0 !important }
+  .passos5 li { display:flex; gap:12px; align-items:flex-start; background:#fff7e6; border-radius:12px; padding:10px 12px; margin:8px 0 !important }
+  .passos5 .ic { flex:none; font-size:26px; line-height:1.2 }
+  .armadilhas { display:flex; flex-wrap:wrap; gap:8px; margin:8px 0 }
+  .armadilhas span { background:#fdeeea; color:#8a3b00; border:1px solid #f1c2b3; border-radius:8px; padding:3px 10px; font-weight:700; font-size:15px }
+  .obs { color:var(--muted); font-size:15px; margin-top:10px }
+  .fala { background:#f3eefb; border-left:4px solid var(--adulto); border-radius:8px; padding:8px 12px; margin:6px 0; font-style:italic }
+  .passo { display:flex; gap:12px; align-items:flex-start; padding:10px 0; border-top:1px dashed var(--line) }
+  .passo input { width:28px; height:28px; margin:2px 0 0; flex:none; accent-color:var(--ok) }
+  .passo label { flex:1; cursor:pointer } .passo .corpo { flex:1; min-width:0 } .passo .corpo > label { display:block }
+  .passo .t { color:var(--muted); font-size:15px }
+  .passo:has(input:checked) > label, .passo:has(input:checked) > .corpo > label { text-decoration:line-through; color:var(--muted) }
+  a { color:var(--mat); font-weight:600 }
+  details { margin-top:6px; font-size:16px } summary { cursor:pointer; color:var(--mat); font-weight:600 }
+  .q { margin:12px 0 6px; border:1px solid var(--line); border-radius:12px; padding:10px 12px; background:#fcfcfe }
+  .q .qt { font-weight:700; font-size:15px; color:var(--muted); margin-bottom:6px }
+  .q img { display:block; width:100%; height:auto; border-radius:8px; border:1px solid var(--line); background:#fff }
+  details.res { background:#f0f4fa; border-radius:12px; padding:10px 14px 14px }
+  .res .quer { margin:8px 0 4px; font-weight:600 }
+  .res .passo-r { display:flex; gap:10px; align-items:flex-start; margin:10px 0 }
+  .res .n { flex:none; width:26px; height:26px; border-radius:50%; background:var(--mat); color:#fff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center; margin-top:2px }
+  .res .passo-r > div { flex:1; min-width:0 }
+  .res .resp { background:#e6f7ea; color:#1d6b2d; border-radius:10px; padding:8px 12px; margin-top:12px; font-weight:700 }
+  .res .atalho { background:#fff7d6; color:#6b4e00; border-radius:10px; padding:8px 12px; margin-top:8px }
+  .res .esc { background:#fdeeea; color:#8a3b00; border-radius:10px; padding:8px 12px; margin-top:8px }
+  .dica { background:var(--dica); color:var(--dica-ink); border-radius:12px; padding:12px 14px; margin-top:12px }
+  .dica b { display:block; margin-bottom:4px }
+  .prog { font-size:15px; color:var(--muted); margin-top:8px }
+  .fim { text-align:center; color:var(--muted); font-size:15px; margin-top:8px }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Meu treino da Olimpíada 🏅</h1>
+  <p class="sub">Prova da 2ª fase: terça, 10 de novembro. <span class="count" id="contagem">…</span></p>
+
+  <div class="como">
+    <b>Como funciona</b>
+    <ol>
+      <li>Cada dia leva <b>de 20 a 30 minutos</b>. A página abre sempre <b>no dia em que você parou</b>.</li>
+      <li>Faz os passos na ordem e <b>marca a caixinha</b> quando terminar cada um.</li>
+      <li>Antes de tudo, lê o card <a href="#como-ler">🔍 Como ler uma pergunta</a> aqui embaixo. Ele vale para todas as questões.</li>
+      <li>Resolve cada questão no caderno ou na folha, <b>marca a letra</b> e só depois abre a resposta.</li>
+      <li>Errou? Tudo bem! Abre a explicação e compara com o seu jeito. Achou muito difícil? Anota o número no caderno com uma ⭐ e mostra pro adulto.</li>
+      <li>Travou? Chama o adulto. Pedir ajuda também é treino.</li>
+    </ol>
+  </div>
+
+  <!-- ====== CARD: COMO LER (criança) ====== -->
+  <section class="ref" id="como-ler">
+    <h2>🔍 Como ler uma pergunta <span class="tag ler">Vale pra prova toda</span></h2>
+    <p class="quando">As contas da Olimpíada são fáceis. O difícil é <b>entender o que a pergunta quer</b>. Estes 5 passos resolvem isso.</p>
+    <ul class="passos5">
+      <li><span class="ic">👉</span><div><b>1. Lê devagar, com o dedo embaixo da linha.</b><br>A prova vem toda em LETRA MAIÚSCULA, ASSIM. Uma palavra pulada muda a pergunta.</div></li>
+      <li><span class="ic">❓</span><div><b>2. Acha a pergunta e passa um traço embaixo.</b><br>É a frase que termina com <b>?</b>. O resto é a história que te ajuda.</div></li>
+      <li><span class="ic">⭕</span><div><b>3. Faz uma bolinha nas palavras-armadilha.</b><br>São palavrinhas que mudam tudo (a lista está logo abaixo).</div></li>
+      <li><span class="ic">✏️</span><div><b>4. Desenha, risca e conta na figura.</b><br>Pode escrever na prova! Risca o que já contou, faz risquinhos, desenha bolinhas.</div></li>
+      <li><span class="ic">🔁</span><div><b>5. Antes de marcar, lê a pergunta de novo.</b><br>Pensa: "a minha resposta responde <b>isso</b>?"</div></li>
+    </ul>
+
+    <h3>⭕ As palavras-armadilha que já caíram na prova</h3>
+    <div class="armadilhas"><span>NÃO</span><span>EXATAMENTE</span><span>DIFERENTE</span><span>MAIOR</span><span>MENOR</span><span>MAIS DO QUE</span><span>SEM</span><span>UMA OU MAIS</span><span>DOBRO</span><span>LADO DE FORA</span><span>DIREITO / ESQUERDO</span></div>
+    <p>Olha o perigo: <b>"Qual peça ela NÃO vai usar?"</b> Quem não vê o <b>NÃO</b> procura a peça que serve. Aí marca a letra errada, mesmo tendo pensado certo!</p>
+
+    <h3>🕵️ Truques de detetive</h3>
+    <ul>
+      <li><b>Conta a história com as suas palavras.</b> Se você consegue contar pra alguém, você entendeu.</li>
+      <li><b>Não sabe por onde começar? Testa as respostas.</b> Pega a letra A e vê se ela funciona. Depois a B… Na Olimpíada, a resposta certa está sempre lá, entre as 5.</li>
+      <li><b>Risca as que não podem ser.</b> Cada letra riscada deixa a questão mais fácil.</li>
+      <li><b>Nunca deixa em branco.</b> Errar e deixar em branco valem o mesmo: zero. Então sempre marca uma letra.</li>
+    </ul>
+  </section>
+
+  <!-- ====== CARD: PARA O ADULTO ====== -->
+  <section class="ref adulto" id="adulto">
+    <h2>👩‍🏫 Para o adulto <span class="tag" style="background:var(--adulto)">Leitura de 3 minutos</span></h2>
+    <p class="quando">Como ajudar a criança a interpretar sem entregar a resposta.</p>
+    <details class="abrir"><summary>Abrir</summary>
+    <h3>Quando ela chamar, pergunte nesta ordem (e espere a resposta)</h3>
+    <div class="fala">"Lê a pergunta pra mim em voz alta."</div>
+    <div class="fala">"Me conta com as suas palavras: o que a questão quer saber?"</div>
+    <div class="fala">"O que a história já te contou? Mostra na figura."</div>
+    <div class="fala">"Tem alguma palavra-armadilha aí?" (NÃO, EXATAMENTE, DIFERENTE…)</div>
+    <div class="fala">"Dá pra desenhar ou testar uma das letras?"</div>
+    <p>Na maioria das vezes, a criança destrava no 1º ou no 2º passo. Quando consegue <b>recontar</b> a questão, ela já entendeu.</p>
+
+    <h3>O que evitar</h3>
+    <ul>
+      <li><b>Não leia a questão por ela</b> depois da primeira semana. Na prova ela vai estar sozinha. Na 1ª semana, pode ler junto.</li>
+      <li><b>Não diga se a resposta está certa antes de ela explicar o caminho.</b> Pergunte "como você pensou?". Muitas vezes ela acha o erro sozinha.</li>
+      <li><b>Não ensine "conta armada" de divisão.</b> Na prova, dividir é <b>repartir em partes iguais</b>, com números pequenos. Feijões, tampinhas e desenhos resolvem tudo.</li>
+    </ul>
+
+    <h3>Material que ajuda</h3>
+    <p>Papel, tesoura e lápis de cor (para dobrar e recortar). Um espelho pequeno (para as questões de espelho). 20 tampinhas ou feijões (para repartir).</p>
+    <p class="obs">Sobre a prova: 15 questões, 1h30, cada uma vale 1 ponto (o regulamento não fala em desconto por erro, então vale sempre marcar). O que mais cai: figuras e visão espacial — girar, espelhar, dobrar, ver de outro lado (~28%), organizar e contar possibilidades (~20%), continhas em historinha (~20%) e horas/calendário (todo ano).</p>
+    </details>
+  </section>
+
+  <div class="onde">
+    <b id="onde-tit">Onde você parou</b>
+    <p id="onde-sub" class="t">…</p>
+  </div>
+
+  <!-- ============ DIA 1 ============ -->
+  <section class="dia" data-nome="Dia 1">
+    <h2>Dia 1 — Como ler uma pergunta <span class="tag ler">Leitura</span></h2>
+    <p class="quando">sugestão: segunda, 28/09 · ⏱ uns 20 minutos · 🧑 hoje o adulto fica junto</p>
+
+    <div class="passo"><input type="checkbox" id="d1p1"><label for="d1p1">🔍 <b>Lê com o adulto o card "Como ler uma pergunta"</b> lá em cima (5 min).
+      <span class="t" style="display:block">Terminei quando: consigo falar os 5 passos sem olhar (pode ser com as minhas palavras).</span></label></div>
+
+    <div class="passo"><input type="checkbox" id="d1p2"><div class="corpo"><label for="d1p2">🧩 <b>3 questões da Olimpíada de verdade</b> (15 min).
+      Em cada uma, <b>antes de resolver</b>, fala em voz alta: <b>"a pergunta é…"</b> e <b>"a palavra-armadilha é…"</b>.
+      <span class="t" style="display:block">Terminei quando: resolvi as 3, marquei uma letra em cada e conferi a resposta.</span></label>
+
+      <div class="q"><div class="qt">Questão 1 · 1ª fase 2024</div><img src="img/2024-1fase-q1.png" alt="Questão 1 da 1ª fase de 2024: qual flor tem mais pétalas" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: qual flor tem MAIS pétalas? A palavra-armadilha é <b>MAIS</b>: é a flor com mais pétalas, não com menos.</div>
+          <div class="passo-r"><span class="n">1</span><div>Conta as pétalas de cada flor. Põe o dedo em uma pétala e vai rodando, até voltar nela.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>A: 3 · B: <b>6</b> · C: 5 · D: 4 · E: 5.</div></div>
+          <div class="resp">✅ Resposta: letra B (6 pétalas)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> quem conta rápido pode pular uma pétala ou contar a mesma duas vezes. O truque do dedo que roda e volta no começo evita isso.</div>
+        </details></div>
+
+      <div class="q"><div class="qt">Questão 2 · 1ª fase 2023</div><img src="img/2023-1fase-q1.png" alt="Questão 1 da 1ª fase de 2023: qual fruta aparece em quantidade diferente" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: qual fruta aparece em quantidade DIFERENTE? A palavra-armadilha é <b>DIFERENTE</b>.</div>
+          <div class="passo-r"><span class="n">1</span><div>Conta cada caixa: abacaxi 6, maçã 6, pera 6, banana 6… e laranja <b>7</b>.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Quatro frutas têm 6. Só a laranja tem 7, então ela é a diferente.</div></div>
+          <div class="resp">✅ Resposta: letra C (laranja)</div>
+          <div class="atalho">💡 <b>Dica:</b> as laranjas estão em pilha. Conta a fileira de cima e depois a de baixo, e soma.</div>
+        </details></div>
+
+      <div class="q"><div class="qt">Questão 3 · 1ª fase 2022</div><img src="img/2022-1fase-q1.png" alt="Questão 1 da 1ª fase de 2022: qual conta tem resultado diferente de 9" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: qual conta NÃO dá 9? De novo, a palavra-armadilha é <b>DIFERENTE</b>.</div>
+          <div class="passo-r"><span class="n">1</span><div>5 + 4 = 9 · 4 + 5 = 9 · 6 + 3 = 9 · 1 + 8 = 9 · 2 + 6 = <b>8</b>.</div></div>
+          <div class="resp">✅ Resposta: letra E (2 + 6 = 8)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> quem não vê o DIFERENTE procura uma conta que dá 9 e marca a letra A. É exatamente por isso que a gente faz bolinha na palavra-armadilha.</div>
+        </details></div>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d1p3"><label for="d1p3">⭐ <b>Conta pro adulto</b> (1 min): qual das 3 foi a mais fácil e qual deu mais trabalho?</label></div>
+    <div class="dica"><b>Lembrete do dia 1</b>Antes de resolver, eu acho <b>a pergunta</b> e <b>a palavra-armadilha</b>.</div>
+    <p class="prog"></p>
+  </section>
+
+  <!-- ============ DIA 2 ============ -->
+  <section class="dia" data-nome="Dia 2">
+    <h2>Dia 2 — Caçando palavras-armadilha <span class="tag ler">Leitura</span></h2>
+    <p class="quando">sugestão: terça, 29/09 · ⏱ uns 25 minutos</p>
+
+    <div class="passo"><input type="checkbox" id="d2p1"><label for="d2p1">🔍 <b>Relê a lista de palavras-armadilha</b> no card "Como ler uma pergunta" (2 min).
+      <span class="t" style="display:block">Terminei quando: falei 3 palavras-armadilha de cabeça.</span></label></div>
+
+    <div class="passo"><input type="checkbox" id="d2p2"><div class="corpo"><label for="d2p2">🧩 <b>3 questões com armadilha escondida</b> (20 min). Em cada uma: fala a pergunta, acha a armadilha e <b>só depois</b> resolve.
+      <span class="t" style="display:block">Terminei quando: resolvi as 3 e conferi. Achou difícil? Chama o adulto.</span></label>
+
+      <div class="q"><div class="qt">Questão 1 · 1ª fase 2023</div><img src="img/2023-1fase-q2.png" alt="Questão 2 da 1ª fase de 2023: placas de trânsito redondas sem seta" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta pede duas coisas ao mesmo tempo: a placa tem que ser <b>redonda</b> <u>e</u> <b>não</b> pode ter seta. A armadilha é o <b>MAS NÃO</b>.</div>
+          <div class="passo-r"><span class="n">1</span><div>Primeiro, acha só as redondas. O PARE <b>não</b> é redondo (tem 8 lados).</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Das redondas, risca as que têm seta: a da seta que vira, a das duas setas (uma pra cima e outra pra esquerda) e a da seta reta.</div></div>
+          <div class="passo-r"><span class="n">3</span><div>Sobram 6: a da buzina riscada, a do "20 km/h", a do X, a do "E" e as duas do bonequinho andando.</div></div>
+          <div class="resp">✅ Resposta: letra D (6 placas)</div>
+          <div class="atalho">💡 <b>Dica:</b> com muita coisa pra contar, risca na tela com o dedo ou faz uma lista no caderno. Assim nenhuma é contada duas vezes.</div>
+        </details></div>
+
+      <div class="q"><div class="qt">Questão 2 · 1ª fase 2025</div><img src="img/2025-1fase-q12.png" alt="Questão 12 da 1ª fase de 2025: cartões 1 4 3 2 5, maior número com dois cartões na ordem" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: o maior número com 2 cartões. A armadilha é <b>NA ORDEM EM QUE ESTÃO</b>: não pode trocar os cartões de lugar!</div>
+          <div class="passo-r"><span class="n">1</span><div>O maior cartão é o 5. Dá pra começar com 5? Não: o 5 é o <b>último</b> da fila e nenhum cartão vem depois dele. Então o 5 só pode ser o segundo número, o da direita: "?5".</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Qual o maior cartão que vem <b>antes</b> do 5? É o 4. Fica <b>45</b>. E nenhum número pode começar com algo maior que 4, porque o 5 não pode ir na frente.</div></div>
+                    <div class="resp">✅ Resposta: letra C (45)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> quem não lê "na ordem em que estão" marca 54, que é a letra A. Essa letra está lá e pega quem leu rápido.</div>
+        </details></div>
+
+      <div class="q"><div class="qt">Questão 3 · 1ª fase 2022</div><img src="img/2022-1fase-q13.png" alt="Questão 13 da 1ª fase de 2022: pipoca e suco no cinema" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: quanto custa 1 pipoca. A armadilha é <b>A MAIS</b>. E tem uma surpresa: a questão não diz o preço do suco, e ele nem é preciso!</div>
+          <div class="passo-r"><span class="n">1</span><div>Desenha as compras:<br>João: 🍿🍿🥤<br>Maria: 🍿🥤</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Risca o que os dois compraram igual: 1 pipoca e 1 suco de cada um. Sobra só <b>1 pipoca</b> a mais para o João.</div></div>
+          <div class="passo-r"><span class="n">3</span><div>João gastou 16 reais a mais só por causa dessa pipoca. Então 1 pipoca custa 16 reais.</div></div>
+          <div class="resp">✅ Resposta: letra E (16 reais)</div>
+          <div class="atalho">💡 <b>Dica:</b> quando falta um preço, desenha as compras e risca o que é igual dos dois lados. O que sobra é a diferença.</div>
+        </details></div>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d2p3"><label for="d2p3">⭐ <b>Conta pro adulto</b> (1 min): em qual das 3 a armadilha quase te pegou?</label></div>
+    <div class="dica"><b>Lembrete do dia 2</b>Se a resposta parece fácil demais, eu leio a pergunta de novo, procurando a armadilha.</div>
+    <p class="prog"></p>
+  </section>
+
+  <!-- ============ DIA 3 ============ -->
+  <section class="dia" data-nome="Dia 3">
+    <h2>Dia 3 — Dividir é repartir igual <span class="tag">Continhas</span></h2>
+    <p class="quando">sugestão: quarta, 30/09 · ⏱ uns 25 minutos · 🫘 precisa de 12 tampinhas, feijões ou botões</p>
+
+    <div class="passo"><input type="checkbox" id="d3p1"><label for="d3p1">🎬 <b>Assiste</b> (4 min): <a href="https://www.youtube.com/watch?v=FG1m_-UfxdQ" target="_blank">Divisão! — Maysa Explica</a>.
+      <span class="t" style="display:block">Se não abrir, tem este outro, de desenho animado (3 min): <a href="https://www.youtube.com/watch?v=a1_OFOABwsA" target="_blank">Aprenda a Divisão</a>. Terminei quando: vi o vídeo até o fim.</span></label></div>
+
+    <div class="passo"><input type="checkbox" id="d3p2"><div class="corpo"><label for="d3p2">🫘 <b>Divide com as mãos</b> (8 min). Pega 12 tampinhas e reparte <b>uma pra cada, uma pra cada…</b> até acabar, como quem distribui cartas.
+      <span class="t" style="display:block">Terminei quando: fiz os 4 e conferi as respostas.</span></label>
+      <ol>
+        <li>12 tampinhas para <b>2</b> pessoas. Quantas cada uma ganha?</li>
+        <li>12 tampinhas para <b>3</b> pessoas. Quantas cada uma ganha?</li>
+        <li>12 tampinhas para <b>4</b> pessoas. Quantas cada uma ganha?</li>
+        <li>Agora ao contrário: quero montar <b>montinhos de 3</b>. Quantos montinhos dá pra fazer com 12?</li>
+      </ol>
+      <details><summary>Ver respostas</summary>1) 6 · 2) 4 · 3) 3 · 4) 4 montinhos.<br>Conferir é fácil: junta tudo de volta e conta. Tem que dar 12 de novo!</details>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d3p3"><div class="corpo"><label for="d3p3">✏️ <b>Agora sem tampinha: desenha bolinhas</b> (6 min). Desenha as bolinhas e faz um círculo em volta de cada grupo.
+      <span class="t" style="display:block">Terminei quando: fiz os 3 e conferi.</span></label>
+      <ol>
+        <li>10 balas para 2 crianças. Quantas cada uma ganha?</li>
+        <li>15 lápis em 3 estojos, todos com a mesma quantidade. Quantos lápis ficam em cada estojo?</li>
+        <li>A metade de 14. (Metade é repartir em 2!)</li>
+      </ol>
+      <details><summary>Ver respostas</summary>1) 5 · 2) 5 · 3) 7</details>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d3p4"><div class="corpo"><label for="d3p4">🧩 <b>Questão da Olimpíada</b> (5 min).
+      <span class="t" style="display:block">Terminei quando: resolvi e conferi.</span></label>
+      <div class="q"><div class="qt">1ª fase 2025</div><img src="img/2025-1fase-q3.png" alt="Questão 3 da 1ª fase de 2025: bois em dois cercados" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: quantos bois <b>passam</b> de um lado pro outro, para os dois cercados ficarem iguais.</div>
+          <div class="passo-r"><span class="n">1</span><div>Conta tudo: 10 bois na esquerda + 2 na direita = <b>12 bois</b>.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>"Ficar iguais" é repartir os 12 em 2 cercados: metade de 12 = <b>6</b> em cada.</div></div>
+          <div class="passo-r"><span class="n">3</span><div>Na direita tem 2, e precisa chegar a 6. Faltam 4, então passam <b>4 bois</b>. (Confere: a esquerda fica com 10 − 4 = 6. ✔)</div></div>
+          <div class="resp">✅ Resposta: letra D (4 bois)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> fazer a metade de 10 = 5 e marcar a letra E, esquecendo os 2 bois que já estão na direita. Se passarem 5, a direita fica com 7 e a esquerda com 5 — não ficam iguais! Se ficar confuso, faz com 12 tampinhas.</div>
+        </details></div>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d3p5"><label for="d3p5">⭐ <b>Conta pro adulto</b> (1 min): explica com as suas palavras o que é dividir.</label></div>
+    <div class="dica"><b>Lembrete do dia 3</b>Dividir é repartir em partes <b>iguais</b>. Às vezes sobra um pouquinho que não dá pra repartir. Metade é dividir por 2. Pra conferir, junto tudo de volta.</div>
+    <p class="prog"></p>
+  </section>
+
+  <!-- ============ DIA 4 ============ -->
+  <section class="dia" data-nome="Dia 4">
+    <h2>Dia 4 — Direita, esquerda e dobrar papel <span class="tag">Figuras</span></h2>
+    <p class="quando">sugestão: quinta, 01/10 · ⏱ uns 25 minutos · ✂️ precisa de 1 folha e lápis</p>
+
+    <div class="passo"><input type="checkbox" id="d4p1"><label for="d4p1">✋ <b>Aquecimento</b> (3 min): levanta a mão <b>direita</b>. Agora olha seus dois pés: o dedão fica do lado de <b>dentro</b>, perto do outro pé. No desenho de um chinelo, o lado mais gordinho da frente é o do dedão: <b>dedão à direita → chinelo do pé esquerdo</b>; <b>dedão à esquerda → chinelo do pé direito</b>. Na dúvida, põe o seu pé em cima do desenho.
+      <span class="t" style="display:block">Terminei quando: sei dizer qual é a minha mão direita sem pensar.</span></label></div>
+
+    <div class="passo"><input type="checkbox" id="d4p2"><label for="d4p2">📄 <b>Experiência da dobra</b> (5 min): dobra a folha ao meio e abre de novo. Pinta uma bolinha bem forte perto da dobra, de um lado só. Dobra de novo e aperta. Abre: a bolinha "carimbou" o outro lado, na <b>mesma distância da dobra</b>.
+      <span class="t" style="display:block">Terminei quando: vi o carimbo. (Se o lápis não carimbar, fura a bolinha com a ponta do lápis, com a folha dobrada.)</span></label></div>
+
+    <div class="passo"><input type="checkbox" id="d4p3"><div class="corpo"><label for="d4p3">🧩 <b>3 questões da Olimpíada</b> (15 min).
+      <span class="t" style="display:block">Terminei quando: resolvi as 3 e conferi.</span></label>
+
+      <div class="q"><div class="qt">Questão 1 · 1ª fase 2022</div><img src="img/2022-1fase-q6.png" alt="Questão 6 da 1ª fase de 2022: pares completos de chinelos" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: quantos pares <b>COMPLETOS</b>. Um par completo é 1 esquerdo + 1 direito.</div>
+          <div class="passo-r"><span class="n">1</span><div>Em cada chinelo, acha o lado mais gordinho da frente (é o do dedão). Dedão à direita = esquerdo; dedão à esquerda = direito. Separa em dois grupos: <b>5 esquerdos</b> e <b>2 direitos</b>.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Cada direito ganha um esquerdo. Só tem 2 direitos, então só dá pra fazer <b>2 pares</b>. Sobram 3 esquerdos sozinhos.</div></div>
+          <div class="resp">✅ Resposta: letra B (2 pares)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> contar 7 chinelos e achar que dá 3 pares (letra C). Mas dois chinelos esquerdos não formam um par! A palavra COMPLETOS avisa isso.</div>
+        </details></div>
+
+      <div class="q"><div class="qt">Questão 2 · 1ª fase 2024</div><img src="img/2024-1fase-q4.png" alt="Questão 4 da 1ª fase de 2024: mover a estrela 4 casas para cima e 2 para a esquerda" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: onde a estrela vai parar depois de andar.</div>
+          <div class="passo-r"><span class="n">1</span><div>Põe o dedo na estrela. Sobe <b>4 casas</b>, contando só as casas novas: 1, 2, 3, 4. O dedo para na 2ª linha de cima.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Agora anda <b>2 casas para a esquerda</b> (o lado da sua mão esquerda): 1, 2. O dedo cai no <b>triângulo</b>.</div></div>
+          <div class="resp">✅ Resposta: letra C (triângulo)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> contar a casa onde a estrela já está como "1". A primeira casa que conta é a do primeiro passo.</div>
+        </details></div>
+
+      <div class="q"><div class="qt">Questão 3 · 1ª fase 2024 (a mais difícil de hoje)</div><img src="img/2024-1fase-q8.png" alt="Questão 8 da 1ª fase de 2024: papel quadriculado com furos dobrado como livro" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: qual letra <b>NÃO</b> vai aparecer. A letra que some é a que fica tampada pelo papel.</div>
+          <div class="passo-r"><span class="n">1</span><div>A seta mostra que o lado <b>esquerdo</b> (com os furos) vira por cima do lado direito (com as letras), como a capa de um livro fechando.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Cada furo cai no quadradinho que está na <b>mesma distância da dobra</b>, do outro lado. É o carimbo da experiência! Um furo encostado na dobra cai encostado na dobra do outro lado.</div></div>
+          <div class="passo-r"><span class="n">3</span><div>Vê cada letra. Se um furo cai em cima dela, ela aparece pelo buraco. Se não cai, o papel tampa a letra. A, C, D e E ganham um furo. A letra <b>B</b> não ganha nenhum: fica tampada.</div></div>
+          <div class="resp">✅ Resposta: letra B</div>
+          <div class="atalho">💡 <b>Dica:</b> ficou difícil de imaginar? Desenha a grade num papel, pinta os furos, dobra na linha e olha contra a luz.</div>
+        </details></div>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d4p4"><label for="d4p4">⭐ <b>Conta pro adulto</b> (1 min): qual foi a mais difícil? Mostra como a dobra funciona com a sua folha.</label></div>
+    <div class="dica"><b>Lembrete do dia 4</b>Na dobra, tudo cai na <b>mesma distância da dobra</b>, do outro lado. Na dúvida, pego um papel e faço de verdade.</div>
+    <p class="prog"></p>
+  </section>
+
+  <!-- ============ DIA 5 ============ -->
+  <section class="dia" data-nome="Dia 5">
+    <h2>Dia 5 — Horas e minutos <span class="tag">Tempo</span></h2>
+    <p class="quando">sugestão: sexta, 02/10 · ⏱ uns 25 minutos</p>
+
+    <div class="passo"><input type="checkbox" id="d5p1"><div class="corpo"><label for="d5p1">🧠 <b>O truque da hora cheia</b> (10 min). Lê com calma:
+      <span class="t" style="display:block">Terminei quando: fiz os 4 treinos e conferi.</span></label>
+      <p><b>1 hora tem 60 minutos.</b> Pra somar ou tirar minutos, primeiro chega na <b>hora cheia</b> (a que termina em :00) e depois continua.</p>
+      <p>Exemplo: são 8:52 e passam 18 minutos. De 8:52 até <b>9:00</b> faltam 8 minutos. Ainda sobram 10 (porque 18 − 8 = 10) → <b>9:10</b>.</p>
+      <p>E pra voltar no tempo: 15 minutos antes das 7:00. Volto para a hora de antes, as <b>6 horas</b>. Dessa hora até as 7:00 são 60 minutos; tirando 15, sobram 60 − 15 = 45 → <b>6:45</b>.</p>
+      <ol>
+        <li>São 3:50. Que horas vão ser daqui a 20 minutos?</li>
+        <li>O filme acaba às 5:00 e durou 30 minutos. Que horas começou?</li>
+        <li>De 10:40 até 11:00, quantos minutos são?</li>
+        <li>De 10:40 até 11:15, quantos minutos são?</li>
+      </ol>
+      <details><summary>Ver respostas</summary>1) 4:10 (10 min até 4:00 + mais 10) · 2) 4:30 · 3) 20 minutos · 4) 35 minutos (20 até 11:00 + 15)</details>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d5p2"><div class="corpo"><label for="d5p2">🧩 <b>2 questões da Olimpíada</b> (12 min).
+      <span class="t" style="display:block">Terminei quando: resolvi as 2 e conferi.</span></label>
+
+      <div class="q"><div class="qt">Questão 1 · 1ª fase 2024</div><img src="img/2024-1fase-q7.png" alt="Questão 7 da 1ª fase de 2024: a que horas Carlos saiu de casa" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: a que horas ele <b>SAIU</b>. Ele chegou às 9:00, então saiu <b>antes</b>: é pra voltar no tempo.</div>
+          <div class="passo-r"><span class="n">1</span><div>15 minutos antes das 9:00. A hora volta de 9 para <b>8</b>. Das 8:00 às 9:00 são 60 minutos; tirando 15, sobram 60 − 15 = 45 → <b>8:45</b>.</div></div>
+          <div class="resp">✅ Resposta: letra C (08:45)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> somar em vez de tirar e marcar 09:15, que é a letra D. Ele não pode ter saído de casa depois de chegar no campo!</div>
+        </details></div>
+
+      <div class="q"><div class="qt">Questão 2 · 1ª fase 2023</div><img src="img/2023-1fase-q12.png" alt="Questão 12 da 1ª fase de 2023: minutos de 3:10 até 4:05" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: quantos minutos faltam, de 3:10 até 4:05.</div>
+          <div class="passo-r"><span class="n">1</span><div>De 3:10 até a hora cheia <b>4:00</b>: 60 − 10 = <b>50 minutos</b>.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>De 4:00 até 4:05: mais <b>5 minutos</b>.</div></div>
+          <div class="passo-r"><span class="n">3</span><div>50 + 5 = <b>55 minutos</b>.</div></div>
+          <div class="resp">✅ Resposta: letra D (55 minutos)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> achar que passou 1 hora inteira ou mais (60 ou 75 minutos). De 3:10 até 4:10 seria 1 hora, mas o jogo começa às 4:05, 5 minutos antes disso. Sempre para na hora cheia!</div>
+        </details></div>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d5p3"><label for="d5p3">⭐ <b>Conta pro adulto</b> (1 min): explica o truque da hora cheia com um exemplo seu.</label></div>
+    <div class="dica"><b>Lembrete do dia 5</b>1 hora = 60 minutos. Pra somar ou tirar minutos, primeiro paro na <b>hora cheia</b>.</div>
+    <p class="prog"></p>
+  </section>
+
+
+  <p class="fim"><button type="button" class="btn-sec" id="ver-tudo">ver o plano inteiro</button></p>
+</div>
+
+<script>
+  // contagem regressiva até a prova
+  (function () {
+    var prova = new Date(2026, 10, 10), hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+    var n = Math.round((prova - hoje) / 864e5), el = document.getElementById('contagem');
+    el.textContent = n > 1 ? 'faltam ' + n + ' dias' : n === 1 ? 'é amanhã!' : n === 0 ? 'é hoje! 🍀' : 'prova feita 🎉';
+  })();
+
+  // caixinhas lembradas neste aparelho + "onde parou": mostra o 1º dia incompleto
+  (function () {
+    var P = 'mirim1:'; // o roteiro do Mirim 2 (outra criança) deve usar 'mirim2:' — mesma origem github.io
+    var dias = Array.prototype.slice.call(document.querySelectorAll('.dia'));
+    function ler(id) { try { return localStorage.getItem(P + id) === '1'; } catch (e) { return false; } }
+    function gravar(id, v) { try { localStorage.setItem(P + id, v ? '1' : '0'); } catch (e) {} }
+    function completo(d) { return !d.querySelector('.passo input:not(:checked)'); }
+
+    function atualizar() {
+      var atual = null;
+      dias.forEach(function (d) {
+        var todas = d.querySelectorAll('.passo input'), feitas = d.querySelectorAll('.passo input:checked');
+        var p = d.querySelector('.prog');
+        if (p) p.textContent = feitas.length === todas.length ? '✅ Dia completo! Mandou bem.' : feitas.length + ' de ' + todas.length + ' passos feitos';
+        if (!atual && !completo(d)) atual = d;
+      });
+      dias.forEach(function (d) {
+        d.classList.toggle('fora', d !== atual);
+        d.classList.toggle('hoje', d === atual);
+      });
+      var tit = document.getElementById('onde-tit'), sub = document.getElementById('onde-sub');
+      if (atual) {
+        tit.textContent = 'Hoje é o ' + atual.getAttribute('data-nome');
+        var feitos = dias.filter(completo).length;
+        sub.textContent = feitos + ' de ' + dias.length + ' dias feitos. Quando terminar este, o próximo aparece sozinho.';
+      } else {
+        tit.textContent = 'Você fez todos os dias! 🎉';
+        sub.textContent = 'Pode rever qualquer um em "ver o plano inteiro".';
+      }
+    }
+    document.querySelectorAll('.passo input[type=checkbox]').forEach(function (c) {
+      c.checked = ler(c.id);
+      c.addEventListener('change', function () { gravar(c.id, c.checked); });
+    });
+    // só troca de dia quando a página é aberta de novo (não some no meio do estudo)
+    atualizar();
+    document.querySelectorAll('.passo input[type=checkbox]').forEach(function (c) {
+      c.addEventListener('change', function () {
+        var d = c.closest('.dia'), p = d.querySelector('.prog');
+        var todas = d.querySelectorAll('.passo input'), feitas = d.querySelectorAll('.passo input:checked');
+        p.textContent = feitas.length === todas.length ? '✅ Dia completo! Mandou bem. Amanhã tem o próximo.' : feitas.length + ' de ' + todas.length + ' passos feitos';
+      });
+    });
+
+    var btn = document.getElementById('ver-tudo');
+    btn.addEventListener('click', function () {
+      var tudo = document.body.classList.toggle('tudo');
+      btn.textContent = tudo ? 'mostrar só o dia de hoje' : 'ver o plano inteiro';
+      if (!tudo) window.scrollTo(0, 0);
+    });
+  })();
+</script>
+</body>
+</html>

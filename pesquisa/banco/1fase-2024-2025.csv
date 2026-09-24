@@ -1,0 +1,31 @@
+arquivo;questao;pagina_pdf;tema;subtipo;tema2;leitura;dificuldade;resposta;resumo;observacao
+2024-1fase-prova.pdf;1;2;CNT;;;nao;F;B;Achar a flor com mais pétalas entre 5 desenhos.;Figura em tons de cinza, C e E têm 5 pétalas (distrator), a B tem 6.
+2024-1fase-prova.pdf;2;2;ESP;;;nao;F;A;Escolher a peça que completa o quebra-cabeça.;Precisa girar mentalmente as peças, ajuda recortar peças de papel.
+2024-1fase-prova.pdf;3;2;LOG;;OPE;nao;M;B;Contar as peças de dominó cuja soma de pontos é 10.;Tema2 OPE soma. Só 4-6 e 5-5, 6-4 é a mesma peça que 4-6 (pegadinha). Figura do dominó completo ajuda a listar.
+2024-1fase-prova.pdf;4;2;ESP;;POS;nao;F;C;Mover a estrela 4 casas para cima e 2 para a esquerda num quadriculado.;Lateralidade direita/esquerda, contar casas sem contar a casa de partida.
+2024-1fase-prova.pdf;5;2;SEQ;;OPE;nao;F;B;Contando de 2 em 2 a cada pulo, qual número ela fala no 9º pulo.;Tema2 OPE dobro (2 x 9 = 18). Ordinal 9º.
+2024-1fase-prova.pdf;6;3;ESP;;;nao;D;B;Dobrar a folha duas vezes, cortar um cantinho e ver como fica desdobrada.;Precisa dobrar e cortar papel de verdade para entender, depende de branco/cinza.
+2024-1fase-prova.pdf;7;3;TEM;;OPE;nao;F;C;Chegou às 9h depois de 15 minutos de caminhada; a que horas saiu.,Tema2 OPE inversa (voltar no tempo). Relógio digital, distrator 09:15 para quem soma.
+2024-1fase-prova.pdf;8;3;ESP;;;sim;M;B;Papel com furos dobrado como livro: qual letra NÃO fica visível.;Espelho em relação à linha tracejada, pergunta com NÃO em negrito, ajuda dobrar papel quadriculado.
+2024-1fase-prova.pdf;9;3;MED;;OPE;nao;M;D;Diferença entre os comprimentos do lápis e do pincel medidos na régua.;Tema2 OPE sub. Nenhum objeto começa no zero da régua (lápis 1 a 15 e pincel 2 a 14) - pegadinha clássica.
+2024-1fase-prova.pdf;10;3;POS;;ESP;nao;M;E;Descobrir a ordem em que 3 animais passaram pelas pegadas sobrepostas.;Pegada de cima passou depois, depende de distinguir tons de cinza e formas das pegadas.
+2024-1fase-prova.pdf;11;4;OPE;div;;sim;D;A;Quatro laranjas custam 15 centavos a mais que uma; quanto custam quatro.,Dinheiro (centavos). 3 laranjas = 15 então cada uma 5 (15÷3). Pegadinha: '15 a mais' não é o preço de 4.
+2024-1fase-prova.pdf;12;4;OPE;sub;MED;nao;D;B;Trens com 2 e 3 vagões (28 m e 38 m): comprimento da locomotiva.;Diferença dos trens = 1 vagão = 10 m, depois 28 - 20 = 8.
+2024-1fase-prova.pdf;13;4;LOG;;NUM;sim;D;D;Jogo de moeda numa trilha 0-10: qual afirmação é certa após 4 jogadas.;Par/ímpar escondido (4 passos saindo do 6 sempre termina em par), 'com certeza' e 'pode' exigem leitura atenta, dá pra simular com peça e moeda.
+2024-1fase-prova.pdf;14;4;LOG;;NUM;nao;D;E;Quantos números de 2 algarismos têm dezena ímpar e unidade par.;Listar organizado (10,12...98) ou 5 x 5, lembrar que 0 é par na unidade.
+2024-1fase-prova.pdf;15;4;TEM;;LOG;sim;D;E;Cinco amigos dizem o dia da semana de formas diferentes; só um errou.,Anteontem/ontem/amanhã/depois de amanhã, 'apenas um estava errado' - organizar em tabela.
+2025-1fase-prova.pdf;1;2;CNT;;;nao;F;D;Qual figura feita de palitos tem mais palitos.;Palito compartilhado entre triângulos conta uma vez, 4 figuras têm 9 e só a D tem 10.
+2025-1fase-prova.pdf;2;2;ESP;;;nao;M;C;Montar o gatinho com 4 peças numeradas e escolher a arrumação certa.;Montar figura por quadrantes, ajuda recortar as peças.
+2025-1fase-prova.pdf;3;2;OPE;div;;sim;M;D;Quantos bois passar da esquerda para a direita para os cercados ficarem iguais.;Metade (12 bois no total, 6 em cada). Pegadinha: não é a diferença (8) e sim metade dela. Contar bois na figura.
+2025-1fase-prova.pdf;4;2;ESP;;LOG;nao;M;C;Formiga pega sempre a folha mais próxima no quadriculado: qual a última.;Andar só na vertical/horizontal contando casas, folhas diferenciadas só pelo formato.
+2025-1fase-prova.pdf;5;2;MED;;OPE;nao;M;B;Na régua, anda 5 cm à direita e 9 à esquerda: quanto andar para voltar ao início.;Tema2 OPE inversa. Régua até 30, dá para simular com o dedo na régua.
+2025-1fase-prova.pdf;6;3;TEM;;SEQ;nao;D;B;8 comprimidos de 8 em 8 horas desde segunda 8h: quando é o último.;Tabela manhã/tarde/noite, cada 8 h muda o período, pegadinha: o 1º comprimido já conta (7 intervalos).
+2025-1fase-prova.pdf;7;3;ESP;;;sim;D;B;Retângulo cortado em 2 quadrados e remontado: qual retângulo NÃO pode ter sido formado.;NÃO em negrito, depende de cores (estrela clara em fundo escuro), ajuda recortar e girar os quadrados.
+2025-1fase-prova.pdf;8;3;OPE;div;;nao;M;C;Chocolate de 9 quadradinhos: deu um terço e depois metade do resto; com quantos ficou.,Terço e metade (fração do que restou, não do total), chocolate 3x3 ajuda a visualizar.
+2025-1fase-prova.pdf;9;3;LOG;;POS;sim;M;B;Cinco meninos dizem 'sou mais alto que 2': quem fala a verdade.;Comparar alturas na figura, interpretar 'mais alto que 2' como exatamente 2 (Hélio e Emiliano são mais altos que mais de 2).
+2025-1fase-prova.pdf;10;3;LOG;;;nao;M;C;4 times jogam uma vez entre si: quantas partidas.;Listar pares, AxB é a mesma partida que BxA (pegadinha de contar 12).
+2025-1fase-prova.pdf;11;4;ESP;;;nao;D;D;Qual primeiro corte no quadrado permite, com mais um corte, ficar com 3 triângulos.;Precisa desenhar/recortar papel para testar cada opção.
+2025-1fase-prova.pdf;12;4;NUM;;LOG;sim;M;C;Tirar 3 de 5 cartões (1 4 3 2 5) e formar o maior número com os 2 que sobram na ordem.;'Na ordem em que estão' - distrator 54 (inverte a ordem).
+2025-1fase-prova.pdf;13;4;ESP;;;nao;D;C;Cubo de 8 cubinhos iguais: qual figura fica oposta ao círculo.;Vistas de sólido, exclusão das faces vizinhas, difícil sem cubo físico.
+2025-1fase-prova.pdf;14;4;GRA;;;sim;M;C;Gráfico de barras de temperatura: em quantas cidades a mínima ficou entre 4 e 8 graus.;'Entre 4 e 8': barra A passa de 8 e E fica abaixo de 4, ler escala com linha.
+2025-1fase-prova.pdf;15;4;LOG;;;sim;M;D;Dividir 6 caixas entre 3 crianças (grandes, de bolinha, pequenas): quais caixas uma delas recebeu.;Depende de tons de cinza e bolinhas, resolver por eliminação (pequenas, depois bolinhas, sobra a 3ª).

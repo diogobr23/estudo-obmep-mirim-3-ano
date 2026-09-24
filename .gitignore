@@ -1,0 +1,12 @@
+# NUNCA subir dados da criança: fotos, prints, folhas feitas por ela
+fotos/
+*.jpg
+*.jpeg
+*.heic
+*.webp
+# temporários
+_*
+__pycache__/
+*.pyc
+# provas oficiais (70 MB) ficam só na máquina; as de 2ª fase entram quando chegar a vez dos simulados
+provas/

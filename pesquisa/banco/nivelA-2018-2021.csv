@@ -1,0 +1,51 @@
+arquivo;questao;pagina_pdf;tema;subtipo;tema2;leitura;dificuldade;resposta;resumo;observacao
+nivelA-1a-prova.pdf;1;1;OPE;soma;;nao;D;C;Calcular 2018 + 8012;"Conta armada de 4 algarismos com reserva; resultado 10030 (5 algarismos, acima do 3º ano pela BNCC); números > 100"
+nivelA-1a-prova.pdf;2;1;OPE;sub;;nao;F;D;"Ônibus com 25 pessoas: descem 7 e sobem 5; quantas chegam";Duas operações seguidas (sub e soma)
+nivelA-1a-prova.pdf;3;1;ESP;;OPE;sim;M;E;Somar os números que estão dentro do círculo e do retângulo mas fora do triângulo;"Pegadinha de 3 condições ao mesmo tempo (dentro/dentro/fora); tema2 = soma"
+nivelA-1a-prova.pdf;4;1;OPE;soma;;sim;M;D;"Geraldo tinha 5 anos quando a irmã nasceu; ela faz 9: idade dele";Pegadinha: a diferença de idade não muda (não é 9 - 5)
+nivelA-1a-prova.pdf;5;2;MED;;ESP;nao;M;D;Qual caminho entre escola e circo é o mais curto;"Depende das cores/tracejados das linhas para distinguir os caminhos; contar lados de quarteirão"
+nivelA-1a-prova.pdf;6;2;MED;;;sim;M;D;Altura de figurinha medida com pedaço de régua;Pegadinha: a régua não começa no zero (vai de 15 a 20)
+nivelA-1a-prova.pdf;7;2;ESP;;POS;nao;M;A;Ordem em que 5 quadrados foram empilhados na mesa;Sobreposição: ver quem está por cima de quem
+nivelA-1a-prova.pdf;8;2;TEM;;;nao;M;E;Aniversário 17 dias depois de um domingo: que dia da semana;Semana repete de 7 em 7
+nivelA-1a-prova.pdf;9;3;CNT;;LOG;sim;M;B;Quantos quadrados brancos pintar de preto para igualar pretos e brancos;Pegadinha: cada branco pintado diminui os brancos e aumenta os pretos (resposta não é 4)
+nivelA-1a-prova.pdf;10;3;SEQ;;CNT;nao;M;C;Quantos triângulos pequenos tem a 5ª figura da sequência (1, 4, 9, 16...);"Padrão de quadrados perfeitos; dá para desenhar a 5ª figura"
+nivelA-1a-prova.pdf;11;3;ESP;;;nao;M;E;Qual retângulo fica todo preto com o retângulo transparente por cima;"Sobrepor malhas preto/branco; recortar em papel ajuda"
+nivelA-1a-prova.pdf;12;3;OPE;div;MED;sim;D;B;Balança com 10 bombons iguais e peso de 300 g: quanto pesa cada bombom;"Pegadinha: há bombons nos dois pratos (tirar 2 de cada lado); 300 ÷ 6; números > 100"
+nivelA-1a-prova.pdf;13;3;LOG;;OPE;nao;D;A;"Tabuleiro 2x2: somas das linhas 8 e 3, 1ª coluna 7; soma da 2ª coluna";Raciocínio: total das linhas = total das colunas (11 - 7). Obs.: a solução oficial tem um lapso ('número 7' numa observação), mas o gabarito é A = 4
+nivelA-1a-prova.pdf;14;3;OPE;sub;NUM;sim;D;C;Livro pula da página 24 para a 55: quantas páginas faltam;Pegadinha: 'entre' não conta as páginas 24 e 55 (55 - 24 - 1)
+nivelA-1a-prova.pdf;15;4;ESP;;;nao;D;B;Qual planificação monta cubo com faces opostas da mesma cor;"Planificação de cubo; depende de tons de cinza; recortar e dobrar papel ajuda"
+nivelA-1a-prova.pdf;16;4;OPE;sub;;sim;M;D;Qual conta tem resultado DIFERENTE de 52 - 39;"Pergunta invertida (DIFERENTE); uma alternativa com 152 - 139 (números > 100)"
+nivelA-1a-prova.pdf;17;4;POS;;OPE;sim;D;D;"Fila: Maria tem 17 atrás, Tiago 14 à frente, 5 entre eles; total da turma";"Desenhar a fila; muitas informações para organizar"
+nivelA-1a-prova.pdf;18;4;OPE;div;;sim;X;D;Comeu metade das laranjas e um quarto das maçãs: quanto sobrou do total;"Exige noção de fração (metade x um quarto) e comparação sem números; acima do 3º ano"
+nivelA-1a-prova.pdf;19;4;MED;;OPE;sim;D;E;Quantos km a mais se anda pelo desvio da estrada;Pegadinha: 'a mais' = desvio (20+50+30) menos o trecho interrompido (40)
+nivelA-1a-prova.pdf;20;4;LOG;;POS;nao;D;D;Cinco casas coloridas vizinhas: cor da casa número 4;"Quebra-cabeça lógico com pistas de vizinhança; cores só no texto"
+nivelA-2a-prova.pdf;1;1;CNT;;ESP;nao;M;D;Qual letra aparece mais vezes no quadro;"Letras giradas (W é M girado, letras de lado); contar com organização"
+nivelA-2a-prova.pdf;2;1;TEM;;;nao;M;B;Joana viajou no sábado e voltou 9 dias depois: que dia voltou;Contar dias da semana a partir do exemplo da Carla
+nivelA-2a-prova.pdf;3;1;ESP;;;nao;M;E;Qual é a imagem do palhaço no espelho;"Espelho; depende de detalhes do desenho (sobrancelhas, cores do cabelo e do chapéu)"
+nivelA-2a-prova.pdf;4;2;MED;;ESP;nao;D;E;Qual linha na malha quadriculada é a mais comprida;"Resposta é 'todas iguais'; comparar pedaços em diagonal na malha"
+nivelA-2a-prova.pdf;5;2;ESP;;;nao;M;B;Qual pedaço completa o espelho partido;"Encaixar peça (ângulos e lados); recortar papel ajuda"
+nivelA-2a-prova.pdf;6;2;OPE;div;OPE;sim;D;C;Quantos sanduíches com 2 pacotes e meio de pão de 24 fatias;"Sanduíche = 2 fatias (info só na figura); meio pacote = metade de 24; 60 ÷ 2; tema2 = mult"
+nivelA-2a-prova.pdf;7;2;NUM;;OPE;nao;D;C;Daqui a quantos anos a soma dos algarismos do ano volta a ser 12 (a partir de 2019);"Soma de algarismos; números > 100 (anos)"
+nivelA-2a-prova.pdf;8;2;SEQ;;OPE;nao;D;B;Cadeiras em volta de 10 mesas quadradas juntas;"Padrão (cada mesa a mais = 2 cadeiras); dá para desenhar"
+nivelA-2a-prova.pdf;9;2;LOG;;OPE;nao;M;A;"Pesos de 1 g a 6 g em 3 gavetas; somas 9 e 8: pesos da 3ª gaveta";"Atalho: total 21 - 17 = 4 = 1 + 3; tema2 = soma"
+nivelA-2a-prova.pdf;10;2;CNT;;MED;nao;D;C;Qual retângulo tem a mesma área (quadradinhos) da figura;"Contar quadradinhos da figura e dos retângulos; 'área' é termo de série acima, mas contando dá"
+nivelA-2a-prova.pdf;11;3;ESP;;;sim;D;C;Qual peça NÃO foi usada no quebra-cabeça;"Pergunta invertida (NÃO); peças pretas de um lado e brancas do outro (podem ser viradas); recortar ajuda"
+nivelA-2a-prova.pdf;12;3;LOG;;;nao;D;E;Cinco amigas em dois andares: quem mora no primeiro andar;Quebra-cabeça lógico com restrições 'não mora no mesmo andar'
+nivelA-2a-prova.pdf;13;3;LOG;;;nao;D;C;De quantas maneiras completar quadriculado 3x3 com 1, 2, 3 sem repetir em linha/coluna;Listar todas as possibilidades de forma organizada
+nivelA-2a-prova.pdf;14;3;LOG;sub;OPE;nao;D;D;Soma de 3 números menos soma de 2 (5 a 9): qual resultado é possível;"Por tentativa dá; o argumento oficial (paridade, maior/menor) é de série acima"
+nivelA-2a-prova.pdf;15;3;OPE;div;MED;nao;D;B;Móbile em equilíbrio: quanto pesa o objeto com ponto de interrogação;"Metades sucessivas a partir de 30 g + 30 g; depende de entender a estrutura do móbile e das cores/formas iguais"
+nivelA-3a-prova.pdf;1;1;OPE;inversa;;nao;M;B;Número escondido pela borboleta em 2020 - 10 = 2005 + ?;"Igualdade com os dois lados; números > 100"
+nivelA-3a-prova.pdf;2;1;CNT;;;sim;F;E;"3 triângulos, 5 quadrados, 4 círculos; apaga os de quatro lados: quantas sobram";"Pegadinha: 'figuras de quatro lados' = quadrados; sobram triângulos e círculos"
+nivelA-3a-prova.pdf;3;1;OPE;div;;nao;M;C;Preço de 2 colheres e 2 garfos sabendo o preço de 4 de cada;"Dinheiro (R$); 20 ÷ 4 e 28 ÷ 4 (ou metade de cada conjunto)"
+nivelA-3a-prova.pdf;4;2;OPE;mult;LOG;sim;M;C;3 animais com uma dezena de pés no total: quais animais;"'Dezena' = 10; peixe não tem pés; testar alternativas"
+nivelA-3a-prova.pdf;5;2;LOG;;OPE;nao;D;B;Menor número de viagens do elevador (máx. 180 kg) para 6 pessoas;"Mínimo; soma 375 > 2 x 180; números > 100"
+nivelA-3a-prova.pdf;6;2;ESP;;CNT;nao;M;B;Torta dividida em partes iguais: quantos netinhos comeram;Imaginar as linhas continuando na parte comida (10 pedaços no total)
+nivelA-3a-prova.pdf;7;2;LOG;;OPE;sim;D;E;Mínimo de cadeados para pegar 52 celulares (sala, armários, caixas);"Pegadinha: a sala e cada armário também têm cadeado; mínimo"
+nivelA-3a-prova.pdf;8;2;OPE;sub;POS;sim;D;D;Andorinha a 380 m, bem-te-vi a 450 m, bem no meio: onde está o canário;"'Bem no meio'; 450 - 380 = 70 e 450 + 70; números > 100"
+nivelA-3a-prova.pdf;9;2;LOG;;ESP;nao;D;B;Quantos pares (pé direito + esquerdo, mesmo número) dá para formar;Precisa reconhecer pé direito x esquerdo pelo desenho da sola (lateralidade)
+nivelA-3a-prova.pdf;10;2;LOG;mult;OPE;nao;D;D;Trocas entre pato, galinha, leitão e cabra: quantos patos vale uma cabra;"Substituições em cadeia (1 pato = 2 galinhas); raciocínio de equivalência"
+nivelA-3a-prova.pdf;11;3;LOG;;ESP;nao;D;C;Menor número de movimentos para deixar 2 peças por linha e coluna;"Mínimo; tabuleiro 4x4; movimento na diagonal permitido"
+nivelA-3a-prova.pdf;12;3;NUM;;OPE;sim;D;B;Maior diferença PAR entre um número de 3 algarismos e um de 2;"Pegadinha: 999 - 10 = 989 é ímpar; números > 100"
+nivelA-3a-prova.pdf;13;3;LOG;;ESP;sim;D;A;Cubo numerado 1 a 6, um par de faces opostas soma 3: qual soma com certeza NÃO aparece;"Pergunta invertida (NÃO, com certeza); listar as possibilidades"
+nivelA-3a-prova.pdf;14;3;OPE;mult;LOG;sim;D;C;Joaninhas de 5 e 6 pintas, total 43 pintas: quantas joaninhas EXATAMENTE;"Tentativa organizada (5 pequenas + 3 grandes); 'exatamente'"
+nivelA-3a-prova.pdf;15;3;ESP;;;nao;D;E;Qual cubo sai da planificação dada;"Planificação de cubo; depende de tons de cinza; recortar e dobrar papel ajuda"
