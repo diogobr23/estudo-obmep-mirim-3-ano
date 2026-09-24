@@ -24,7 +24,16 @@
   `a1_OFOABwsA`) — conferidos por oEmbed/título/descrição, **não assistidos**: Diogo, vale olhar antes.
 - 2ª fase 2022–2025 reservada para simulados (sáb 10/10, 24/10, 31/10, 07/11).
 
+## Revisão e publicação (24/09)
+- Revisão por agente separado: **PODE IR COM AJUSTES** — 12/12 respostas batem com o gabarito, 0 graves;
+  7 médios (escorregões que apontavam para números fora das alternativas, troca da hora ao voltar no tempo,
+  como reconhecer chinelo direito/esquerdo, "divisão sem sobra", tempo do Dia 5, "atrás" ambíguo) + 9
+  pequenos. **Todos aplicados.** Prefixo do localStorage virou `mirim1:` (o roteiro do Mirim 2 deve usar
+  `mirim2:` — mesma origem `diogobr23.github.io`).
+- Publicado: repo público `diogobr23/estudo-obmep-mirim-3-ano` + Pages
+  **https://diogobr23.github.io/estudo-obmep-mirim-3-ano/** (redireciona para `roteiro/`). Atualizar = `git push`.
+- `provas/` (70 MB) fora do git; entram só as de 2ª fase, na vez dos simulados.
+
 ## Próximo passo
-1. Aplicar a revisão do agente separado e publicar (repo público + GitHub Pages, igual ao CMB).
-2. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
+1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 3. Montar a semana 2 com isso (rascunho em `PLANO.md`).
