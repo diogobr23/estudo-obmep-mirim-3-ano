@@ -46,6 +46,18 @@
   344 mil views) + armar 12 ÷ 3 e 15 ÷ 5. Reserva não usada: Gis com Giz "Divisão com um número na chave"
   (`n-z62Hux6zU`, 7:47). Card do adulto ajustado: conta armada "é bom saber, mas não é o que a prova cobra".
 
+## ⚡ Tabuada relâmpago (24/09, pedido do Diogo)
+- Card `id="tabuada"` + passo `d<N>tab` (5 min) nos Dias 1–5 (dias passaram a ~25–30 min).
+- Regras: 10 continhas/rodada; começa com 2, 5 e 10; entra 3 → 4 → 6 → 7 → 8 → 9 quando todas as continhas
+  do jogo já foram acertadas de primeira (flag `ok`); errou → dica (soma repetida, ou 5×g + resto) e volta no fim
+  da rodada; acertou de primeira → caixa 1/2/3 = volta em 1/2/4 dias; caixa ≥ 2 → 40% vira divisão.
+  Estado em `localStorage['mirim1:tab']` (`{f:{"3x7":{c,v,ok}}, nivel}`). Sem relógio.
+- Simulado em node (DOM falso): níveis sobem na ordem, divisões inteiras, sem loop. Revisor separado:
+  PODE IR COM AJUSTES, 0 graves; 8 ajustes aplicados (teclado cobria a dica ao errar → blur + readOnly;
+  estado velho sem `nivel` travava o jogo; mensagens "Falta 1", "Acertou tudo!", "tabuadas do 2, do 5 e do 10";
+  `novalidate` + filtro só-dígitos).
+- A tabuada do 2º dia em diante é o termômetro: Diogo pode ver no card quais tabuadas já estão no jogo.
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 2. Montar a semana 2 com isso (rascunho em `PLANO.md`).

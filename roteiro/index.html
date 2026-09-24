@@ -63,6 +63,20 @@
   .dica b { display:block; margin-bottom:4px }
   .prog { font-size:15px; color:var(--muted); margin-top:8px }
   .fim { text-align:center; color:var(--muted); font-size:15px; margin-top:8px }
+  .ref.verde { border-color:var(--ok) }
+  .tab-carta { background:#f3fbf5; border:2px solid #bfe5c8; border-radius:14px; padding:18px 14px; text-align:center; margin-top:8px }
+  .tab-nivel { font-size:15px; color:var(--muted); margin:0 0 6px }
+  .tab-cont { font-size:14px; color:var(--muted) }
+  .tab-p { font-size:40px; font-weight:800; letter-spacing:1px; margin:6px 0 10px }
+  #tab-form { display:flex; gap:8px; justify-content:center }
+  #tab-form[hidden] { display:none }
+  #tab-in { width:110px; font:inherit; font-size:30px; font-weight:700; text-align:center; padding:6px; border:2px solid #9bb8e0; border-radius:10px }
+  #tab-form button, .tab-bts button { font:inherit; font-weight:700; border:0; border-radius:10px; padding:10px 18px; cursor:pointer; color:#fff; background:var(--ok) }
+  .tab-fb { min-height:28px; margin-top:10px; font-size:17px }
+  .tab-fb.ok { color:#1d6b2d; font-weight:700 } .tab-fb.nao { color:#8a3b00 }
+  .tab-bts { margin-top:10px }
+  .tab-tabelas { display:flex; flex-wrap:wrap; gap:10px; margin-top:8px }
+  .tab-tabelas div { background:#fff; border:1px solid var(--line); border-radius:10px; padding:6px 12px; font-size:15px; line-height:1.5 }
 </style>
 </head>
 <body>
@@ -78,6 +92,7 @@
       <li>Antes de tudo, lê o card <a href="#como-ler">🔍 Como ler uma pergunta</a> aqui embaixo. Ele vale para todas as questões.</li>
       <li>Resolve cada questão no caderno ou na folha, <b>marca a letra</b> e só depois abre a resposta.</li>
       <li>Errou? Tudo bem! Abre a explicação e compara com o seu jeito. Achou muito difícil? Anota o número no caderno com uma ⭐ e mostra pro adulto.</li>
+      <li>Todo dia tem 1 rodada da <a href="#tabuada">⚡ Tabuada relâmpago</a> (5 min). A tabuada é o que mais ajuda na divisão!</li>
       <li>Travou? Chama o adulto. Pedir ajuda também é treino.</li>
     </ol>
   </div>
@@ -133,6 +148,22 @@
     </details>
   </section>
 
+  <!-- ====== CARD: TABUADA ====== -->
+  <section class="ref verde" id="tabuada">
+    <h2>⚡ Tabuada relâmpago <span class="tag rev">5 min por dia</span></h2>
+    <p class="quando">10 continhas por rodada. As que você erra voltam mais vezes, até grudar na cabeça. Quando você acerta todas as continhas das tabuadas do jogo, uma tabuada nova aparece sozinha. E as que você já sabe bem começam a aparecer ao contrário, como divisão!</p>
+    <div class="tab-carta">
+      <p class="tab-nivel" id="tab-nivel"></p>
+      <div class="tab-cont" id="tab-cont"></div>
+      <div class="tab-p" id="tab-p">…</div>
+      <form id="tab-form" autocomplete="off" novalidate><input id="tab-in" type="text" inputmode="numeric" maxlength="3" aria-label="sua resposta" oninput="this.value=this.value.replace(/\D/g,'')"><button type="submit">OK</button></form>
+      <div class="tab-fb" id="tab-fb"></div>
+      <div class="tab-bts" id="tab-bts"></div>
+    </div>
+    <details><summary>📋 Ver as tabuadas do jogo</summary><div class="tab-tabelas" id="tab-tabelas"></div></details>
+    <p class="obs">Sem pressa: não tem relógio. Pensar um pouquinho vale mais que chutar.</p>
+  </section>
+
   <div class="onde">
     <b id="onde-tit">Onde você parou</b>
     <p id="onde-sub" class="t">…</p>
@@ -162,7 +193,7 @@
   <!-- ============ DIA 1 ============ -->
   <section class="dia" data-nome="Dia 1">
     <h2>Dia 1 — Como ler uma pergunta <span class="tag ler">Leitura</span></h2>
-    <p class="quando">sugestão: segunda, 28/09 · ⏱ uns 20 minutos · 🧑 hoje o adulto fica junto</p>
+    <p class="quando">sugestão: segunda, 28/09 · ⏱ uns 25 minutos · 🧑 hoje o adulto fica junto</p>
 
     <div class="passo"><input type="checkbox" id="d1p1"><label for="d1p1">🔍 <b>Lê com o adulto o card "Como ler uma pergunta"</b> lá em cima (5 min).
       <span class="t" style="display:block">Terminei quando: consigo falar os 5 passos sem olhar (pode ser com as minhas palavras).</span></label></div>
@@ -198,6 +229,9 @@
         </details></div>
     </div></div>
 
+    <div class="passo"><input type="checkbox" id="d1tab"><label for="d1tab">⚡ <b>1 rodada da <a href="#tabuada">Tabuada relâmpago</a></b> (5 min).
+      <span class="t" style="display:block">Terminei quando: apareceu "Rodada feita!".</span></label></div>
+
     <div class="passo"><input type="checkbox" id="d1p3"><label for="d1p3">⭐ <b>Conta pro adulto</b> (1 min): qual das 3 foi a mais fácil e qual deu mais trabalho?</label></div>
     <div class="dica"><b>Lembrete do dia 1</b>Antes de resolver, eu acho <b>a pergunta</b> e <b>a palavra-armadilha</b>.</div>
     <p class="prog"></p>
@@ -206,7 +240,7 @@
   <!-- ============ DIA 2 ============ -->
   <section class="dia" data-nome="Dia 2">
     <h2>Dia 2 — Caçando palavras-armadilha <span class="tag ler">Leitura</span></h2>
-    <p class="quando">sugestão: terça, 29/09 · ⏱ uns 25 minutos</p>
+    <p class="quando">sugestão: terça, 29/09 · ⏱ uns 30 minutos</p>
 
     <div class="passo"><input type="checkbox" id="d2p1"><label for="d2p1">🔍 <b>Relê a lista de palavras-armadilha</b> no card "Como ler uma pergunta" (2 min).
       <span class="t" style="display:block">Terminei quando: falei 3 palavras-armadilha de cabeça.</span></label></div>
@@ -244,6 +278,9 @@
         </details></div>
     </div></div>
 
+    <div class="passo"><input type="checkbox" id="d2tab"><label for="d2tab">⚡ <b>1 rodada da <a href="#tabuada">Tabuada relâmpago</a></b> (5 min).
+      <span class="t" style="display:block">Terminei quando: apareceu "Rodada feita!".</span></label></div>
+
     <div class="passo"><input type="checkbox" id="d2p3"><label for="d2p3">⭐ <b>Conta pro adulto</b> (1 min): em qual das 3 a armadilha quase te pegou?</label></div>
     <div class="dica"><b>Lembrete do dia 2</b>Se a resposta parece fácil demais, eu leio a pergunta de novo, procurando a armadilha.</div>
     <p class="prog"></p>
@@ -252,7 +289,7 @@
   <!-- ============ DIA 3 ============ -->
   <section class="dia" data-nome="Dia 3">
     <h2>Dia 3 — Dividir é repartir igual <span class="tag">Continhas</span></h2>
-    <p class="quando">sugestão: quarta, 30/09 · ⏱ uns 25 minutos · 🫘 precisa de 12 tampinhas, feijões ou botões</p>
+    <p class="quando">sugestão: quarta, 30/09 · ⏱ uns 30 minutos · 🫘 precisa de 12 tampinhas, feijões ou botões</p>
 
     <div class="passo"><input type="checkbox" id="d3p1"><label for="d3p1">🎬 <b>Assiste</b> (4 min): <a href="https://www.youtube.com/watch?v=FG1m_-UfxdQ" target="_blank">Divisão! — Maysa Explica</a>.
       <span class="t" style="display:block">Se não abrir, tem este outro, de desenho animado (3 min): <a href="https://www.youtube.com/watch?v=a1_OFOABwsA" target="_blank">Aprenda a Divisão</a>. Terminei quando: vi o vídeo até o fim.</span></label></div>
@@ -291,6 +328,9 @@
         </details></div>
     </div></div>
 
+    <div class="passo"><input type="checkbox" id="d3tab"><label for="d3tab">⚡ <b>1 rodada da <a href="#tabuada">Tabuada relâmpago</a></b> (5 min).
+      <span class="t" style="display:block">Terminei quando: apareceu "Rodada feita!".</span></label></div>
+
     <div class="passo"><input type="checkbox" id="d3p5"><label for="d3p5">⭐ <b>Conta pro adulto</b> (1 min): explica com as suas palavras o que é dividir.</label></div>
     <div class="dica"><b>Lembrete do dia 3</b>Dividir é repartir em partes <b>iguais</b>. Às vezes sobra um pouquinho que não dá pra repartir. Metade é dividir por 2. Pra conferir, junto tudo de volta.</div>
     <p class="prog"></p>
@@ -299,7 +339,7 @@
   <!-- ============ DIA 4 ============ -->
   <section class="dia" data-nome="Dia 4">
     <h2>Dia 4 — Direita, esquerda e dobrar papel <span class="tag">Figuras</span></h2>
-    <p class="quando">sugestão: quinta, 01/10 · ⏱ uns 25 minutos · ✂️ precisa de 1 folha e lápis</p>
+    <p class="quando">sugestão: quinta, 01/10 · ⏱ uns 30 minutos · ✂️ precisa de 1 folha e lápis</p>
 
     <div class="passo"><input type="checkbox" id="d4p1"><label for="d4p1">✋ <b>Aquecimento</b> (3 min): levanta a mão <b>direita</b>. Agora olha seus dois pés: o dedão fica do lado de <b>dentro</b>, perto do outro pé. No desenho de um chinelo, o lado mais gordinho da frente é o do dedão: <b>dedão à direita → chinelo do pé esquerdo</b>; <b>dedão à esquerda → chinelo do pé direito</b>. Na dúvida, põe o seu pé em cima do desenho.
       <span class="t" style="display:block">Terminei quando: sei dizer qual é a minha mão direita sem pensar.</span></label></div>
@@ -339,6 +379,9 @@
         </details></div>
     </div></div>
 
+    <div class="passo"><input type="checkbox" id="d4tab"><label for="d4tab">⚡ <b>1 rodada da <a href="#tabuada">Tabuada relâmpago</a></b> (5 min).
+      <span class="t" style="display:block">Terminei quando: apareceu "Rodada feita!".</span></label></div>
+
     <div class="passo"><input type="checkbox" id="d4p4"><label for="d4p4">⭐ <b>Conta pro adulto</b> (1 min): qual foi a mais difícil? Mostra como a dobra funciona com a sua folha.</label></div>
     <div class="dica"><b>Lembrete do dia 4</b>Na dobra, tudo cai na <b>mesma distância da dobra</b>, do outro lado. Na dúvida, pego um papel e faço de verdade.</div>
     <p class="prog"></p>
@@ -347,7 +390,7 @@
   <!-- ============ DIA 5 ============ -->
   <section class="dia" data-nome="Dia 5">
     <h2>Dia 5 — Horas e minutos <span class="tag">Tempo</span></h2>
-    <p class="quando">sugestão: sexta, 02/10 · ⏱ uns 25 minutos</p>
+    <p class="quando">sugestão: sexta, 02/10 · ⏱ uns 30 minutos</p>
 
     <div class="passo"><input type="checkbox" id="d5p1"><div class="corpo"><label for="d5p1">🧠 <b>O truque da hora cheia</b> (10 min). Lê com calma:
       <span class="t" style="display:block">Terminei quando: fiz os 4 treinos e conferi.</span></label>
@@ -385,6 +428,9 @@
         </details></div>
     </div></div>
 
+    <div class="passo"><input type="checkbox" id="d5tab"><label for="d5tab">⚡ <b>1 rodada da <a href="#tabuada">Tabuada relâmpago</a></b> (5 min).
+      <span class="t" style="display:block">Terminei quando: apareceu "Rodada feita!".</span></label></div>
+
     <div class="passo"><input type="checkbox" id="d5p3"><label for="d5p3">⭐ <b>Conta pro adulto</b> (1 min): explica o truque da hora cheia com um exemplo seu.</label></div>
     <div class="dica"><b>Lembrete do dia 5</b>1 hora = 60 minutos. Pra somar ou tirar minutos, primeiro paro na <b>hora cheia</b>.</div>
     <p class="prog"></p>
@@ -400,6 +446,126 @@
     var prova = new Date(2026, 10, 10), hoje = new Date(); hoje.setHours(0, 0, 0, 0);
     var n = Math.round((prova - hoje) / 864e5), el = document.getElementById('contagem');
     el.textContent = n > 1 ? 'faltam ' + n + ' dias' : n === 1 ? 'é amanhã!' : n === 0 ? 'é hoje! 🍀' : 'prova feita 🎉';
+  })();
+
+  // Tabuada relâmpago: tabuadas entram sozinhas por nível + repetição espaçada
+  // (acertou de primeira: caixa 1 volta amanhã, 2 em 2 dias, 3 em 4 dias; errou: volta na próxima rodada)
+  (function () {
+    var NIVEIS = [[2, 5, 10], [3], [4], [6], [7], [8], [9]]; // ordem em que as tabuadas entram
+    var CHAVE = 'mirim1:tab', POR_RODADA = 10, VOLTA = [0, 1, 2, 4];
+    function iso(d) { return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
+    function mais(dias) { var d = new Date(); d.setDate(d.getDate() + dias); return iso(d); }
+    function sorteia(lista) { for (var i = lista.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = lista[i]; lista[i] = lista[j]; lista[j] = t; } return lista; }
+    var hoje = iso(new Date());
+    var est = { f: {}, nivel: 0 };
+    try { var s = JSON.parse(localStorage.getItem(CHAVE) || 'null'); if (s && s.f && typeof s.f === 'object' && typeof s.nivel === 'number' && s.nivel >= 0) est = s; } catch (e) {}
+    est.nivel = Math.min(est.nivel, NIVEIS.length - 1);
+    function guardar() { try { localStorage.setItem(CHAVE, JSON.stringify(est)); } catch (e) {} }
+
+    // cada fato (ex.: 3x7) pertence ao nível da primeira tabuada em que aparece; 3 × 7 e 7 × 3 são o mesmo fato
+    var FATOS = [], visto = {};
+    NIVEIS.forEach(function (tabs, n) {
+      tabs.forEach(function (t) {
+        for (var b = 2; b <= 10; b++) {
+          var a = Math.min(t, b), c = Math.max(t, b), k = a + 'x' + c;
+          if (!visto[k]) { visto[k] = 1; FATOS.push({ k: k, a: a, b: c, n: n }); }
+        }
+      });
+    });
+    function caixa(f) { return (est.f[f.k] || {}).c || 0; }
+    function jaAcertou(f) { return !!(est.f[f.k] || {}).ok; } // acertou de primeira alguma vez
+    function liberadas() { return FATOS.filter(function (f) { return f.n <= est.nivel; }); }
+    function faltam() { return liberadas().filter(function (f) { return !jaAcertou(f); }).length; }
+    function tabsDoJogo() { var r = []; NIVEIS.slice(0, est.nivel + 1).forEach(function (t) { r = r.concat(t); }); return r.sort(function (x, y) { return x - y; }); }
+    function liberar() { // tabuada nova quando todas as continhas do jogo já foram acertadas de primeira pelo menos uma vez
+      var subiu = false;
+      while (est.nivel < NIVEIS.length - 1 && faltam() === 0) { est.nivel++; subiu = true; }
+      return subiu;
+    }
+
+    function dica(x, y, r) { // explicação curta quando erra
+      var m = Math.min(x, y), g = Math.max(x, y), partes = [];
+      if (m <= 5) { for (var i = 0; i < m; i++) partes.push(g); return x + ' × ' + y + ' = ' + partes.join(' + ') + ' = ' + r; }
+      return x + ' × ' + y + ' = 5 × ' + g + ' + ' + (m - 5) + ' × ' + g + ' = ' + 5 * g + ' + ' + (m - 5) * g + ' = ' + r;
+    }
+    function pergunta(f) {
+      var r = f.a * f.b;
+      if (caixa(f) >= 2 && Math.random() < 0.4) { // já sabe bem: aparece como divisão
+        var d = Math.random() < 0.5 ? f.a : f.b, q = r / d;
+        return { f: f, txt: r + ' ÷ ' + d, r: q, dica: r + ' ÷ ' + d + ' = ' + q + ', porque ' + q + ' × ' + d + ' = ' + r };
+      }
+      var x = f.a, y = f.b; if (Math.random() < 0.5) { x = f.b; y = f.a; }
+      return { f: f, txt: x + ' × ' + y, r: r, dica: dica(x, y, r) };
+    }
+    function montar() {
+      var lib = liberadas();
+      var vencidas = sorteia(lib.filter(function (f) { var s = est.f[f.k]; return !s || s.v <= hoje; }));
+      vencidas.sort(function (x, y) { return caixa(x) - caixa(y); }); // as mais erradas primeiro
+      var fila = vencidas.slice(0, POR_RODADA);
+      var resto = sorteia(lib.filter(function (f) { return fila.indexOf(f) < 0; }));
+      while (fila.length < POR_RODADA && resto.length) fila.push(resto.pop());
+      return sorteia(fila).map(pergunta);
+    }
+
+    function el(id) { return document.getElementById(id); }
+    var fila = [], primeira = {}, acertos = 0, total = 0, travado = false;
+    function nivelTexto() {
+      var prox = NIVEIS[est.nivel + 1], n = faltam();
+      var t = tabsDoJogo(), lista = t.length > 1 ? t.slice(0, -1).join(', do ') + ' e do ' + t[t.length - 1] : t[0];
+      el('tab-nivel').textContent = 'No jogo: tabuada' + (t.length > 1 ? 's' : '') + ' do ' + lista +
+        (prox ? ' · Próxima: do ' + prox.join(' e do ') + ' (falta acertar ' + n + (n === 1 ? ' continha' : ' continhas') + ' de primeira)' : ' · Todas liberadas! 🏆');
+      el('tab-tabelas').innerHTML = tabsDoJogo().map(function (t) {
+        var linhas = []; for (var b = 1; b <= 10; b++) linhas.push(t + ' × ' + b + ' = ' + t * b);
+        return '<div><b>Tabuada do ' + t + '</b><br>' + linhas.join('<br>') + '</div>';
+      }).join('');
+    }
+    function botao(txt, fn) {
+      el('tab-bts').innerHTML = ''; if (!txt) return;
+      var b = document.createElement('button'); b.type = 'button'; b.textContent = txt; b.addEventListener('click', fn); el('tab-bts').appendChild(b);
+    }
+    function nova(foco) { fila = montar(); primeira = {}; acertos = 0; total = fila.length; mostrar(foco); }
+    function mostrar(foco) {
+      el('tab-fb').textContent = ''; el('tab-fb').className = 'tab-fb'; botao('');
+      if (!fila.length) {
+        var subiu = liberar(); guardar(); nivelTexto();
+        el('tab-cont').textContent = '';
+        el('tab-p').textContent = 'Rodada feita! 🎉';
+        el('tab-form').hidden = true;
+        el('tab-fb').textContent = 'Você acertou ' + acertos + ' de ' + total + ' de primeira.' +
+          (subiu ? ' 🎊 Tabuada nova no jogo: do ' + NIVEIS[est.nivel].join(' e do ') + '!' : acertos === total ? ' Acertou tudo! 🌟' : ' As que você errou voltam na próxima rodada.');
+        botao('Jogar outra rodada', function () { nova(true); });
+        return;
+      }
+      el('tab-form').hidden = false; travado = false;
+      el('tab-cont').textContent = fila.length === 1 ? 'Falta 1' : 'Faltam ' + fila.length;
+      el('tab-p').textContent = fila[0].txt + ' = ?';
+      el('tab-in').readOnly = false; el('tab-in').value = '';
+      if (foco !== false) el('tab-in').focus({ preventScroll: true });
+    }
+    function marcar(q, acertou) {
+      if (q.f.k in primeira) return; // só a primeira tentativa da rodada conta
+      primeira[q.f.k] = acertou;
+      var s = est.f[q.f.k] || { c: 0 };
+      if (acertou) { acertos++; s.c = Math.min(s.c + 1, 3); s.ok = 1; } else { s.c = 0; }
+      s.v = mais(VOLTA[s.c]); est.f[q.f.k] = s; guardar();
+    }
+    el('tab-form').addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      if (travado) return;
+      var v = el('tab-in').value.trim(); if (v === '') return;
+      var q = fila[0], ok = parseInt(v, 10) === q.r;
+      marcar(q, ok); travado = true;
+      if (ok) {
+        el('tab-fb').textContent = '✅ Isso!'; el('tab-fb').className = 'tab-fb ok';
+        fila.shift(); setTimeout(mostrar, 700);
+      } else {
+        el('tab-in').blur(); el('tab-in').readOnly = true; // fecha o teclado pra dica aparecer
+        el('tab-fb').textContent = '❌ Ainda não. ' + q.dica + '. Essa continha volta no fim da rodada.'; el('tab-fb').className = 'tab-fb nao';
+        fila.push(fila.shift()); botao('Entendi, próxima', mostrar);
+        el('tab-fb').scrollIntoView({ block: 'center', behavior: 'smooth' });
+      }
+    });
+    liberar(); nivelTexto(); nova(false); // não puxa o teclado ao abrir a página
   })();
 
   // caixinhas lembradas neste aparelho + "onde parou": mostra o 1º dia incompleto
