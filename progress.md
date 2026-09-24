@@ -43,4 +43,4 @@
 
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
-3. Montar a semana 2 com isso (rascunho em `PLANO.md`).
+2. Montar a semana 2 com isso (rascunho em `PLANO.md`).
