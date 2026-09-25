@@ -74,6 +74,14 @@
 - Lição: com a página em "onde parou", **nunca esconder exercício num card seguinte** — o que é pra fazer agora
   fica no dia atual.
 
+## Dia 0 concluído (25/09) + treino do fim de semana
+- Diogo: a criança **terminou o Dia 0, "foi muito bom"**, sem dificuldade na tabuada diária e aprendeu o conteúdo.
+- Card novo **"Treino do fim de semana"** (sáb 26 ou dom 27/09, ~15 min), entre o Dia 0 e o Dia 1: `fs1tab` 1 rodada
+  de tabuada · `fs1p1` 6 divisões na chave (+ desafio casa por casa) · `fs1p2` 3 historinhas "× ou ÷?" com
+  palavra-pista (repartir / fileiras / metade). Conteúdo próprio, sem questão oficial (as de divisão ficam para o Dia 3
+  e os simulados).
+- Ideia para as próximas semanas: um treino curtinho assim em todo fim de semana sem simulado.
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 2. Montar a semana 2 com isso (rascunho em `PLANO.md`).
