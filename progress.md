@@ -65,6 +65,13 @@
   casa por casa, sem "vai um") com link para rever o Smile and Learn + truque de conferir (resultado × divisor)
   + `d0tab` 1 rodada da Tabuada relâmpago. `d0p3` virou "mostra uma conta que armou e como conferiu".
 
+## Dia 0 real (25/09)
+- A criança começou o Dia 0 em **24/09 (qui)**: viu os vídeos e fez um dever de casa. Vai rever vídeos e seguir treinando.
+- Dia 0 ficou só com os 2 vídeos (`d0p1`, `d0p1b`), marcado como feito em 24/09.
+- Card novo **"Reforço da divisão"** (sex 25 → dom 27/09, pode ser em 2–3 dias): `d0r1` rever o vídeo que ajudou mais
+  (Smile and Learn / Rafaela Mazetto / Khan) · `d0p4` treino na chave (níveis 1–2 + desafio) · `d0tab` 1 rodada de
+  tabuada por dia · `d0p3` conta pro adulto. Ids mantidos para não perder caixinhas já marcadas.
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 2. Montar a semana 2 com isso (rascunho em `PLANO.md`).
