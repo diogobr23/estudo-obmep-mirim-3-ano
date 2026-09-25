@@ -66,11 +66,13 @@
   + `d0tab` 1 rodada da Tabuada relâmpago. `d0p3` virou "mostra uma conta que armou e como conferiu".
 
 ## Dia 0 real (25/09)
-- A criança começou o Dia 0 em **24/09 (qui)**: viu os vídeos e fez um dever de casa. Vai rever vídeos e seguir treinando.
-- Dia 0 ficou só com os 2 vídeos (`d0p1`, `d0p1b`), marcado como feito em 24/09.
-- Card novo **"Reforço da divisão"** (sex 25 → dom 27/09, pode ser em 2–3 dias): `d0r1` rever o vídeo que ajudou mais
-  (Smile and Learn / Rafaela Mazetto / Khan) · `d0p4` treino na chave (níveis 1–2 + desafio) · `d0tab` 1 rodada de
-  tabuada por dia · `d0p3` conta pro adulto. Ids mantidos para não perder caixinhas já marcadas.
+- A criança começou o Dia 0 em **24/09 (qui)**: viu os vídeos (e fez o dever de casa **da escola** — não é
+  exercício do roteiro). Vai rever vídeos e seguir treinando de sex 25 a dom 27/09.
+- Tentei separar num card "Reforço", mas ele ficava escondido até marcar as caixinhas do Dia 0 → Diogo só via
+  os vídeos. **Voltou tudo para um Dia 0 só**: `d0p1` Khan · `d0p1b` montar a conta · `d0r1` rever o vídeo que
+  ajudou mais · `d0p4` treino na chave (níveis 1–2 + desafio) · `d0tab` 1 rodada de tabuada por dia · `d0p3`.
+- Lição: com a página em "onde parou", **nunca esconder exercício num card seguinte** — o que é pra fazer agora
+  fica no dia atual.
 
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
