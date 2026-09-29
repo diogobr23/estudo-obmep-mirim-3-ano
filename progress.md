@@ -88,6 +88,12 @@
 - A página segue "onde parou" — as datas são só sugestão. **Semana 2 começa qua 07/10**; simulado de 2022
   continua sáb 10/10 (decidir no fim de semana se mantém ou empurra).
 
+## Treino de terça ampliado (29/09)
+- Diogo: 15 min era pouco → ~25 min. Renomeado "Treino — divisão, vezes e tabuada" (`data-nome` "Treino de divisão e vezes").
+  10 divisões na chave · 5 historinhas × ou ÷ (as 2 novas mostram que "cada" pode ser × ou ÷) · passo `fs1p3` com
+  2 questões oficiais: 2024-1f Q5 (corda, 2 em 2, 9º pulo → B 18) e 2023-1f Q3 (tangerinas → D 36), gabarito conferido.
+- `recorta.py`: RODAPE 815 → 836 (cortava a letra E da última questão da página).
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 2. Montar a semana 2 com isso (rascunho em `PLANO.md`).

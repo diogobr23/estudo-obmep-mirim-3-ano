@@ -13,7 +13,7 @@ import fitz  # PyMuPDF
 
 RAIZ = Path(__file__).resolve().parent.parent
 PROVAS, SAIDA = RAIZ / "provas", RAIZ / "roteiro" / "img"
-DPI, FOLGA, RODAPE = 150, 8, 815
+DPI, FOLGA, RODAPE = 150, 8, 836
 
 
 def topos(pagina):
