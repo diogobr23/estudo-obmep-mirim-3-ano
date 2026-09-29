@@ -30,7 +30,7 @@ ficam recolhidos. Pular um dia não atrasa nada; a data sugerida aparece só com
 ## Sequência (S1 fechada; S2 em diante é rascunho — ajustar pelo que a criança mostrar)
 | Semana | Dias |
 |---|---|
-| S1 (real) | D0 divisão + tabuada 24–27/09 ✅ · treino parte 1 ter 29/09 ✅ · treino parte 2 qua 30/09 · D1 Como ler qui 01/10 · D2 Palavras-armadilha sex 02/10 · D3 Divisão seg 05/10 · D4 Direita, esquerda e dobra ter 06/10 · D5 Horas qua 07/10 (semana 1 atrasou 2 dias: fim de semana 26–27 e seg 28/09 sem estudo) |
+| S1 (real) | D0 divisão + tabuada 24–27/09 ✅ · treino tabuada+divisão ter 29/09 ✅ · D1 Como ler qua 30/09 · D2 Palavras-armadilha qui 01/10 · treino "vezes ou dividir?" (historinhas + 2 questões) sex 02/10 · D3 Divisão seg 05/10 · D4 Direita, esquerda e dobra ter 06/10 · D5 Horas qua 07/10 (semana 1 atrasou 2 dias: fim de semana 26–27 e seg 28/09 sem estudo) |
 | S2 08/10 em diante | metade, dobro e fazer ao contrário · grupos iguais e fileiras (× e ÷ disfarçadas; aqui entra o vídeo da Gis "Resolução de problemas de divisão", `ociudK7Oovg`, tirado do Dia 0) · girar figuras · contar todas as possibilidades · calendário · **sáb 10/10 simulado 2022** |
 | S3 12–16/10 | encaixar e montar figuras · soma e diferença / dinheiro · tabelinha lógica · vistas · fila e posição |
 | S4 19–23/10 | planificação do cubo · sequências e padrões · mínimo e máximo · direita e esquerda · dominó · **sáb 24/10 simulado 2023** |

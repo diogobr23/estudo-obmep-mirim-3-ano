@@ -101,6 +101,12 @@
 - Datas empurradas 1 dia: D1 qui 01/10 · D2 sex 02/10 · D3 seg 05/10 · D4 ter 06/10 · D5 qua 07/10.
   Semana 2 começa qui 08/10 → **simulado de sáb 10/10 provavelmente fica para 17/10** (decidir com o Diogo).
 
+## Ordem: aprender a ler antes das questões (29/09)
+- Diogo prefere que a criança **aprenda a ler a questão antes de fazer questões**. A parte 2 do treino (historinhas +
+  2 questões oficiais) saiu de qua 30/09 e foi para **depois do Dia 2**, como "Treino — vezes ou dividir?" (sex 02/10).
+  Nova ordem: treino ter 29 ✅ · D1 qua 30 · D2 qui 01 · treino sex 02 · D3 seg 05 · D4 ter 06 · D5 qua 07.
+- **Regra daqui pra frente:** questão da Olimpíada só entra depois do Dia 1 (Como ler).
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 2. Montar a semana 2 com isso (rascunho em `PLANO.md`).
