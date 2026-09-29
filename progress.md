@@ -99,7 +99,7 @@
 - "Treino — parte 1" (ter 29/09 ✅: `fs1tab`, `fs1p1`) · "Treino — parte 2" (qua 30/09, ~20 min: `fs2tab` + `fs1p2`
   historinhas + `fs1p3` 2 questões oficiais; ids mantidos).
 - Datas empurradas 1 dia: D1 qui 01/10 · D2 sex 02/10 · D3 seg 05/10 · D4 ter 06/10 · D5 qua 07/10.
-  Semana 2 começa qui 08/10 → **simulado de sáb 10/10 provavelmente fica para 17/10** (decidir com o Diogo).
+  Semana 2 começa qui 08/10 → simulado de sáb 10/10 ou 17/10: **Diogo decide na qui 01/10 ou sex 02/10** — perguntar nessa data.
 
 ## Ordem: aprender a ler antes das questões (29/09)
 - Diogo prefere que a criança **aprenda a ler a questão antes de fazer questões**. A parte 2 do treino (historinhas +
