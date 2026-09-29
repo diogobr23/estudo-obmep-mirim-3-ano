@@ -94,6 +94,13 @@
   2 questões oficiais: 2024-1f Q5 (corda, 2 em 2, 9º pulo → B 18) e 2023-1f Q3 (tangerinas → D 36), gabarito conferido.
 - `recorta.py`: RODAPE 815 → 836 (cortava a letra E da última questão da página).
 
+## Treino dividido em 2 (29/09)
+- Hoje a criança fez só a tabuada e as 10 divisões → Diogo pediu para fechar o dia e deixar o resto para outro dia.
+- "Treino — parte 1" (ter 29/09 ✅: `fs1tab`, `fs1p1`) · "Treino — parte 2" (qua 30/09, ~20 min: `fs2tab` + `fs1p2`
+  historinhas + `fs1p3` 2 questões oficiais; ids mantidos).
+- Datas empurradas 1 dia: D1 qui 01/10 · D2 sex 02/10 · D3 seg 05/10 · D4 ter 06/10 · D5 qua 07/10.
+  Semana 2 começa qui 08/10 → **simulado de sáb 10/10 provavelmente fica para 17/10** (decidir com o Diogo).
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 2. Montar a semana 2 com isso (rascunho em `PLANO.md`).
