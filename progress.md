@@ -82,6 +82,12 @@
   e os simulados).
 - Ideia para as próximas semanas: um treino curtinho assim em todo fim de semana sem simulado.
 
+## Datas ajustadas (29/09)
+- A criança **não fez o treino do fim de semana** (nem estudou seg 28/09). Datas sugeridas empurradas:
+  treino curto ter 29/09 · D1 qua 30/09 · D2 qui 01/10 · D3 sex 02/10 · D4 seg 05/10 · D5 ter 06/10.
+- A página segue "onde parou" — as datas são só sugestão. **Semana 2 começa qua 07/10**; simulado de 2022
+  continua sáb 10/10 (decidir no fim de semana se mantém ou empurra).
+
 ## Próximo passo
 1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
 2. Montar a semana 2 com isso (rascunho em `PLANO.md`).
