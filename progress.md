@@ -132,6 +132,12 @@
 - Plano: dia de régua/gráfico/ábaco na S3 (faltava); dominó junto de "possibilidades", mínimo/máximo junto da "tabelinha
   lógica"; se atrasar, corta revisão, não conteúdo (detalhe no `PLANO.md`).
 
+## Dia 1 feito (sáb 03/10) ✅
+- Retorno do Diogo: **foi fácil**, nenhuma questão difícil; a mais fácil foi a Questão 5 (2022-1f Q7, número por extenso).
+- ⚠️ **A criança lê o roteiro ao pé da letra** → escrever com cuidado e deixar claro o que é **explicação/instrução do roteiro** e
+  o que é **questão da prova**. Diogo acha que ela pega com o tempo.
+- Datas sugeridas seguem as mesmas (D2 seg 05/10…); a página segue "onde parou", então ela já está no Dia 2.
+
 ## Próximo passo
 1. Diogo conta como foram os Dias 1–4 (quantas dicas abriu, onde travou) e o resultado do mini-simulado (__/5, tempo, leitura × conta).
 2. Montar a semana 2 (13/10 em diante, rascunho em `PLANO.md`) com isso, antes do simulado inteiro de 17/10.
