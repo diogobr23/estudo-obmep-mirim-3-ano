@@ -125,6 +125,13 @@
   (número original coberto) + HTML → Edge headless (scripts ficaram no scratchpad da sessão).
 - Na correção, o adulto anota acertos, tempo e, em cada erro, **leitura ou conta** → é o retorno para montar a semana 2.
 
+## Dia 1 ampliado (03/10, pedido do Diogo: "tem muita pouca coisa")
+- `d1p4` Caça à pergunta: 5 historinhas próprias em CAIXA ALTA (copiar só a pergunta, circular a armadilha, responder),
+  armadilha sem negrito (o revisor apontou que entregava o passo). `d1p5` mais 2 questões: 2023-1f Q5 (música, com dicas → D 11)
+  e 2022-1f Q7 (por extenso, sem ajuda → C quinze). Dia 1 ≈ 35 min (acima dos 20–30): se pesar, `d1p5` vai para o Dia 2.
+- Plano: dia de régua/gráfico/ábaco na S3 (faltava); dominó junto de "possibilidades", mínimo/máximo junto da "tabelinha
+  lógica"; se atrasar, corta revisão, não conteúdo (detalhe no `PLANO.md`).
+
 ## Próximo passo
 1. Diogo conta como foram os Dias 1–4 (quantas dicas abriu, onde travou) e o resultado do mini-simulado (__/5, tempo, leitura × conta).
 2. Montar a semana 2 (13/10 em diante, rascunho em `PLANO.md`) com isso, antes do simulado inteiro de 17/10.
