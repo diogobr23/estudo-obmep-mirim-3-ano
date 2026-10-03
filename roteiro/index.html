@@ -49,6 +49,9 @@
   a { color:var(--mat); font-weight:600 }
   details { margin-top:6px; font-size:16px } summary { cursor:pointer; color:var(--mat); font-weight:600 }
   .q { margin:12px 0 6px; border:1px solid var(--line); border-radius:12px; padding:10px 12px; background:#fcfcfe }
+  .etq { display:inline-block; font-size:13px; font-weight:800; letter-spacing:.3px; border-radius:6px; padding:2px 8px; margin:8px 0 4px }
+  .etq.prova { background:var(--ink); color:#fff; margin-top:0 }
+  .etq.treino { background:#e6f0fb; color:#1d4f86; border:1px dashed #9bb8e0 }
   .q .qt { font-weight:700; font-size:15px; color:var(--muted); margin-bottom:6px }
   .q img { display:block; width:100%; height:auto; border-radius:8px; border:1px solid var(--line); background:#fff }
   details.res { background:#f0f4fa; border-radius:12px; padding:10px 14px 14px }
@@ -97,6 +100,10 @@
       <li>Faz os passos na ordem e <b>marca a caixinha</b> quando terminar cada um.</li>
       <li>Antes de tudo, lê o card <a href="#como-ler">🔍 Como ler uma pergunta</a> aqui embaixo. Ele vale para todas as questões.</li>
       <li>Resolve cada questão no caderno ou na folha, <b>marca a letra</b> e só depois abre a resposta.</li>
+      <li>Olha a etiqueta antes de começar:<br>
+        <span class="etq prova">📄 QUESTÃO DA PROVA</span> é uma questão de verdade, de uma Olimpíada que já aconteceu.<br>
+        <span class="etq treino">✏️ TREINO (não é da prova)</span> é um exercício feito para você treinar.<br>
+        O resto do texto (como este aqui) explica o que fazer. Não é questão.</li>
       <li>Algumas questões vêm em 3 degraus, como uma escada:<br>
         <span class="grau g1">🗣️ exemplo</span> Lê a questão. Depois vê como eu pensei, com o adulto.<br>
         <span class="grau g2">💡 com dicas</span> Tenta primeiro sem ajuda. Travou? Abre <b>só a Dica 1</b>. Ainda travou? Abre a Dica 2.<br>
@@ -213,16 +220,19 @@
     <div class="passo"><input type="checkbox" id="d0p4"><div class="corpo"><label for="d0p4">✍️ <b>Treino de divisão na chave</b> (15 min). Arma cada conta no caderno, igual no vídeo. Esqueceu como faz? Volta no vídeo, pode quantas vezes quiser!
       <span class="t" style="display:block">Truque pra saber se acertou: <b>resultado × número de fora = número de dentro</b>. Ex.: 12 ÷ 3 = 4 → confere: 4 × 3 = 12 ✔. Terminei quando: fiz o Nível 1 e o Nível 2 e conferi.</span></label>
       <details class="grupo"><summary>🥉 Nível 1 — tabuadas do 2, do 5 e do 10</summary>
+        <div class="etq treino">✏️ TREINO (não é da prova)</div>
         <p>8 ÷ 2 · 10 ÷ 2 · 14 ÷ 2 · 18 ÷ 2 · 15 ÷ 5 · 20 ÷ 5 · 25 ÷ 5 · 30 ÷ 10</p>
         <details><summary>Ver respostas do Nível 1</summary>8 ÷ 2 = 4 · 10 ÷ 2 = 5 · 14 ÷ 2 = 7 · 18 ÷ 2 = 9 · 15 ÷ 5 = 3 · 20 ÷ 5 = 4 · 25 ÷ 5 = 5 · 30 ÷ 10 = 3</details>
       </details>
       <details class="grupo"><summary>🥈 Nível 2 — tabuadas do 3 e do 4</summary>
+        <div class="etq treino">✏️ TREINO (não é da prova)</div>
         <p>9 ÷ 3 · 12 ÷ 3 · 21 ÷ 3 · 16 ÷ 4 · 24 ÷ 4 · 28 ÷ 4</p>
         <p class="obs">Não lembra a tabuada? Pode olhar em "📋 Ver as tabuadas do jogo" no card da Tabuada relâmpago, ou fazer com tampinhas.</p>
         <details><summary>Ver respostas do Nível 2</summary>9 ÷ 3 = 3 · 12 ÷ 3 = 4 · 21 ÷ 3 = 7 · 16 ÷ 4 = 4 · 24 ÷ 4 = 6 · 28 ÷ 4 = 7</details>
       </details>
       <details class="grupo"><summary>🥇 Desafio (só se quiser) — número grande, casa por casa</summary>
         <p>Divide primeiro o número da <b>dezena</b> (o da esquerda), depois o da <b>unidade</b> (o da direita). Ex.: 46 ÷ 2 → 4 ÷ 2 = 2 e 6 ÷ 2 = 3 → <b>23</b>. Confere: 23 × 2 = 46 ✔.</p>
+        <div class="etq treino">✏️ TREINO (não é da prova)</div>
         <p>48 ÷ 2 · 69 ÷ 3 · 84 ÷ 4 · 55 ÷ 5</p>
         <details><summary>Ver respostas do desafio</summary>48 ÷ 2 = 24 · 69 ÷ 3 = 23 · 84 ÷ 4 = 21 · 55 ÷ 5 = 11</details>
       </details>
@@ -246,9 +256,11 @@
 
     <div class="passo"><input type="checkbox" id="fs1p1"><div class="corpo"><label for="fs1p1">✍️ <b>10 divisões na chave</b> (7 min). Arma no caderno e confere com a conta de vezes.
       <span class="t" style="display:block">Terminei quando: fiz as 10 e conferi. O desafio é só se quiser.</span></label>
+      <div class="etq treino">✏️ TREINO (não é da prova)</div>
       <p>16 ÷ 2 · 12 ÷ 2 · 35 ÷ 5 · 30 ÷ 5 · 40 ÷ 10 · 18 ÷ 3 · 24 ÷ 3 · 27 ÷ 3 · 20 ÷ 4 · 32 ÷ 4</p>
       <details><summary>Ver respostas</summary>16 ÷ 2 = 8 · 12 ÷ 2 = 6 · 35 ÷ 5 = 7 · 30 ÷ 5 = 6 · 40 ÷ 10 = 4 · 18 ÷ 3 = 6 · 24 ÷ 3 = 8 · 27 ÷ 3 = 9 · 20 ÷ 4 = 5 · 32 ÷ 4 = 8</details>
       <details class="grupo"><summary>🥇 Desafio — casa por casa</summary>
+        <div class="etq treino">✏️ TREINO (não é da prova)</div>
         <p>62 ÷ 2 · 93 ÷ 3 · 44 ÷ 4 · 86 ÷ 2</p>
         <details><summary>Ver respostas do desafio</summary>62 ÷ 2 = 31 · 93 ÷ 3 = 31 · 44 ÷ 4 = 11 · 86 ÷ 2 = 43</details>
       </details>
@@ -267,10 +279,10 @@
       <span class="t" style="display:block">Terminei quando: consigo falar os 5 passos sem olhar (pode ser com as minhas palavras).</span></label></div>
 
     <div class="passo"><input type="checkbox" id="d1p2"><div class="corpo"><label for="d1p2">🧩 <b>3 questões da Olimpíada de verdade</b> (10 min).
-      Em cada uma, <b>antes de resolver</b>, fala em voz alta: <b>"a pergunta é…"</b> e <b>"a palavra-armadilha é…"</b>.
+      Cada questão vem de uma prova diferente, e o número é o da prova (por isso todas são "questão 1"). Em cada uma, <b>antes de resolver</b>, fala em voz alta: <b>"a pergunta é…"</b> e <b>"a palavra-armadilha é…"</b>.
       <span class="t" style="display:block">Terminei quando: resolvi as 3, marquei uma letra em cada e conferi a resposta.</span></label>
 
-      <div class="q"><div class="qt">Questão 1 · 1ª fase 2024</div><img src="img/2024-1fase-q1.png" alt="Questão 1 da 1ª fase de 2024: qual flor tem mais pétalas" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2024 (1ª fase) · questão 1</div><img src="img/2024-1fase-q1.png" alt="Questão 1 da 1ª fase de 2024: qual flor tem mais pétalas" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: qual flor tem MAIS pétalas? A palavra-armadilha é <b>MAIS</b>: é a flor com mais pétalas, não com menos.</div>
           <div class="passo-r"><span class="n">1</span><div>Conta as pétalas de cada flor. Põe o dedo em uma pétala e vai rodando, até voltar nela.</div></div>
@@ -279,7 +291,7 @@
           <div class="esc">⚠️ <b>Escorregão:</b> quem conta rápido pode pular uma pétala ou contar a mesma duas vezes. O truque do dedo que roda e volta no começo evita isso.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 2 · 1ª fase 2023</div><img src="img/2023-1fase-q1.png" alt="Questão 1 da 1ª fase de 2023: qual fruta aparece em quantidade diferente" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2023 (1ª fase) · questão 1</div><img src="img/2023-1fase-q1.png" alt="Questão 1 da 1ª fase de 2023: qual fruta aparece em quantidade diferente" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: qual fruta aparece em quantidade DIFERENTE? A palavra-armadilha é <b>DIFERENTE</b>.</div>
           <div class="passo-r"><span class="n">1</span><div>Conta cada caixa: abacaxi 6, maçã 6, pera 6, banana 6… e laranja <b>7</b>.</div></div>
@@ -288,7 +300,7 @@
           <div class="atalho">💡 <b>Dica:</b> as laranjas estão em pilha. Conta a fileira de cima e depois a de baixo, e soma.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 3 · 1ª fase 2022</div><img src="img/2022-1fase-q1.png" alt="Questão 1 da 1ª fase de 2022: qual conta tem resultado diferente de 9" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2022 (1ª fase) · questão 1</div><img src="img/2022-1fase-q1.png" alt="Questão 1 da 1ª fase de 2022: qual conta tem resultado diferente de 9" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: qual conta NÃO dá 9? De novo, a palavra-armadilha é <b>DIFERENTE</b>.</div>
           <div class="passo-r"><span class="n">1</span><div>5 + 4 = 9 · 4 + 5 = 9 · 6 + 3 = 9 · 1 + 8 = 9 · 2 + 6 = <b>8</b>.</div></div>
@@ -297,9 +309,10 @@
         </details></div>
     </div></div>
 
-    <div class="passo"><input type="checkbox" id="d1p4"><div class="corpo"><label for="d1p4">🕵️ <b>Caça à pergunta</b> (8 min). A prova vem toda em LETRA MAIÚSCULA, igual a estas historinhas. Em cada uma:
+    <div class="passo"><input type="checkbox" id="d1p4"><div class="corpo"><label for="d1p4">🕵️ <b>Caça à pergunta</b> (8 min). Estas historinhas não são da prova: são treino. Mas estão em LETRA MAIÚSCULA, igual à prova. Em cada uma:
       <b>1)</b> lê com o dedo embaixo da linha · <b>2)</b> copia no caderno <b>só a pergunta</b> · <b>3)</b> faz uma bolinha na palavra-armadilha · <b>4)</b> só agora responde.
       <span class="t" style="display:block">Terminei quando: fiz as 5 e conferi.</span></label>
+      <div class="etq treino">✏️ TREINO (não é da prova)</div>
       <ol>
         <li>LIA TEM 5 LÁPIS. RUI TEM 3 LÁPIS. QUEM TEM MENOS LÁPIS?</li>
         <li>NUM POTE HÁ 4 BOLINHAS AZUIS E 2 BOLINHAS VERMELHAS. QUANTAS BOLINHAS NÃO SÃO AZUIS?</li>
@@ -316,10 +329,10 @@
       </details>
     </div></div>
 
-    <div class="passo"><input type="checkbox" id="d1p5"><div class="corpo"><label for="d1p5">🧩 <b>Mais 2 questões da Olimpíada</b> (8 min). De novo: antes de resolver, fala <b>"a pergunta é…"</b>. A 1ª tem dicas escondidas: tenta primeiro sem ajuda e, se travar, abre só a Dica 1.
+    <div class="passo"><input type="checkbox" id="d1p5"><div class="corpo"><label for="d1p5">🧩 <b>Mais 2 questões da Olimpíada</b> (8 min). De novo: antes de resolver, fala <b>"a pergunta é…"</b>. A primeira (a de 2023) tem dicas escondidas: tenta primeiro sem ajuda e, se travar, abre só a Dica 1.
       <span class="t" style="display:block">Terminei quando: resolvi as 2, marquei uma letra em cada e conferi.</span></label>
 
-      <div class="q"><div class="qt">Questão 4 · 1ª fase 2023 <span class="grau g2">💡 com dicas</span></div><img src="img/2023-1fase-q5.png" alt="Questão 5 da 1ª fase de 2023: números que Marcela esqueceu de cantar" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2023 (1ª fase) · questão 5 <span class="grau g2">💡 com dicas</span></div><img src="img/2023-1fase-q5.png" alt="Questão 5 da 1ª fase de 2023: números que Marcela esqueceu de cantar" loading="lazy">
         <details class="dq"><summary>💡 Dica 1</summary>A pergunta tem duas partes: primeiro acha <b>quais números ela esqueceu</b>. Depois faz a <b>soma</b> deles. Lê a música com o dedo e fala junto: um, dois, três…</details>
         <details class="dq"><summary>💡 Dica 2</summary>Depois do QUATRO, ela cantou o SETE. Que números deveriam vir entre o 4 e o 7?</details>
         <details class="res"><summary>Ver resposta e explicação</summary>
@@ -330,7 +343,7 @@
           <div class="esc">⚠️ <b>Escorregão:</b> achar os números esquecidos e parar aí. A pergunta pede a <b>soma</b>! Antes de marcar, lê a pergunta de novo.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 5 · 1ª fase 2022 <span class="grau g3">💪 sem ajuda</span></div><img src="img/2022-1fase-q7.png" alt="Questão 7 da 1ª fase de 2022: o maior número escrito por extenso" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2022 (1ª fase) · questão 7 <span class="grau g3">💪 sem ajuda</span></div><img src="img/2022-1fase-q7.png" alt="Questão 7 da 1ª fase de 2022: o maior número escrito por extenso" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: qual é o <b>MAIOR</b> número. Os números estão escritos com letras!</div>
           <div class="passo-r"><span class="n">1</span><div>Escreve cada um com algarismos: QUATORZE = 14 · ONZE = 11 · QUINZE = 15 · DOZE = 12 · TREZE = 13.</div></div>
@@ -359,7 +372,7 @@
     <div class="passo"><input type="checkbox" id="d2p2"><div class="corpo"><label for="d2p2">🧩 <b>3 questões com armadilha escondida</b> (20 min). Em cada uma: fala a pergunta, acha a armadilha e <b>só depois</b> resolve.
       <span class="t" style="display:block">Terminei quando: resolvi as 3 e conferi. Achou difícil? Chama o adulto.</span></label>
 
-      <div class="q"><div class="qt">Questão 1 · 1ª fase 2023</div><img src="img/2023-1fase-q2.png" alt="Questão 2 da 1ª fase de 2023: placas de trânsito redondas sem seta" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2023 (1ª fase) · questão 2</div><img src="img/2023-1fase-q2.png" alt="Questão 2 da 1ª fase de 2023: placas de trânsito redondas sem seta" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta pede duas coisas ao mesmo tempo: a placa tem que ser <b>redonda</b> <u>e</u> <b>não</b> pode ter seta. A armadilha é o <b>MAS NÃO</b>.</div>
           <div class="passo-r"><span class="n">1</span><div>Primeiro, acha só as redondas. O PARE <b>não</b> é redondo (tem 8 lados).</div></div>
@@ -369,7 +382,7 @@
           <div class="atalho">💡 <b>Dica:</b> com muita coisa pra contar, risca na tela com o dedo ou faz uma lista no caderno. Assim nenhuma é contada duas vezes.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 2 · 1ª fase 2025</div><img src="img/2025-1fase-q12.png" alt="Questão 12 da 1ª fase de 2025: cartões 1 4 3 2 5, maior número com dois cartões na ordem" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2025 (1ª fase) · questão 12</div><img src="img/2025-1fase-q12.png" alt="Questão 12 da 1ª fase de 2025: cartões 1 4 3 2 5, maior número com dois cartões na ordem" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: o maior número com 2 cartões. A armadilha é <b>NA ORDEM EM QUE ESTÃO</b>: não pode trocar os cartões de lugar!</div>
           <div class="passo-r"><span class="n">1</span><div>O maior cartão é o 5. Dá pra começar com 5? Não: o 5 é o <b>último</b> da fila e nenhum cartão vem depois dele. Então o 5 só pode ser o segundo número, o da direita: "?5".</div></div>
@@ -378,7 +391,7 @@
           <div class="esc">⚠️ <b>Escorregão:</b> quem não lê "na ordem em que estão" marca 54, que é a letra A. Essa letra está lá e pega quem leu rápido.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 3 · 1ª fase 2022</div><img src="img/2022-1fase-q13.png" alt="Questão 13 da 1ª fase de 2022: pipoca e suco no cinema" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2022 (1ª fase) · questão 13</div><img src="img/2022-1fase-q13.png" alt="Questão 13 da 1ª fase de 2022: pipoca e suco no cinema" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: quanto custa 1 pipoca. A armadilha é <b>A MAIS</b>. E tem uma surpresa: a questão não diz o preço do suco, e ele nem é preciso!</div>
           <div class="passo-r"><span class="n">1</span><div>Desenha as compras:<br>João: 🍿🍿🥤<br>Maria: 🍿🥤</div></div>
@@ -407,6 +420,7 @@
 
     <div class="passo"><input type="checkbox" id="fs1p2"><div class="corpo"><label for="fs1p2">🔎 <b>5 historinhas: é de vezes ou de dividir?</b> (7 min). Em cada uma: acha a <a href="#como-ler">palavra-pista</a>, fala se é <b>×</b> ou <b>÷</b> e só depois faz a conta.
       <span class="t" style="display:block">Terminei quando: resolvi as 5 e conferi.</span></label>
+      <div class="etq treino">✏️ TREINO (não é da prova)</div>
       <ol>
         <li>A vovó fez 12 biscoitos e repartiu entre 4 netos, a <b>mesma quantidade</b> para cada um. Quantos biscoitos cada neto ganhou?</li>
         <li>Uma caixa tem 5 fileiras, com 3 ovos em <b>cada</b> fileira. Quantos ovos tem na caixa?</li>
@@ -426,7 +440,7 @@
     <div class="passo"><input type="checkbox" id="fs1p3"><div class="corpo"><label for="fs1p3">🧩 <b>2 questões da Olimpíada de verdade</b> (6 min). Lembra dos 5 passos do <a href="#como-ler">Como ler uma pergunta</a>: acha a pergunta, a palavra-pista, e só depois faz a conta.
       <span class="t" style="display:block">Terminei quando: resolvi as 2, marquei uma letra em cada e conferi.</span></label>
 
-      <div class="q"><div class="qt">Questão 1 · 1ª fase 2024</div><img src="img/2024-1fase-q5.png" alt="Questão 5 da 1ª fase de 2024: pulando corda e contando de 2 em 2" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2024 (1ª fase) · questão 5</div><img src="img/2024-1fase-q5.png" alt="Questão 5 da 1ª fase de 2024: pulando corda e contando de 2 em 2" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: que número ela fala no <b>9º pulo</b>.</div>
           <div class="passo-r"><span class="n">1</span><div>A cada pulo, ela anda mais 2. No 1º pulo fala 2, no 2º fala 4… O número é sempre <b>o dobro do pulo</b>.</div></div>
@@ -435,7 +449,7 @@
           <div class="esc">⚠️ <b>Escorregão:</b> parar no 8º pulo e marcar 16, que é a letra A. Contando nos dedos, levanta um dedo por pulo, até ter 9 dedos levantados.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 2 · 1ª fase 2023</div><img src="img/2023-1fase-q3.png" alt="Questão 3 da 1ª fase de 2023: sementes de 2 tangerinas" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2023 (1ª fase) · questão 3</div><img src="img/2023-1fase-q3.png" alt="Questão 3 da 1ª fase de 2023: sementes de 2 tangerinas" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: quantas sementes <b>no total</b>. A palavra-pista é <b>CADA</b> (aparece duas vezes!): é conta de vezes.</div>
           <div class="passo-r"><span class="n">1</span><div>Primeiro os gomos: 2 tangerinas com 9 gomos <b>cada</b> → 2 × 9 = <b>18 gomos</b>.</div></div>
@@ -459,6 +473,7 @@
 
     <div class="passo"><input type="checkbox" id="d3p2"><div class="corpo"><label for="d3p2">🫘 <b>Divide com as mãos</b> (8 min). Pega 12 tampinhas e reparte <b>uma pra cada, uma pra cada…</b> até acabar, como quem distribui cartas.
       <span class="t" style="display:block">Terminei quando: fiz os 4 e conferi as respostas.</span></label>
+      <div class="etq treino">✏️ TREINO (não é da prova)</div>
       <ol>
         <li>12 tampinhas para <b>2</b> pessoas. Quantas cada uma ganha?</li>
         <li>12 tampinhas para <b>3</b> pessoas. Quantas cada uma ganha?</li>
@@ -470,6 +485,7 @@
 
     <div class="passo"><input type="checkbox" id="d3p3"><div class="corpo"><label for="d3p3">✏️ <b>Agora sem tampinha: desenha bolinhas</b> (6 min). Desenha as bolinhas e faz um círculo em volta de cada grupo.
       <span class="t" style="display:block">Terminei quando: fiz os 3 e conferi.</span></label>
+      <div class="etq treino">✏️ TREINO (não é da prova)</div>
       <ol>
         <li>10 balas para 2 crianças. Quantas cada uma ganha?</li>
         <li>15 lápis em 3 estojos, todos com a mesma quantidade. Quantos lápis ficam em cada estojo?</li>
@@ -480,7 +496,7 @@
 
     <div class="passo"><input type="checkbox" id="d3p4"><div class="corpo"><label for="d3p4">🧩 <b>Questão da Olimpíada</b> (5 min). Tenta primeiro sem ajuda. Travou? Abre só a Dica 1.
       <span class="t" style="display:block">Terminei quando: resolvi e conferi.</span></label>
-      <div class="q"><div class="qt">1ª fase 2025 <span class="grau g2">💡 com dicas</span></div><img src="img/2025-1fase-q3.png" alt="Questão 3 da 1ª fase de 2025: bois em dois cercados" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2025 (1ª fase) · questão 3 <span class="grau g2">💡 com dicas</span></div><img src="img/2025-1fase-q3.png" alt="Questão 3 da 1ª fase de 2025: bois em dois cercados" loading="lazy">
         <details class="dq"><summary>💡 Dica 1</summary>Primeiro conta <b>todos</b> os bois, dos dois cercados juntos. Quantos são?</details>
         <details class="dq"><summary>💡 Dica 2</summary>"Ficar iguais" é repartir todos os bois em 2 cercados: cada um fica com a <b>metade</b>. Quantos bois a direita já tem? Quantos faltam para chegar na metade?</details>
         <details class="res"><summary>Ver resposta e explicação</summary>
@@ -513,9 +529,9 @@
       <span class="t" style="display:block">Terminei quando: vi o carimbo. (Se o lápis não carimbar, fura a bolinha com a ponta do lápis, com a folha dobrada.)</span></label></div>
 
     <div class="passo"><input type="checkbox" id="d4p3"><div class="corpo"><label for="d4p3">🧩 <b>3 questões da Olimpíada, em 3 degraus</b> (15 min).
-      <span class="t" style="display:block">A 1ª é o exemplo: lê a questão e depois vê como eu pensei, com o adulto. A 2ª tem dicas. A 3ª é sem ajuda. Terminei quando: resolvi as 3 e conferi.</span></label>
+      <span class="t" style="display:block">A primeira questão é o exemplo: lê a questão e depois vê como eu pensei, com o adulto. A segunda tem dicas. A terceira é sem ajuda. Terminei quando: resolvi as 3 e conferi.</span></label>
 
-      <div class="q"><div class="qt">Questão 1 · 1ª fase 2022 <span class="grau g1">🗣️ exemplo</span></div><img src="img/2022-1fase-q6.png" alt="Questão 6 da 1ª fase de 2022: pares completos de chinelos" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2022 (1ª fase) · questão 6 <span class="grau g1">🗣️ exemplo</span></div><img src="img/2022-1fase-q6.png" alt="Questão 6 da 1ª fase de 2022: pares completos de chinelos" loading="lazy">
         <details class="ex"><summary>🗣️ Agora vê como eu pensei (lê com o adulto)</summary>
           <div class="passo-r"><span class="n">1</span><div><i>"Primeiro eu acho a pergunta: quantos pares <b>COMPLETOS</b>? Faço uma bolinha no COMPLETOS. Par completo é 1 chinelo esquerdo + 1 direito."</i></div></div>
           <div class="passo-r"><span class="n">2</span><div><i>"Agora olho cada chinelo e acho o lado mais gordinho da frente: é o do dedão. Dedão à direita → é do pé esquerdo. Dedão à esquerda → é do pé direito. Contei <b>5 esquerdos</b> e <b>2 direitos</b>."</i></div></div>
@@ -525,7 +541,7 @@
           <div class="esc">⚠️ <b>Escorregão:</b> contar 7 chinelos e achar que dá 3 pares (letra C). Mas dois chinelos esquerdos não formam um par! A palavra COMPLETOS avisa isso.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 2 · 1ª fase 2024 (a mais difícil de hoje) <span class="grau g2">💡 com dicas</span></div><img src="img/2024-1fase-q8.png" alt="Questão 8 da 1ª fase de 2024: papel quadriculado com furos dobrado como livro" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2024 (1ª fase) · questão 8 (a mais difícil de hoje) <span class="grau g2">💡 com dicas</span></div><img src="img/2024-1fase-q8.png" alt="Questão 8 da 1ª fase de 2024: papel quadriculado com furos dobrado como livro" loading="lazy">
         <details class="dq"><summary>💡 Dica 1</summary>Olha a seta: ela mostra qual lado vira. O lado com os <b>furos</b> fecha por cima do lado com as <b>letras</b>, como a capa de um livro.</details>
         <details class="dq"><summary>💡 Dica 2</summary>Escolhe um furo e conta quantas casinhas ele está longe da dobra. Ele cai na <b>mesma distância</b>, do outro lado (é o carimbo da experiência!). Faz isso com cada furo. Qual letra não ganha furo nenhum?</details>
         <details class="res"><summary>Ver resposta e explicação</summary>
@@ -537,7 +553,7 @@
           <div class="atalho">💡 <b>Dica:</b> ficou difícil de imaginar? Desenha a grade num papel, pinta os furos, dobra na linha e olha contra a luz.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 3 · 1ª fase 2024 <span class="grau g3">💪 sem ajuda</span></div><img src="img/2024-1fase-q4.png" alt="Questão 4 da 1ª fase de 2024: mover a estrela 4 casas para cima e 2 para a esquerda" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2024 (1ª fase) · questão 4 <span class="grau g3">💪 sem ajuda</span></div><img src="img/2024-1fase-q4.png" alt="Questão 4 da 1ª fase de 2024: mover a estrela 4 casas para cima e 2 para a esquerda" loading="lazy">
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: onde a estrela vai parar depois de andar.</div>
           <div class="passo-r"><span class="n">1</span><div>Põe o dedo na estrela. Sobe <b>4 casas</b>, contando só as casas novas: 1, 2, 3, 4. O dedo para na 2ª linha de cima.</div></div>
@@ -567,11 +583,11 @@
     <div class="passo"><input type="checkbox" id="ms1p2"><div class="corpo"><label for="ms1p2">✏️ <b>Faz as 5 questões</b> (30 min). O adulto anota a hora que começou e a que terminou, e <b>não ajuda</b> (na prova ninguém ajuda).
       <span class="t" style="display:block">Usa os 5 passos do <a href="#como-ler">Como ler uma pergunta</a> e pode riscar e desenhar na folha. Não sabe uma? Pula e volta no fim. Nunca deixa em branco! Quando der 30 minutos, o adulto avisa: marca uma letra nas que faltam e passa tudo para o quadro. Terminei quando: marquei uma letra em todas e passei as 5 para o quadro de respostas (ou anotei as 5 letras no caderno, se fiz pela tela).</span></label>
       <details><summary>Sem impressora? Ver as questões aqui</summary>
-        <div class="q"><img src="img/ms1-q1.png" alt="Questão 1: qual peça completa o quebra-cabeça" loading="lazy"></div>
-        <div class="q"><img src="img/ms1-q2.png" alt="Questão 2: em qual figura aparecem mais palitos" loading="lazy"></div>
-        <div class="q"><img src="img/ms1-q3.png" alt="Questão 3: quem é José" loading="lazy"></div>
-        <div class="q"><img src="img/ms1-q4.png" alt="Questão 4: quantas bolinhas Samuel tem" loading="lazy"></div>
-        <div class="q"><img src="img/ms1-q5.png" alt="Questão 5: peças de dominó com 10 pontos" loading="lazy"></div>
+        <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><img src="img/ms1-q1.png" alt="Questão 1: qual peça completa o quebra-cabeça" loading="lazy"></div>
+        <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><img src="img/ms1-q2.png" alt="Questão 2: em qual figura aparecem mais palitos" loading="lazy"></div>
+        <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><img src="img/ms1-q3.png" alt="Questão 3: quem é José" loading="lazy"></div>
+        <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><img src="img/ms1-q4.png" alt="Questão 4: quantas bolinhas Samuel tem" loading="lazy"></div>
+        <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><img src="img/ms1-q5.png" alt="Questão 5: peças de dominó com 10 pontos" loading="lazy"></div>
       </details>
     </div></div>
 
@@ -636,6 +652,7 @@
       <p><b>1 hora tem 60 minutos.</b> Pra somar ou tirar minutos, primeiro chega na <b>hora cheia</b> (a que termina em :00) e depois continua.</p>
       <p>Exemplo: são 8:52 e passam 18 minutos. De 8:52 até <b>9:00</b> faltam 8 minutos. Ainda sobram 10 (porque 18 − 8 = 10) → <b>9:10</b>.</p>
       <p>E pra voltar no tempo: 15 minutos antes das 7:00. Volto para a hora de antes, as <b>6 horas</b>. Dessa hora até as 7:00 são 60 minutos; tirando 15, sobram 60 − 15 = 45 → <b>6:45</b>.</p>
+      <div class="etq treino">✏️ TREINO (não é da prova)</div>
       <ol>
         <li>São 3:50. Que horas vão ser daqui a 20 minutos?</li>
         <li>O filme acaba às 5:00 e durou 30 minutos. Que horas começou?</li>
@@ -646,9 +663,9 @@
     </div></div>
 
     <div class="passo"><input type="checkbox" id="d5p2"><div class="corpo"><label for="d5p2">🧩 <b>2 questões da Olimpíada</b> (12 min).
-      <span class="t" style="display:block">A 1ª é o exemplo: lê a questão e depois vê como eu pensei. A 2ª tem dicas. Terminei quando: resolvi as 2 e conferi.</span></label>
+      <span class="t" style="display:block">A primeira questão é o exemplo: lê a questão e depois vê como eu pensei. A segunda tem dicas. Terminei quando: resolvi as 2 e conferi.</span></label>
 
-      <div class="q"><div class="qt">Questão 1 · 1ª fase 2024 <span class="grau g1">🗣️ exemplo</span></div><img src="img/2024-1fase-q7.png" alt="Questão 7 da 1ª fase de 2024: a que horas Carlos saiu de casa" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2024 (1ª fase) · questão 7 <span class="grau g1">🗣️ exemplo</span></div><img src="img/2024-1fase-q7.png" alt="Questão 7 da 1ª fase de 2024: a que horas Carlos saiu de casa" loading="lazy">
         <details class="ex"><summary>🗣️ Agora vê como eu pensei (lê com o adulto)</summary>
           <div class="passo-r"><span class="n">1</span><div><i>"A pergunta é: a que horas ele <b>SAIU</b> de casa? Ele chegou às 9:00. Primeiro a gente sai de casa, depois chega. Então ele saiu <b>antes</b> das 9:00. Vou voltar no tempo."</i></div></div>
           <div class="passo-r"><span class="n">2</span><div><i>"Volto 15 minutos a partir das 9:00. A hora volta de 9 para <b>8</b>. Das 8:00 às 9:00 são 60 minutos. Tirando 15, sobram 60 − 15 = 45. Então é <b>8:45</b>."</i></div></div>
@@ -657,7 +674,7 @@
           <div class="esc">⚠️ <b>Escorregão:</b> somar em vez de tirar e marcar 09:15, que é a letra D. Ele não pode ter saído de casa depois de chegar no campo!</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 2 · 1ª fase 2023 <span class="grau g2">💡 com dicas</span></div><img src="img/2023-1fase-q12.png" alt="Questão 12 da 1ª fase de 2023: minutos de 3:10 até 4:05" loading="lazy">
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2023 (1ª fase) · questão 12 <span class="grau g2">💡 com dicas</span></div><img src="img/2023-1fase-q12.png" alt="Questão 12 da 1ª fase de 2023: minutos de 3:10 até 4:05" loading="lazy">
         <details class="dq"><summary>💡 Dica 1</summary>Usa o truque da hora cheia: de 3:10 até <b>4:00</b>, quantos minutos são?</details>
         <details class="dq"><summary>💡 Dica 2</summary>Agora falta o pedacinho de 4:00 até 4:05. Soma os dois pedaços.</details>
         <details class="res"><summary>Ver resposta e explicação</summary>
