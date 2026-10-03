@@ -59,6 +59,12 @@
   .res .resp { background:#e6f7ea; color:#1d6b2d; border-radius:10px; padding:8px 12px; margin-top:12px; font-weight:700 }
   .res .atalho { background:#fff7d6; color:#6b4e00; border-radius:10px; padding:8px 12px; margin-top:8px }
   .res .esc { background:#fdeeea; color:#8a3b00; border-radius:10px; padding:8px 12px; margin-top:8px }
+  details.dq { background:var(--dica); border-radius:12px; padding:8px 14px; margin-top:8px }
+  details.dq > summary { color:var(--dica-ink) }
+  details.ex { background:#f3eefb; border-radius:12px; padding:10px 14px 14px }
+  details.ex > summary { color:var(--adulto) }
+  .grau { display:inline-block; font-size:13px; color:#fff; border-radius:6px; padding:1px 8px; margin-left:4px }
+  .grau.g1 { background:var(--adulto) } .grau.g2 { background:#b7770d } .grau.g3 { background:var(--ok) }
   .dica { background:var(--dica); color:var(--dica-ink); border-radius:12px; padding:12px 14px; margin-top:12px }
   .dica b { display:block; margin-bottom:4px }
   .prog { font-size:15px; color:var(--muted); margin-top:8px }
@@ -91,6 +97,10 @@
       <li>Faz os passos na ordem e <b>marca a caixinha</b> quando terminar cada um.</li>
       <li>Antes de tudo, lê o card <a href="#como-ler">🔍 Como ler uma pergunta</a> aqui embaixo. Ele vale para todas as questões.</li>
       <li>Resolve cada questão no caderno ou na folha, <b>marca a letra</b> e só depois abre a resposta.</li>
+      <li>Algumas questões vêm em 3 degraus, como uma escada:<br>
+        <span class="grau g1">🗣️ exemplo</span> Lê a questão. Depois vê como eu pensei, com o adulto.<br>
+        <span class="grau g2">💡 com dicas</span> Tenta primeiro sem ajuda. Travou? Abre <b>só a Dica 1</b>. Ainda travou? Abre a Dica 2.<br>
+        <span class="grau g3">💪 sem ajuda</span> Agora é com você!</li>
       <li>Errou? Tudo bem! Abre a explicação e compara com o seu jeito. Achou muito difícil? Anota o número no caderno com uma ⭐ e mostra pro adulto.</li>
       <li>Todo dia tem 1 rodada da <a href="#tabuada">⚡ Tabuada relâmpago</a> (5 min). A tabuada é o que mais ajuda na divisão!</li>
       <li>Travou? Chama o adulto. Pedir ajuda também é treino.</li>
@@ -149,6 +159,8 @@
     <ul>
       <li><b>Não leia a questão por ela</b> depois da primeira semana. Na prova ela vai estar sozinha. Na 1ª semana, pode ler junto.</li>
       <li><b>Não diga se a resposta está certa antes de ela explicar o caminho.</b> Pergunte "como você pensou?". Muitas vezes ela acha o erro sozinha.</li>
+      <li><b>Questão com 💡 dicas: deixe ela tentar uns 2 minutos antes de abrir a Dica 1.</b> Anote no caderno, ao lado do número da questão, quantas dicas ela abriu. É isso que mostra se ela está pronta para subir de degrau.</li>
+      <li><b>No mini-simulado e no simulado, não ajude.</b> Só marque o tempo e anote quantas questões ela terminou dentro do tempo. A ajuda vem depois, na correção. <b>Imprima a folha do mini-simulado antes do dia</b> (o link está no card dele).</li>
       <li><b>A conta armada (na chave) é bom saber, mas não é o que a prova cobra.</b> Na prova, dividir é <b>repartir em partes iguais</b>, com números pequenos. Feijões, tampinhas e desenhos resolvem tudo, e a conta armada serve para conferir.</li>
     </ul>
 
@@ -249,7 +261,7 @@
   <!-- ============ DIA 1 ============ -->
   <section class="dia" data-nome="Dia 1">
     <h2>Dia 1 — Como ler uma pergunta <span class="tag ler">Leitura</span></h2>
-    <p class="quando">sugestão: quarta, 30/09 · ⏱ uns 25 minutos · 🧑 hoje o adulto fica junto</p>
+    <p class="quando">sugestão: segunda, 05/10 · ⏱ uns 25 minutos · 🧑 hoje o adulto fica junto</p>
 
     <div class="passo"><input type="checkbox" id="d1p1"><label for="d1p1">🔍 <b>Lê com o adulto o card "Como ler uma pergunta"</b> lá em cima (5 min).
       <span class="t" style="display:block">Terminei quando: consigo falar os 5 passos sem olhar (pode ser com as minhas palavras).</span></label></div>
@@ -296,7 +308,7 @@
   <!-- ============ DIA 2 ============ -->
   <section class="dia" data-nome="Dia 2">
     <h2>Dia 2 — Caçando palavras-armadilha <span class="tag ler">Leitura</span></h2>
-    <p class="quando">sugestão: quinta, 01/10 · ⏱ uns 30 minutos</p>
+    <p class="quando">sugestão: terça, 06/10 · ⏱ uns 30 minutos</p>
 
     <div class="passo"><input type="checkbox" id="d2p1"><label for="d2p1">🔍 <b>Relê a lista de palavras-armadilha</b> no card "Como ler uma pergunta" (2 min).
       <span class="t" style="display:block">Terminei quando: falei 3 palavras-armadilha de cabeça.</span></label></div>
@@ -345,7 +357,7 @@
   <!-- ============ TREINO PARTE 2 ============ -->
   <section class="dia" data-nome="Treino — vezes ou dividir?">
     <h2>Treino — vezes ou dividir? <span class="tag rev">Leitura + contas</span></h2>
-    <p class="quando">sugestão: sexta, 02/10 · ⏱ uns 20 minutos · agora com os truques de leitura dos Dias 1 e 2!</p>
+    <p class="quando">sugestão: quarta, 07/10 · ⏱ uns 20 minutos · agora com os truques de leitura dos Dias 1 e 2!</p>
 
     <div class="passo"><input type="checkbox" id="fs2tab"><label for="fs2tab">⚡ <b>1 rodada da <a href="#tabuada">Tabuada relâmpago</a></b> (5 min).
       <span class="t" style="display:block">Terminei quando: apareceu "Rodada feita!".</span></label></div>
@@ -397,7 +409,7 @@
   <!-- ============ DIA 3 ============ -->
   <section class="dia" data-nome="Dia 3">
     <h2>Dia 3 — Dividir é repartir igual <span class="tag">Continhas</span></h2>
-    <p class="quando">sugestão: segunda, 05/10 · ⏱ uns 30 minutos · 🫘 precisa de 12 tampinhas, feijões ou botões</p>
+    <p class="quando">sugestão: quinta, 08/10 · ⏱ uns 30 minutos · 🫘 precisa de 12 tampinhas, feijões ou botões</p>
 
     <div class="passo"><input type="checkbox" id="d3p1"><label for="d3p1">🎬 <b>Assiste</b> (4 min): <a href="https://www.youtube.com/watch?v=FG1m_-UfxdQ" target="_blank">Divisão! — Maysa Explica</a>.
       <span class="t" style="display:block">Se não abrir, tem este outro, de desenho animado (3 min): <a href="https://www.youtube.com/watch?v=a1_OFOABwsA" target="_blank">Aprenda a Divisão</a>. Terminei quando: vi o vídeo até o fim.</span></label></div>
@@ -423,9 +435,11 @@
       <details><summary>Ver respostas</summary>1) 5 · 2) 5 · 3) 7</details>
     </div></div>
 
-    <div class="passo"><input type="checkbox" id="d3p4"><div class="corpo"><label for="d3p4">🧩 <b>Questão da Olimpíada</b> (5 min).
+    <div class="passo"><input type="checkbox" id="d3p4"><div class="corpo"><label for="d3p4">🧩 <b>Questão da Olimpíada</b> (5 min). Tenta primeiro sem ajuda. Travou? Abre só a Dica 1.
       <span class="t" style="display:block">Terminei quando: resolvi e conferi.</span></label>
-      <div class="q"><div class="qt">1ª fase 2025</div><img src="img/2025-1fase-q3.png" alt="Questão 3 da 1ª fase de 2025: bois em dois cercados" loading="lazy">
+      <div class="q"><div class="qt">1ª fase 2025 <span class="grau g2">💡 com dicas</span></div><img src="img/2025-1fase-q3.png" alt="Questão 3 da 1ª fase de 2025: bois em dois cercados" loading="lazy">
+        <details class="dq"><summary>💡 Dica 1</summary>Primeiro conta <b>todos</b> os bois, dos dois cercados juntos. Quantos são?</details>
+        <details class="dq"><summary>💡 Dica 2</summary>"Ficar iguais" é repartir todos os bois em 2 cercados: cada um fica com a <b>metade</b>. Quantos bois a direita já tem? Quantos faltam para chegar na metade?</details>
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: quantos bois <b>passam</b> de um lado pro outro, para os dois cercados ficarem iguais.</div>
           <div class="passo-r"><span class="n">1</span><div>Conta tudo: 10 bois na esquerda + 2 na direita = <b>12 bois</b>.</div></div>
@@ -447,7 +461,7 @@
   <!-- ============ DIA 4 ============ -->
   <section class="dia" data-nome="Dia 4">
     <h2>Dia 4 — Direita, esquerda e dobrar papel <span class="tag">Figuras</span></h2>
-    <p class="quando">sugestão: terça, 06/10 · ⏱ uns 30 minutos · ✂️ precisa de 1 folha e lápis</p>
+    <p class="quando">sugestão: sexta, 09/10 · ⏱ uns 30 minutos · ✂️ precisa de 1 folha e lápis</p>
 
     <div class="passo"><input type="checkbox" id="d4p1"><label for="d4p1">✋ <b>Aquecimento</b> (3 min): levanta a mão <b>direita</b>. Agora olha seus dois pés: o dedão fica do lado de <b>dentro</b>, perto do outro pé. No desenho de um chinelo, o lado mais gordinho da frente é o do dedão: <b>dedão à direita → chinelo do pé esquerdo</b>; <b>dedão à esquerda → chinelo do pé direito</b>. Na dúvida, põe o seu pé em cima do desenho.
       <span class="t" style="display:block">Terminei quando: sei dizer qual é a minha mão direita sem pensar.</span></label></div>
@@ -455,28 +469,22 @@
     <div class="passo"><input type="checkbox" id="d4p2"><label for="d4p2">📄 <b>Experiência da dobra</b> (5 min): dobra a folha ao meio e abre de novo. Pinta uma bolinha bem forte perto da dobra, de um lado só. Dobra de novo e aperta. Abre: a bolinha "carimbou" o outro lado, na <b>mesma distância da dobra</b>.
       <span class="t" style="display:block">Terminei quando: vi o carimbo. (Se o lápis não carimbar, fura a bolinha com a ponta do lápis, com a folha dobrada.)</span></label></div>
 
-    <div class="passo"><input type="checkbox" id="d4p3"><div class="corpo"><label for="d4p3">🧩 <b>3 questões da Olimpíada</b> (15 min).
-      <span class="t" style="display:block">Terminei quando: resolvi as 3 e conferi.</span></label>
+    <div class="passo"><input type="checkbox" id="d4p3"><div class="corpo"><label for="d4p3">🧩 <b>3 questões da Olimpíada, em 3 degraus</b> (15 min).
+      <span class="t" style="display:block">A 1ª é o exemplo: lê a questão e depois vê como eu pensei, com o adulto. A 2ª tem dicas. A 3ª é sem ajuda. Terminei quando: resolvi as 3 e conferi.</span></label>
 
-      <div class="q"><div class="qt">Questão 1 · 1ª fase 2022</div><img src="img/2022-1fase-q6.png" alt="Questão 6 da 1ª fase de 2022: pares completos de chinelos" loading="lazy">
-        <details class="res"><summary>Ver resposta e explicação</summary>
-          <div class="quer">🎯 A pergunta: quantos pares <b>COMPLETOS</b>. Um par completo é 1 esquerdo + 1 direito.</div>
-          <div class="passo-r"><span class="n">1</span><div>Em cada chinelo, acha o lado mais gordinho da frente (é o do dedão). Dedão à direita = esquerdo; dedão à esquerda = direito. Separa em dois grupos: <b>5 esquerdos</b> e <b>2 direitos</b>.</div></div>
-          <div class="passo-r"><span class="n">2</span><div>Cada direito ganha um esquerdo. Só tem 2 direitos, então só dá pra fazer <b>2 pares</b>. Sobram 3 esquerdos sozinhos.</div></div>
+      <div class="q"><div class="qt">Questão 1 · 1ª fase 2022 <span class="grau g1">🗣️ exemplo</span></div><img src="img/2022-1fase-q6.png" alt="Questão 6 da 1ª fase de 2022: pares completos de chinelos" loading="lazy">
+        <details class="ex"><summary>🗣️ Agora vê como eu pensei (lê com o adulto)</summary>
+          <div class="passo-r"><span class="n">1</span><div><i>"Primeiro eu acho a pergunta: quantos pares <b>COMPLETOS</b>? Faço uma bolinha no COMPLETOS. Par completo é 1 chinelo esquerdo + 1 direito."</i></div></div>
+          <div class="passo-r"><span class="n">2</span><div><i>"Agora olho cada chinelo e acho o lado mais gordinho da frente: é o do dedão. Dedão à direita → é do pé esquerdo. Dedão à esquerda → é do pé direito. Contei <b>5 esquerdos</b> e <b>2 direitos</b>."</i></div></div>
+          <div class="passo-r"><span class="n">3</span><div><i>"Cada direito ganha um esquerdo para virar par. Só tenho 2 direitos, então são <b>2 pares</b>. Sobram 3 esquerdos sozinhos."</i></div></div>
+          <div class="passo-r"><span class="n">4</span><div><i>"Antes de marcar, leio a pergunta de novo: quantos pares completos? 2. Marco a letra B."</i></div></div>
           <div class="resp">✅ Resposta: letra B (2 pares)</div>
           <div class="esc">⚠️ <b>Escorregão:</b> contar 7 chinelos e achar que dá 3 pares (letra C). Mas dois chinelos esquerdos não formam um par! A palavra COMPLETOS avisa isso.</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 2 · 1ª fase 2024</div><img src="img/2024-1fase-q4.png" alt="Questão 4 da 1ª fase de 2024: mover a estrela 4 casas para cima e 2 para a esquerda" loading="lazy">
-        <details class="res"><summary>Ver resposta e explicação</summary>
-          <div class="quer">🎯 A pergunta: onde a estrela vai parar depois de andar.</div>
-          <div class="passo-r"><span class="n">1</span><div>Põe o dedo na estrela. Sobe <b>4 casas</b>, contando só as casas novas: 1, 2, 3, 4. O dedo para na 2ª linha de cima.</div></div>
-          <div class="passo-r"><span class="n">2</span><div>Agora anda <b>2 casas para a esquerda</b> (o lado da sua mão esquerda): 1, 2. O dedo cai no <b>triângulo</b>.</div></div>
-          <div class="resp">✅ Resposta: letra C (triângulo)</div>
-          <div class="esc">⚠️ <b>Escorregão:</b> contar a casa onde a estrela já está como "1". A primeira casa que conta é a do primeiro passo.</div>
-        </details></div>
-
-      <div class="q"><div class="qt">Questão 3 · 1ª fase 2024 (a mais difícil de hoje)</div><img src="img/2024-1fase-q8.png" alt="Questão 8 da 1ª fase de 2024: papel quadriculado com furos dobrado como livro" loading="lazy">
+      <div class="q"><div class="qt">Questão 2 · 1ª fase 2024 (a mais difícil de hoje) <span class="grau g2">💡 com dicas</span></div><img src="img/2024-1fase-q8.png" alt="Questão 8 da 1ª fase de 2024: papel quadriculado com furos dobrado como livro" loading="lazy">
+        <details class="dq"><summary>💡 Dica 1</summary>Olha a seta: ela mostra qual lado vira. O lado com os <b>furos</b> fecha por cima do lado com as <b>letras</b>, como a capa de um livro.</details>
+        <details class="dq"><summary>💡 Dica 2</summary>Escolhe um furo e conta quantas casinhas ele está longe da dobra. Ele cai na <b>mesma distância</b>, do outro lado (é o carimbo da experiência!). Faz isso com cada furo. Qual letra não ganha furo nenhum?</details>
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: qual letra <b>NÃO</b> vai aparecer. A letra que some é a que fica tampada pelo papel.</div>
           <div class="passo-r"><span class="n">1</span><div>A seta mostra que o lado <b>esquerdo</b> (com os furos) vira por cima do lado direito (com as letras), como a capa de um livro fechando.</div></div>
@@ -484,6 +492,15 @@
           <div class="passo-r"><span class="n">3</span><div>Vê cada letra. Se um furo cai em cima dela, ela aparece pelo buraco. Se não cai, o papel tampa a letra. A, C, D e E ganham um furo. A letra <b>B</b> não ganha nenhum: fica tampada.</div></div>
           <div class="resp">✅ Resposta: letra B</div>
           <div class="atalho">💡 <b>Dica:</b> ficou difícil de imaginar? Desenha a grade num papel, pinta os furos, dobra na linha e olha contra a luz.</div>
+        </details></div>
+
+      <div class="q"><div class="qt">Questão 3 · 1ª fase 2024 <span class="grau g3">💪 sem ajuda</span></div><img src="img/2024-1fase-q4.png" alt="Questão 4 da 1ª fase de 2024: mover a estrela 4 casas para cima e 2 para a esquerda" loading="lazy">
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: onde a estrela vai parar depois de andar.</div>
+          <div class="passo-r"><span class="n">1</span><div>Põe o dedo na estrela. Sobe <b>4 casas</b>, contando só as casas novas: 1, 2, 3, 4. O dedo para na 2ª linha de cima.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Agora anda <b>2 casas para a esquerda</b> (o lado da sua mão esquerda): 1, 2. O dedo cai no <b>triângulo</b>.</div></div>
+          <div class="resp">✅ Resposta: letra C (triângulo)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> contar a casa onde a estrela já está como "1". A primeira casa que conta é a do primeiro passo.</div>
         </details></div>
     </div></div>
 
@@ -495,10 +512,81 @@
     <p class="prog"></p>
   </section>
 
+  <!-- ============ MINI-SIMULADO 1 ============ -->
+  <section class="dia" data-nome="Mini-simulado 1">
+    <h2>Mini-simulado 1 <span class="tag sim">Como na prova</span></h2>
+    <p class="quando">sugestão: sábado, 10/10 · ⏱ uns 40 minutos · 🖨️ precisa da folha impressa e de um lápis · hoje não tem tabuada</p>
+    <p>Hoje é um pedacinho da prova de verdade: <b>5 questões em 30 minutos</b>, no papel, sem ajuda. A prova inteira tem 15. É só um treino: o que vale é ver como você se sai sem ajuda, não acertar tudo.</p>
+
+    <div class="passo"><input type="checkbox" id="ms1p1"><label for="ms1p1">🖨️ <b>O adulto imprime a folha</b>: <a href="mini-simulado-1.pdf" target="_blank">Mini-simulado 1 (3 páginas)</a>.
+      <span class="t" style="display:block">Sem impressora? Faz pela tela, com as questões que estão no passo de baixo, e usa o caderno de rascunho. Terminei quando: estou com a folha, um lápis e uma borracha na mesa.</span></label></div>
+
+    <div class="passo"><input type="checkbox" id="ms1p2"><div class="corpo"><label for="ms1p2">✏️ <b>Faz as 5 questões</b> (30 min). O adulto anota a hora que começou e a que terminou, e <b>não ajuda</b> (na prova ninguém ajuda).
+      <span class="t" style="display:block">Usa os 5 passos do <a href="#como-ler">Como ler uma pergunta</a> e pode riscar e desenhar na folha. Não sabe uma? Pula e volta no fim. Nunca deixa em branco! Quando der 30 minutos, o adulto avisa: marca uma letra nas que faltam e passa tudo para o quadro. Terminei quando: marquei uma letra em todas e passei as 5 para o quadro de respostas (ou anotei as 5 letras no caderno, se fiz pela tela).</span></label>
+      <details><summary>Sem impressora? Ver as questões aqui</summary>
+        <div class="q"><img src="img/ms1-q1.png" alt="Questão 1: qual peça completa o quebra-cabeça" loading="lazy"></div>
+        <div class="q"><img src="img/ms1-q2.png" alt="Questão 2: em qual figura aparecem mais palitos" loading="lazy"></div>
+        <div class="q"><img src="img/ms1-q3.png" alt="Questão 3: quem é José" loading="lazy"></div>
+        <div class="q"><img src="img/ms1-q4.png" alt="Questão 4: quantas bolinhas Samuel tem" loading="lazy"></div>
+        <div class="q"><img src="img/ms1-q5.png" alt="Questão 5: peças de dominó com 10 pontos" loading="lazy"></div>
+      </details>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="ms1p3"><div class="corpo"><label for="ms1p3">✅ <b>Corrige com o adulto</b> (10 min). Primeiro confere as letras. Depois abre a explicação <b>só das que errou</b>.
+      <span class="t" style="display:block">Terminei quando: sei quantas acertei e entendi o erro de cada uma que errei.</span></label>
+      <details><summary>📖 Abrir a correção (só depois de terminar!)</summary>
+      <p><b>Gabarito:</b> <b>1</b> A · <b>2</b> D · <b>3</b> D · <b>4</b> C · <b>5</b> B</p>
+      <details class="res"><summary>Explicação da 1 (quebra-cabeça)</summary>
+        <div class="quer">🎯 A pergunta: qual peça <b>completa</b> o quebra-cabeça.</div>
+        <div class="passo-r"><span class="n">1</span><div>Acha o buraco: falta o <b>canto de cima, à esquerda</b>. Peça de canto tem <b>2 lados retos</b>, um em cima e um à esquerda.</div></div>
+        <div class="passo-r"><span class="n">2</span><div>Olha as peças vizinhas, nos lados que encostam no buraco. Onde a vizinha tem uma <b>bolinha</b> saindo, a peça que falta precisa de um <b>buraco</b>. Onde a vizinha tem buraco, a peça precisa de bolinha.</div></div>
+        <div class="passo-r"><span class="n">3</span><div>As peças das letras estão <b>giradas</b>. Gira cada uma na cabeça (ou gira o papel) até os 2 lados retos ficarem em cima e à esquerda. Só a peça da letra A encaixa.</div></div>
+        <div class="resp">✅ Resposta: letra A</div>
+        <div class="atalho">💡 <b>Dica:</b> ficou difícil? Recorta as peças da folha com o adulto e testa no buraco. Girar figuras é assunto da semana que vem!</div>
+      </details>
+      <details class="res"><summary>Explicação da 2 (palitos)</summary>
+        <div class="quer">🎯 A pergunta: em qual figura aparecem <b>MAIS</b> palitos.</div>
+        <div class="passo-r"><span class="n">1</span><div>Conta os palitos de cada figura, fazendo um risquinho em cada um que já contou. O palito que é parede de dois triângulos conta <b>uma vez só</b>.</div></div>
+        <div class="passo-r"><span class="n">2</span><div>A: 9 · B: 9 · C: 9 · D: <b>10</b> · E: 9.</div></div>
+        <div class="resp">✅ Resposta: letra D (10 palitos)</div>
+        <div class="esc">⚠️ <b>Escorregão:</b> contar 3 palitos para cada triângulo. Quando dois triângulos dividem um palito, ele foi contado duas vezes!</div>
+      </details>
+      <details class="res"><summary>Explicação da 3 (quem é José)</summary>
+        <div class="quer">🎯 A pergunta: <b>quem é José</b>. A armadilha: José <b>DEU</b> o skate. Quem está com o skate é o Eduardo!</div>
+        <div class="passo-r"><span class="n">1</span><div>Vai riscando quem já tem nome: bola = Bruno (C) · skate = Eduardo (E) · bicicleta = Paulo (B) · mochila = Marcelo (A).</div></div>
+        <div class="passo-r"><span class="n">2</span><div>Sobrou só o menino da pipa. Ele é o José.</div></div>
+        <div class="resp">✅ Resposta: letra D</div>
+        <div class="esc">⚠️ <b>Escorregão:</b> ler "José… skate" e marcar o menino do skate (letra E). Por isso a gente lê devagar, com o dedo embaixo da linha.</div>
+      </details>
+      <details class="res"><summary>Explicação da 4 (bolinhas)</summary>
+        <div class="quer">🎯 A pergunta: quantas bolinhas o <b>Samuel</b> tem. As palavras-armadilha: <b>A MENOS</b> e <b>A MAIS</b>.</div>
+        <div class="passo-r"><span class="n">1</span><div>Vai na ordem, um amigo de cada vez. Benjamin: <b>6</b>.</div></div>
+        <div class="passo-r"><span class="n">2</span><div>Alícia: 2 a menos que Benjamin → 6 − 2 = <b>4</b>.</div></div>
+        <div class="passo-r"><span class="n">3</span><div>Rafael: 5 a mais que Alícia → 4 + 5 = <b>9</b>.</div></div>
+        <div class="passo-r"><span class="n">4</span><div>Samuel: 4 a menos que Rafael → 9 − 4 = <b>5</b>.</div></div>
+        <div class="resp">✅ Resposta: letra C (5 bolinhas)</div>
+        <div class="esc">⚠️ <b>Escorregão:</b> parar no Rafael e marcar 9 (letra E). A pergunta é sobre o Samuel! Antes de marcar, lê a pergunta de novo.</div>
+      </details>
+      <details class="res"><summary>Explicação da 5 (dominó)</summary>
+        <div class="quer">🎯 A pergunta: quantas peças têm <b>10 pontos no total</b> (somando as duas metades).</div>
+        <div class="passo-r"><span class="n">1</span><div>Cada metade tem no máximo 6 pontos. Que duas metades somam 10? 4 + 6 = 10 e 5 + 5 = 10.</div></div>
+        <div class="passo-r"><span class="n">2</span><div>E 6 + 4? É a <b>mesma peça</b> que 4 + 6, só virada. O dominó não tem peça repetida.</div></div>
+        <div class="resp">✅ Resposta: letra B (2 peças)</div>
+        <div class="esc">⚠️ <b>Escorregão:</b> contar 4 + 6 e 6 + 4 como duas peças e marcar 3 (letra C).</div>
+      </details>
+      </details>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="ms1p4"><label for="ms1p4">⭐ <b>Conta pro adulto</b> (2 min): qual foi a mais difícil? Sobrou tempo ou faltou?
+      <span class="t" style="display:block">Adulto: anota quantas acertou, o tempo que levou e, em cada erro, se foi de <b>leitura</b> (não entendeu a pergunta) ou de <b>conta</b>.</span></label></div>
+    <div class="dica"><b>Lembrete do mini-simulado</b>Na prova, ninguém ajuda: os 5 passos do "Como ler" são a minha ajuda. E sempre marco uma letra.</div>
+    <p class="prog"></p>
+  </section>
+
   <!-- ============ DIA 5 ============ -->
   <section class="dia" data-nome="Dia 5">
     <h2>Dia 5 — Horas e minutos <span class="tag">Tempo</span></h2>
-    <p class="quando">sugestão: quarta, 07/10 · ⏱ uns 30 minutos</p>
+    <p class="quando">sugestão: terça, 13/10 (segunda, 12/10, é feriado) · ⏱ uns 30 minutos</p>
 
     <div class="passo"><input type="checkbox" id="d5p1"><div class="corpo"><label for="d5p1">🧠 <b>O truque da hora cheia</b> (10 min). Lê com calma:
       <span class="t" style="display:block">Terminei quando: fiz os 4 treinos e conferi.</span></label>
@@ -515,17 +603,20 @@
     </div></div>
 
     <div class="passo"><input type="checkbox" id="d5p2"><div class="corpo"><label for="d5p2">🧩 <b>2 questões da Olimpíada</b> (12 min).
-      <span class="t" style="display:block">Terminei quando: resolvi as 2 e conferi.</span></label>
+      <span class="t" style="display:block">A 1ª é o exemplo: lê a questão e depois vê como eu pensei. A 2ª tem dicas. Terminei quando: resolvi as 2 e conferi.</span></label>
 
-      <div class="q"><div class="qt">Questão 1 · 1ª fase 2024</div><img src="img/2024-1fase-q7.png" alt="Questão 7 da 1ª fase de 2024: a que horas Carlos saiu de casa" loading="lazy">
-        <details class="res"><summary>Ver resposta e explicação</summary>
-          <div class="quer">🎯 A pergunta: a que horas ele <b>SAIU</b>. Ele chegou às 9:00, então saiu <b>antes</b>: é pra voltar no tempo.</div>
-          <div class="passo-r"><span class="n">1</span><div>15 minutos antes das 9:00. A hora volta de 9 para <b>8</b>. Das 8:00 às 9:00 são 60 minutos; tirando 15, sobram 60 − 15 = 45 → <b>8:45</b>.</div></div>
+      <div class="q"><div class="qt">Questão 1 · 1ª fase 2024 <span class="grau g1">🗣️ exemplo</span></div><img src="img/2024-1fase-q7.png" alt="Questão 7 da 1ª fase de 2024: a que horas Carlos saiu de casa" loading="lazy">
+        <details class="ex"><summary>🗣️ Agora vê como eu pensei (lê com o adulto)</summary>
+          <div class="passo-r"><span class="n">1</span><div><i>"A pergunta é: a que horas ele <b>SAIU</b> de casa? Ele chegou às 9:00. Primeiro a gente sai de casa, depois chega. Então ele saiu <b>antes</b> das 9:00. Vou voltar no tempo."</i></div></div>
+          <div class="passo-r"><span class="n">2</span><div><i>"Volto 15 minutos a partir das 9:00. A hora volta de 9 para <b>8</b>. Das 8:00 às 9:00 são 60 minutos. Tirando 15, sobram 60 − 15 = 45. Então é <b>8:45</b>."</i></div></div>
+          <div class="passo-r"><span class="n">3</span><div><i>"Leio a pergunta de novo: a que horas saiu? 8:45 é antes das 9:00, faz sentido. Marco a letra C."</i></div></div>
           <div class="resp">✅ Resposta: letra C (08:45)</div>
           <div class="esc">⚠️ <b>Escorregão:</b> somar em vez de tirar e marcar 09:15, que é a letra D. Ele não pode ter saído de casa depois de chegar no campo!</div>
         </details></div>
 
-      <div class="q"><div class="qt">Questão 2 · 1ª fase 2023</div><img src="img/2023-1fase-q12.png" alt="Questão 12 da 1ª fase de 2023: minutos de 3:10 até 4:05" loading="lazy">
+      <div class="q"><div class="qt">Questão 2 · 1ª fase 2023 <span class="grau g2">💡 com dicas</span></div><img src="img/2023-1fase-q12.png" alt="Questão 12 da 1ª fase de 2023: minutos de 3:10 até 4:05" loading="lazy">
+        <details class="dq"><summary>💡 Dica 1</summary>Usa o truque da hora cheia: de 3:10 até <b>4:00</b>, quantos minutos são?</details>
+        <details class="dq"><summary>💡 Dica 2</summary>Agora falta o pedacinho de 4:00 até 4:05. Soma os dois pedaços.</details>
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: quantos minutos faltam, de 3:10 até 4:05.</div>
           <div class="passo-r"><span class="n">1</span><div>De 3:10 até a hora cheia <b>4:00</b>: 60 − 10 = <b>50 minutos</b>.</div></div>
@@ -716,7 +807,7 @@
       c.addEventListener('change', function () {
         var d = c.closest('.dia'), p = d.querySelector('.prog');
         var todas = d.querySelectorAll('.passo input'), feitas = d.querySelectorAll('.passo input:checked');
-        p.textContent = feitas.length === todas.length ? '✅ Dia completo! Mandou bem. Amanhã tem o próximo.' : feitas.length + ' de ' + todas.length + ' passos feitos';
+        p.textContent = feitas.length === todas.length ? '✅ Dia completo! Mandou bem. Na próxima vez, tem o próximo.' : feitas.length + ' de ' + todas.length + ' passos feitos';
       });
     });
 

@@ -10,3 +10,5 @@ __pycache__/
 *.pyc
 # provas oficiais (70 MB) ficam só na máquina; as de 2ª fase entram quando chegar a vez dos simulados
 provas/
+# testes do navegador (Playwright)
+.playwright-mcp/

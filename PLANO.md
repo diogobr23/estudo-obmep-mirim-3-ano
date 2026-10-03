@@ -30,15 +30,19 @@ ficam recolhidos. Pular um dia não atrasa nada; a data sugerida aparece só com
 ## Sequência (S1 fechada; S2 em diante é rascunho — ajustar pelo que a criança mostrar)
 | Semana | Dias |
 |---|---|
-| S1 (real) | D0 divisão + tabuada 24–27/09 ✅ · treino tabuada+divisão ter 29/09 ✅ · D1 Como ler qua 30/09 · D2 Palavras-armadilha qui 01/10 · treino "vezes ou dividir?" (historinhas + 2 questões) sex 02/10 · D3 Divisão seg 05/10 · D4 Direita, esquerda e dobra ter 06/10 · D5 Horas qua 07/10 (semana 1 atrasou 2 dias: fim de semana 26–27 e seg 28/09 sem estudo) |
-| S2 08/10 em diante | metade, dobro e fazer ao contrário · grupos iguais e fileiras (× e ÷ disfarçadas; aqui entra o vídeo da Gis "Resolução de problemas de divisão", `ociudK7Oovg`, tirado do Dia 0) · girar figuras · contar todas as possibilidades · calendário · **sáb 10/10 simulado 2022** |
-| S3 12–16/10 | encaixar e montar figuras · soma e diferença / dinheiro · tabelinha lógica · vistas · fila e posição |
+| S1 (real) | D0 divisão + tabuada 24–27/09 ✅ · treino tabuada+divisão ter 29/09 ✅ · (30/09–04/10 sem estudo) · D1 Como ler seg 05/10 · D2 Palavras-armadilha ter 06/10 · treino "vezes ou dividir?" qua 07/10 · D3 Divisão qui 08/10 · D4 Direita, esquerda e dobra sex 09/10 · **sáb 10/10 mini-simulado 1** (5 questões de 1ª fase, 30 min, impresso) · D5 Horas ter 13/10 (seg 12/10 feriado) |
+| S2 14/10 em diante | metade, dobro e fazer ao contrário · grupos iguais e fileiras (× e ÷ disfarçadas; aqui entra o vídeo da Gis "Resolução de problemas de divisão", `ociudK7Oovg`, tirado do Dia 0) · girar figuras · contar todas as possibilidades · calendário · **sáb 17/10 simulado 2022** (empurrado de 10/10) |
+| S3 (datas a refazer depois do mini-simulado) | encaixar e montar figuras · soma e diferença / dinheiro · tabelinha lógica · vistas · fila e posição |
 | S4 19–23/10 | planificação do cubo · sequências e padrões · mínimo e máximo · direita e esquerda · dominó · **sáb 24/10 simulado 2023** |
 | S5 26–30/10 | revisão dos ⭐ e dos erros · **sáb 31/10 simulado 2024** |
 | S6 02–06/11 | revisão · **sáb 07/11 simulado 2025 (ensaio geral)** |
 | 09/11 | leve: só o card de leitura e 2 questões fáceis. 10/11 = PROVA |
 
 Simulado = prova de 2ª fase inteira, 1h30, como no dia. Depois, resolução só das que errou.
+
+**Escada até o simulado (03/10, trazida do `estudo-cmb`):** 🗣️ exemplo pensado em voz alta → 💡 questão com dicas escondidas
+→ 💪 questão sem ajuda → **mini-simulado** (5 questões de 1ª fase, 30 min, impresso, sem ajuda) → prova inteira. As dicas
+diminuem conforme o adulto anota quantas ela abre. Ajuste dia a dia pelo que o Diogo contar.
 
 ## Fases e critério de "pronto"
 | Fase | Pronto quando… |

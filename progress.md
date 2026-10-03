@@ -107,6 +107,24 @@
   Nova ordem: treino ter 29 ✅ · D1 qua 30 · D2 qui 01 · treino sex 02 · D3 seg 05 · D4 ter 06 · D5 qua 07.
 - **Regra daqui pra frente:** questão da Olimpíada só entra depois do Dia 1 (Como ler).
 
+## Degraus + mini-simulado (03/10, ideia trazida do `estudo-cmb`)
+- A criança **não estudou de 29/09 a 03/10** → continua no Dia 1. Datas empurradas: D1 seg 05/10 · D2 ter 06/10 ·
+  treino "vezes ou dividir?" qua 07/10 · D3 qui 08/10 · D4 sex 09/10 · **Mini-simulado 1 sáb 10/10** · D5 ter 13/10
+  (seg 12/10 é feriado, sem estudo).
+- **1º simulado inteiro (2ª fase 2022) = sáb 17/10** (decisão do Diogo). Os outros seguem 24/10, 31/10, 07/11.
+- **Escada de degraus nas questões** (como no CMB): 🗣️ exemplo (resolução em 1ª pessoa, "pensando em voz alta") →
+  💡 com dicas (Dica 1 e Dica 2 escondidas antes da resposta) → 💪 sem ajuda. CSS `details.ex`, `details.dq`, `.grau g1/g2/g3`.
+  Aplicado no D3 (bois, com dicas), D4 (chinelos = exemplo · dobra = dicas · estrela = sem ajuda; ordem 2↔3 trocada) e
+  D5 (Carlos = exemplo · 3:10→4:05 = dicas). Card do adulto: deixar tentar ~2 min antes da Dica 1, **anotar quantas dicas
+  abriu**; no simulado não ajudar.
+- **Mini-simulado 1** (card `data-nome="Mini-simulado 1"`, ids `ms1p1`–`ms1p4`, ~40 min, sem tabuada): 5 questões de 1ª fase,
+  renumeradas 1–5 → 2024 Q2 (quebra-cabeça) · 2025 Q1 (palitos) · 2022 Q4 (quem é José) · 2023 Q11 (bolinhas) · 2024 Q3
+  (dominó). Gabarito oficial: **1A 2D 3D 4C 5B**. Questões agora gastas. PDF imprimível `roteiro/mini-simulado-1.pdf`
+  (capa com instruções no estilo da prova real + quadro de respostas + hora de início/fim; questões com espaço de rascunho —
+  na prova real o rascunho é na própria prova). Imagens renumeradas `roteiro/img/ms1-q*.png`. Gerado com PyMuPDF
+  (número original coberto) + HTML → Edge headless (scripts ficaram no scratchpad da sessão).
+- Na correção, o adulto anota acertos, tempo e, em cada erro, **leitura ou conta** → é o retorno para montar a semana 2.
+
 ## Próximo passo
-1. Diogo observa a semana 1 e conta: onde travou, se 5 dias pesou, como foi a leitura.
-2. Montar a semana 2 com isso (rascunho em `PLANO.md`).
+1. Diogo conta como foram os Dias 1–4 (quantas dicas abriu, onde travou) e o resultado do mini-simulado (__/5, tempo, leitura × conta).
+2. Montar a semana 2 (13/10 em diante, rascunho em `PLANO.md`) com isso, antes do simulado inteiro de 17/10.
