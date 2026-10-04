@@ -157,6 +157,12 @@
   complexas**, para a prova parecer fácil no dia. Fontes para isso: Nível A (4º–5º ano, `nivelA-2018-2021.csv`) e as questões
   difíceis (D) da 1ª fase; 2ª fase 2022–2025 continua reservada para os simulados.
 
+## Regra nova de fontes de questão (04/10, aprovada pelo Diogo) → ver CLAUDE.md
+- Oficiais OBMEP primeiro (sobram 36 da 1ª fase: 17 M, 18 D, 1 F; + 50 do Nível A) → **Canguru Nível P** (3º–4º ano, 2021–2025,
+  gabarito oficial, sem resolução; direitos reservados → só impresso/local, fora do git) → **inventadas** só para variação/ponte,
+  com 2º agente resolvendo às cegas. Escada por tema: ideia → oficial M → oficial D → Canguru/Nível A → inventada mais complexa.
+- Pendente: baixar e classificar o Canguru Nível P por tema em `provas/canguru/` (gitignored).
+
 ## Próximo passo
 1. Diogo conta como foram os Dias 1–4 (quantas dicas abriu, onde travou) e o resultado do mini-simulado (__/5, tempo, leitura × conta).
 2. Montar a semana 2 (13/10 em diante, rascunho em `PLANO.md`) com isso, antes do simulado inteiro de 17/10.

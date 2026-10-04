@@ -25,16 +25,23 @@ Sempre responder em português brasileiro.
 - Dia de estudo = **20 a 30 minutos**. 5 dias por semana (pode virar 4 — o roteiro segue
   "onde parou", não data fixa, para não virar dívida).
 - **Nada fora do que cai na prova** (tabela em `pesquisa/analise-2a-fase.md`). Não inventar assunto.
-- Treino = questões oficiais (1ª fase 2022–2025 e Nível A 2019–2021; banco em `pesquisa/banco/`).
-  **2ª fase 2022–2025 fica reservada para os simulados.**
-- Toda questão tem resposta do **gabarito oficial** e resolução em linguagem de criança.
+- Fontes de questão, nesta ordem (regra mudada pelo Diogo em 04/10/2026):
+  1. **Oficiais OBMEP** — 1ª fase 2022–2025 e Nível A 2018–2021 (banco em `pesquisa/banco/`).
+     **2ª fase 2022–2025 fica reservada para os simulados.**
+  2. **Canguru de Matemática Brasil, Nível P** (3º–4º ano) = degrau acima. "Todos os direitos reservados" →
+     **só em folha impressa / arquivo local fora do git** (`provas/`); a página pública só cita "Canguru AAAA, questão N".
+  3. **Questões inventadas** só para **variação** de uma questão que a criança errou ou **degrau-ponte** entre média e
+     difícil. Sempre com a etiqueta ✏️ TREINO (não é da prova) e conferidas por um **2º agente que resolve às cegas**
+     (sem ver a minha resposta); se a resposta dele divergir, a questão é descartada.
+  Sites de "simulado" de terceiros: não usar.
+- Toda questão oficial tem resposta do **gabarito oficial**; toda questão tem resolução em linguagem de criança.
 - Todo vídeo é conferido (existe, canal, título, duração) antes de entrar.
 - Toda tarefa tem "como sei que terminei".
 - **Nenhum dado pessoal da criança em lugar nenhum** — nem nome, apelido, escola, turma, foto
   ou letra. Nem em arquivo, memória, commit ou prompt de agente. Referir como "a criança".
 
 ## Freios (risco baixo: não gasta dinheiro, não fala com terceiros)
-- Toda resposta conferida contra o gabarito oficial.
+- Toda resposta conferida contra o gabarito oficial (inventadas: resolução às cegas por 2º agente).
 - Revisão do roteiro por agente separado antes de ir para a criança.
 
 ## Git e publicação
