@@ -161,7 +161,11 @@
 - Oficiais OBMEP primeiro (sobram 36 da 1ª fase: 17 M, 18 D, 1 F; + 50 do Nível A) → **Canguru Nível P** (3º–4º ano, 2021–2025,
   gabarito oficial, sem resolução; direitos reservados → só impresso/local, fora do git) → **inventadas** só para variação/ponte,
   com 2º agente resolvendo às cegas. Escada por tema: ideia → oficial M → oficial D → Canguru/Nível A → inventada mais complexa.
-- Pendente: baixar e classificar o Canguru Nível P por tema em `provas/canguru/` (gitignored).
+- ✅ Canguru Nível P 2021–2025 baixado (prova + gabarito) em `provas/canguru/` (gitignored) e classificado por 5 agentes em
+  paralelo → `provas/canguru/banco-canguru-nivelP.csv` (mesmas colunas do banco + `pontos` e `cabe_3ano`). 120 questões,
+  119 "cabem no 3º ano" (julgamento otimista: reconferir cada uma ao usar). Temas: ESP 39 · LOG 30 · OPE 20 · CNT 14 · MED 6 ·
+  POS 5 · SEQ 3 · NUM 1 · TEM 1. Dificuldade F 26 · M 56 · D 37. Muitas respostas de figura só pelo gabarito oficial (não
+  refeitas); **2021 Q12 marcada CONFERIR**. Uso: só impresso/local; a página pública cita "Canguru AAAA, questão N".
 
 ## Próximo passo
 1. Diogo conta como foram os Dias 1–4 (quantas dicas abriu, onde travou) e o resultado do mini-simulado (__/5, tempo, leitura × conta).
