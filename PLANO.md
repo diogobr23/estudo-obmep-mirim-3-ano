@@ -45,6 +45,10 @@ contas → tempo → resto.
 
 Simulado = prova de 2ª fase inteira, 1h30, como no dia. Depois, resolução só das que errou.
 
+**Ritmo (04/10, Diogo): adiantar.** A criança acha fácil → seguir o roteiro sem esperar as datas; conteúdo fechado antes da
+prova, e o tempo que sobrar vira **aprofundamento com questões mais difíceis** (Nível A e as D da 1ª fase). A tabela de semanas
+abaixo vira ordem de temas, não calendário.
+
 **Escada até o simulado (03/10, trazida do `estudo-cmb`):** 🗣️ exemplo pensado em voz alta → 💡 questão com dicas escondidas
 → 💪 questão sem ajuda → **mini-simulado** (5 questões de 1ª fase, 30 min, impresso, sem ajuda) → prova inteira. As dicas
 diminuem conforme o adulto anota quantas ela abre. Ajuste dia a dia pelo que o Diogo contar.

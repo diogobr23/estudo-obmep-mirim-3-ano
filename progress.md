@@ -149,6 +149,14 @@
 - Próximo na página: Treino "vezes ou dividir?" (sugestão qua 07/10, mas a criança está adiantada: D1 sáb 03 e D2 dom 04).
 - Também: etiquetas 📄 QUESTÃO DA PROVA / ✏️ TREINO, títulos com o número real da questão, lembretes sem quebra de linha.
 
+## ⚡ Decisão: adiantar (dom 04/10, Diogo)
+- Treino "vezes ou dividir?" **feito hoje (04/10)** junto com o Dia 2. A criança acha tudo fácil → **adiantar**.
+- Nova ordem: D3 seg 05/10 (agora com 3 questões) · D4 ter 06/10 · **Mini-simulado 1 qua 07/10** · D5 qui 08/10 ·
+  **semana 2 começa sex 09/10**. Tabuada = 2 rodadas por dia (era rápida demais).
+- **Estratégia do Diogo:** fechar todo o conteúdo antes da prova e usar o tempo que sobrar para **aprofundar em questões mais
+  complexas**, para a prova parecer fácil no dia. Fontes para isso: Nível A (4º–5º ano, `nivelA-2018-2021.csv`) e as questões
+  difíceis (D) da 1ª fase; 2ª fase 2022–2025 continua reservada para os simulados.
+
 ## Próximo passo
 1. Diogo conta como foram os Dias 1–4 (quantas dicas abriu, onde travou) e o resultado do mini-simulado (__/5, tempo, leitura × conta).
 2. Montar a semana 2 (13/10 em diante, rascunho em `PLANO.md`) com isso, antes do simulado inteiro de 17/10.
