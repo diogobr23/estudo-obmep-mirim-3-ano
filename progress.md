@@ -138,12 +138,15 @@
   o que é **questão da prova**. Diogo acha que ela pega com o tempo.
 - Datas sugeridas seguem as mesmas (D2 seg 05/10…); a página segue "onde parou", então ela já está no Dia 2.
 
-## Dia 2 (dom 04/10, em andamento)
+## Dia 2 (dom 04/10) ✅ feito
 - Q1 placas: **identificou as 6 certas, mas contou errado** → organização (riscar o que já contou), não leitura.
 - Q2 cartões: **teve dificuldade em achar a pergunta** (confundiu com "tirar os cartões na mesma ordem"); Diogo orientou a
   **isolar a pergunta** → ponto a reforçar.
 - A criança pediu mais → `d2p4` 2022-1f Q9 (Mariana/bandeiras, isolar a pergunta, com dicas → E 70) + `d2tab2` 2ª rodada de
   tabuada. Publicado antes da revisão (criança esperando); revisor depois: ok, 2 ajustes pequenos aplicados.
+- Parte extra: **acertou tudo**. Na "questão 2" pediu ao adulto para confirmar o raciocínio antes de marcar (estava certo); viu a
+  resolução e entendeu. Diogo: "tá indo muito bem até agora". → Hábito de pedir confirmação: o mini-simulado (sem ajuda) treina isso.
+- Próximo na página: Treino "vezes ou dividir?" (sugestão qua 07/10, mas a criança está adiantada: D1 sáb 03 e D2 dom 04).
 - Também: etiquetas 📄 QUESTÃO DA PROVA / ✏️ TREINO, títulos com o número real da questão, lembretes sem quebra de linha.
 
 ## Próximo passo
