@@ -138,6 +138,14 @@
   o que é **questão da prova**. Diogo acha que ela pega com o tempo.
 - Datas sugeridas seguem as mesmas (D2 seg 05/10…); a página segue "onde parou", então ela já está no Dia 2.
 
+## Dia 2 (dom 04/10, em andamento)
+- Q1 placas: **identificou as 6 certas, mas contou errado** → organização (riscar o que já contou), não leitura.
+- Q2 cartões: **teve dificuldade em achar a pergunta** (confundiu com "tirar os cartões na mesma ordem"); Diogo orientou a
+  **isolar a pergunta** → ponto a reforçar.
+- A criança pediu mais → `d2p4` 2022-1f Q9 (Mariana/bandeiras, isolar a pergunta, com dicas → E 70) + `d2tab2` 2ª rodada de
+  tabuada. Publicado antes da revisão (criança esperando); revisor depois: ok, 2 ajustes pequenos aplicados.
+- Também: etiquetas 📄 QUESTÃO DA PROVA / ✏️ TREINO, títulos com o número real da questão, lembretes sem quebra de linha.
+
 ## Próximo passo
 1. Diogo conta como foram os Dias 1–4 (quantas dicas abriu, onde travou) e o resultado do mini-simulado (__/5, tempo, leitura × conta).
 2. Montar a semana 2 (13/10 em diante, rascunho em `PLANO.md`) com isso, antes do simulado inteiro de 17/10.
