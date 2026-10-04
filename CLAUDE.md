@@ -22,8 +22,8 @@ Sempre responder em português brasileiro.
 
 ## Regras do material
 - Linguagem de criança de 8 anos em tudo que vai para o roteiro. Frases curtas.
-- Dia de estudo = **20 a 30 minutos**. 5 dias por semana (pode virar 4 — o roteiro segue
-  "onde parou", não data fixa, para não virar dívida).
+- Dia de estudo = **30 a 40 minutos** (era 20–30; o Diogo pediu mais conteúdo em 03–04/10 porque estava fácil).
+  O roteiro segue "onde parou", não data fixa, para não virar dívida; se a criança estiver bem, **adiantar**.
 - **Nada fora do que cai na prova** (tabela em `pesquisa/analise-2a-fase.md`). Não inventar assunto.
 - Fontes de questão, nesta ordem (regra mudada pelo Diogo em 04/10/2026):
   1. **Oficiais OBMEP** — 1ª fase 2022–2025 e Nível A 2018–2021 (banco em `pesquisa/banco/`).
