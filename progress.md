@@ -165,6 +165,12 @@
 - Padrão que se repete (D2 e D3): **pede confirmação ao adulto** antes de concluir → o mini-simulado (sem ajuda) mede isso.
 - Material concreto (tampinhas) já não é necessário para divisão simples: daqui pra frente, pular direto para as questões.
 
+## Dia 4 feito (ter 06/10) ✅ — em ~15 min (previsto 40)
+- Acertou tudo, inclusive as 2 rodadas de tabuada; **só se confundiu nos chinelos** (lateralidade; Diogo acha que na tela do
+  computador é pior que no papel). Desafio impresso do Canguru **não foi usado** (não deu para imprimir) → trocado na hora por
+  2022-1f Q8 (marcas de dobra, D) na tela.
+- Diogo: **"temos que ir elevando o nível"**.
+
 ## Dia 4 ajustado (05/10, Diogo aprovou)
 - Chinelos (2022 Q6) deixou de ser exemplo → "sem ajuda". Passo novo `d4p5`: **desafio impresso Canguru 2023 Q13** (folha dobrada
   com 2 furos, gabarito B) — folha local `provas/canguru/folha-desafio-dia4.pdf` (gitignored); a página só tem a explicação.
