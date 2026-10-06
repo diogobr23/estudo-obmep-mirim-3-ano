@@ -157,6 +157,14 @@
   complexas**, para a prova parecer fácil no dia. Fontes para isso: Nível A (4º–5º ano, `nivelA-2018-2021.csv`) e as questões
   difíceis (D) da 1ª fase; 2ª fase 2022–2025 continua reservada para os simulados.
 
+## Dia 3 feito (seg 05/10) ✅
+- **Muito fácil:** tampinhas, treino com bolinhas e a 2025 Q3 (bois).
+- **Chocolate (2025 Q8):** precisou da explicação do adulto ("um terço de 9") → entendeu que é dividir 9 por 3.
+- **Laranjas (2024 Q11, desafio):** teve dúvida, **usou as dicas** e ainda confirmou passos com o adulto, mas resolveu.
+  → Esse é o nível "desafio" certo para agora.
+- Padrão que se repete (D2 e D3): **pede confirmação ao adulto** antes de concluir → o mini-simulado (sem ajuda) mede isso.
+- Material concreto (tampinhas) já não é necessário para divisão simples: daqui pra frente, pular direto para as questões.
+
 ## Regra nova de fontes de questão (04/10, aprovada pelo Diogo) → ver CLAUDE.md
 - Oficiais OBMEP primeiro (sobram 36 da 1ª fase: 17 M, 18 D, 1 F; + 50 do Nível A) → **Canguru Nível P** (3º–4º ano, 2021–2025,
   gabarito oficial, sem resolução; direitos reservados → só impresso/local, fora do git) → **inventadas** só para variação/ponte,
