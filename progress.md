@@ -165,6 +165,12 @@
 - Padrão que se repete (D2 e D3): **pede confirmação ao adulto** antes de concluir → o mini-simulado (sem ajuda) mede isso.
 - Material concreto (tampinhas) já não é necessário para divisão simples: daqui pra frente, pular direto para as questões.
 
+## Subir o nível sem frustrar (06/10, Diogo)
+- Diogo: não ir direto do fácil para um simulado difícil → **Dia 5 novo "Subindo o nível"** (qua 07/10, ids `n5*`): aviso
+  acolhedor + exemplo 2023 Q15 (chás, lista organizada) + 2022 Q14 (dobro, dicas, D) + 2024 Q12 (trens, dicas, B) + 2025 Q10
+  (times, sem ajuda, C). Horas virou **Dia 6** (qui 08/10, ids `d5*` mantidos). **Mini-simulado vira meio-simulado** (10 questões,
+  1h; sex 09/10) — a montar. Simulado inteiro 2022 continua **17/10**. Revisor: PODE IR; 2 escorregões com letra acrescentados.
+
 ## Dia 4 feito (ter 06/10) ✅ — em ~15 min (previsto 40)
 - Acertou tudo, inclusive as 2 rodadas de tabuada; **só se confundiu nos chinelos** (lateralidade; Diogo acha que na tela do
   computador é pior que no papel). Desafio impresso do Canguru **não foi usado** (não deu para imprimir) → trocado na hora por
