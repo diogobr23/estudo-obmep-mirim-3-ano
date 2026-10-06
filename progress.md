@@ -165,6 +165,11 @@
 - Padrão que se repete (D2 e D3): **pede confirmação ao adulto** antes de concluir → o mini-simulado (sem ajuda) mede isso.
 - Material concreto (tampinhas) já não é necessário para divisão simples: daqui pra frente, pular direto para as questões.
 
+## Dia 4 ajustado (05/10, Diogo aprovou)
+- Chinelos (2022 Q6) deixou de ser exemplo → "sem ajuda". Passo novo `d4p5`: **desafio impresso Canguru 2023 Q13** (folha dobrada
+  com 2 furos, gabarito B) — folha local `provas/canguru/folha-desafio-dia4.pdf` (gitignored); a página só tem a explicação.
+  Revisor: ok, 4 ajustes de redação aplicados. Dia 4 ≈ 40 min.
+
 ## Regra nova de fontes de questão (04/10, aprovada pelo Diogo) → ver CLAUDE.md
 - Oficiais OBMEP primeiro (sobram 36 da 1ª fase: 17 M, 18 D, 1 F; + 50 do Nível A) → **Canguru Nível P** (3º–4º ano, 2021–2025,
   gabarito oficial, sem resolução; direitos reservados → só impresso/local, fora do git) → **inventadas** só para variação/ponte,
