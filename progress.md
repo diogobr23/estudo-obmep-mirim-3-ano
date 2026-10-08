@@ -165,13 +165,15 @@
 - Padrão que se repete (D2 e D3): **pede confirmação ao adulto** antes de concluir → o mini-simulado (sem ajuda) mede isso.
 - Material concreto (tampinhas) já não é necessário para divisão simples: daqui pra frente, pular direto para as questões.
 
-## Dia 5 "Subindo o nível" feito (qua 07/10) ✅ — sozinha, só com o roteiro
+## Datas (08/10): Dia 6 sex 09/10 · meio-simulado ter 13/10 (sáb livre, seg 12 feriado) · simulado 2022 sáb 17/10
+
+## Dia 5 "Subindo o nível" feito (qui 08/10) ✅ — sozinha, só com o roteiro
 - Chás (exemplo): **errou** ao tentar antes de ler o exemplo; **não entendeu "fazer uma lista"** — termo solto, criança literal.
 - 2022 Q14 (dobro): acertou com as **2 dicas**. 2025 Q10 (times, sem ajuda): **acertou**.
 - 2024 Q12 (trens): **não resolveu nem com as dicas** e não entendeu bem a explicação. Tabuada 2 rodadas: tudo certo.
 - ⚠️ Defeito achado pelo print: dentro dos "exemplos" (`details.ex`) os números 1-2-3 ficavam soltos numa linha (o CSS só
   valia para `.res`) — afetava os exemplos desde o Dia 4. Corrigido com `:is(.res,.ex)`.
-- Resposta (08/10): exemplo dos chás reescrito (o que é lista + lista numerada desenhada); trens reexplicados com desenho em
+- Resposta (08/10, mesmo dia): exemplo dos chás reescrito (o que é lista + lista numerada desenhada); trens reexplicados com desenho em
   emojis (🚂🚃🚃); Dia 6 ganha `d6r1` "Revendo os trens" (2 variações inventadas: caixa 5 kg, sanduíche R$ 5 — resolvidas às
   cegas por 2º agente) e `d6p5` desafio 2025-1f Q6 (comprimidos, B). **Regra de escrita:** todo termo-estratégia ("lista",
   "riscar o que é igual") vem explicado com o que fazer no caderno, não só nomeado.
