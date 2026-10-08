@@ -37,6 +37,9 @@ Sempre responder em português brasileiro.
 - Toda questão oficial tem resposta do **gabarito oficial**; toda questão tem resolução em linguagem de criança.
 - Todo vídeo é conferido (existe, canal, título, duração) antes de entrar.
 - Toda tarefa tem "como sei que terminei".
+- **Cada dia se explica sozinho** (08/10, Diogo): a página só mostra o dia atual, então **nunca** mandar a criança "lembrar" ou
+  "fazer igual" a algo de outro dia sem trazer o resumo **dentro do próprio dia**. Os cards fixos do topo ("Como ler", "Tabuada")
+  podem ser citados, sempre com link. Termo de estratégia ("lista", "riscar o que é igual") vem com o que fazer no caderno.
 - **Nenhum dado pessoal da criança em lugar nenhum** — nem nome, apelido, escola, turma, foto
   ou letra. Nem em arquivo, memória, commit ou prompt de agente. Referir como "a criança".
 
