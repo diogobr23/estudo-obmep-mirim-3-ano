@@ -165,7 +165,14 @@
 - Padrão que se repete (D2 e D3): **pede confirmação ao adulto** antes de concluir → o mini-simulado (sem ajuda) mede isso.
 - Material concreto (tampinhas) já não é necessário para divisão simples: daqui pra frente, pular direto para as questões.
 
-## Datas (08/10): Dia 6 sex 09/10 · meio-simulado ter 13/10 (sáb livre, seg 12 feriado) · simulado 2022 sáb 17/10
+## Datas (08/10, Diogo pediu estudo no sábado): Dia 6 sex 09/10 · **meio-simulado sáb 10/10** · seg 12 feriado · semana 2 a partir de ter 13/10 · simulado 2022 sáb 17/10
+
+## Meio-simulado (08/10) — substitui o mini-simulado
+- Card `data-nome="Meio-simulado"` (ids `ms1p*` mantidos), **10 questões em 1 hora**, ~75 min com correção. Q1–5 = as do mini
+  (A D D C B); Q6 2023 Q8 aniversários (D) · Q7 2025 Q4 formiga (C) · Q8 2023 Q14 caixas (C) · Q9 2025 Q7 papel cortado, NÃO (B) ·
+  Q10 2022 Q15 cachorrinho e gatinho (E). Imagens renumeradas `roteiro/img/ms1-q1..10.png`; PDF `roteiro/meio-simulado-1.pdf`
+  (6 págs; o `mini-simulado-1.pdf` foi removido). Gerador no scratchpad (recorta_ms.py + meio.html → Edge headless).
+  Revisor: gabaritos e figuras ok (refez o caminho da formiga); 2 escorregões trocados para letras que existem.
 
 ## Dia 5 "Subindo o nível" feito (qui 08/10) ✅ — sozinha, só com o roteiro
 - Chás (exemplo): **errou** ao tentar antes de ler o exemplo; **não entendeu "fazer uma lista"** — termo solto, criança literal.
