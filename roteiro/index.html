@@ -55,13 +55,13 @@
   .q .qt { font-weight:700; font-size:15px; color:var(--muted); margin-bottom:6px }
   .q img { display:block; width:100%; height:auto; border-radius:8px; border:1px solid var(--line); background:#fff }
   details.res { background:#f0f4fa; border-radius:12px; padding:10px 14px 14px }
-  .res .quer { margin:8px 0 4px; font-weight:600 }
-  .res .passo-r { display:flex; gap:10px; align-items:flex-start; margin:10px 0 }
-  .res .n { flex:none; width:26px; height:26px; border-radius:50%; background:var(--mat); color:#fff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center; margin-top:2px }
-  .res .passo-r > div { flex:1; min-width:0 }
-  .res .resp { background:#e6f7ea; color:#1d6b2d; border-radius:10px; padding:8px 12px; margin-top:12px; font-weight:700 }
-  .res .atalho { background:#fff7d6; color:#6b4e00; border-radius:10px; padding:8px 12px; margin-top:8px }
-  .res .esc { background:#fdeeea; color:#8a3b00; border-radius:10px; padding:8px 12px; margin-top:8px }
+  :is(.res,.ex) .quer { margin:8px 0 4px; font-weight:600 }
+  :is(.res,.ex) .passo-r { display:flex; gap:10px; align-items:flex-start; margin:10px 0 }
+  :is(.res,.ex) .n { flex:none; width:26px; height:26px; border-radius:50%; background:var(--mat); color:#fff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center; margin-top:2px }
+  :is(.res,.ex) .passo-r > div { flex:1; min-width:0 }
+  :is(.res,.ex) .resp { background:#e6f7ea; color:#1d6b2d; border-radius:10px; padding:8px 12px; margin-top:12px; font-weight:700 }
+  :is(.res,.ex) .atalho { background:#fff7d6; color:#6b4e00; border-radius:10px; padding:8px 12px; margin-top:8px }
+  :is(.res,.ex) .esc { background:#fdeeea; color:#8a3b00; border-radius:10px; padding:8px 12px; margin-top:8px }
   details.dq { background:var(--dica); border-radius:12px; padding:8px 14px; margin-top:8px }
   details.dq > summary { color:var(--dica-ink) }
   details.ex { background:#f3eefb; border-radius:12px; padding:10px 14px 14px }
@@ -637,12 +637,16 @@
       <span class="t" style="display:block">Terminei quando: entendi por que a lista ajuda a não esquecer nenhum chá.</span></label>
       <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2023 (1ª fase) · questão 15 <span class="grau g1">🗣️ exemplo</span></div><img src="img/2023-1fase-q15.png" alt="Questão 15 da 1ª fase de 2023: quantos tipos de chá com 3 ervas" loading="lazy">
         <details class="ex"><summary>🗣️ Agora vê como eu pensei (lê com o adulto)</summary>
-          <div class="passo-r"><span class="n">1</span><div><i>"A pergunta é: quantos chás <b>diferentes</b>? Tem dois jeitos de fazer chá: com <b>1 erva</b> ou misturando <b>2 ervas</b>. Se eu tentar contar de cabeça, posso esquecer algum. Então vou fazer uma <b>lista</b>."</i></div></div>
-          <div class="passo-r"><span class="n">2</span><div><i>"Primeiro, os chás de 1 erva só: erva-doce · hortelã · camomila. São <b>3</b>."</i></div></div>
-          <div class="passo-r"><span class="n">3</span><div><i>"Agora as misturas de 2. Começo pela erva-doce: erva-doce com hortelã · erva-doce com camomila. Depois a hortelã: hortelã com camomila. (Hortelã com erva-doce eu já escrevi!) São <b>3</b>."</i></div></div>
-          <div class="passo-r"><span class="n">4</span><div><i>"Junto as duas listas: 3 + 3 = <b>6</b>. Leio a pergunta de novo: chás diferentes? Sim, 6. Marco a letra C."</i></div></div>
+          <div class="passo-r"><span class="n">1</span><div><i>"A pergunta é: quantos chás <b>diferentes</b> ela consegue fazer? Tem dois jeitos de fazer chá: com <b>1 erva só</b> ou misturando <b>2 ervas</b>."</i></div></div>
+          <div class="passo-r"><span class="n">2</span><div><i>"Se eu contar de cabeça, posso esquecer um chá ou contar o mesmo duas vezes. Então vou <b>escrever no caderno cada chá numa linha, um embaixo do outro</b>. Isso é fazer uma lista."</i></div></div>
+          <div class="passo-r"><span class="n">3</span><div><i>"Primeiro escrevo os chás de 1 erva só:"</i>
+            <div style="background:#fff;border:1px solid var(--line);border-radius:8px;padding:6px 12px;margin:6px 0;font-style:normal">1. erva-doce<br>2. hortelã<br>3. camomila</div></div></div>
+          <div class="passo-r"><span class="n">4</span><div><i>"Agora os chás com 2 ervas misturadas. Começo pela erva-doce e junto com cada uma das outras. Depois a hortelã com a que sobrou:"</i>
+            <div style="background:#fff;border:1px solid var(--line);border-radius:8px;padding:6px 12px;margin:6px 0;font-style:normal">4. erva-doce + hortelã<br>5. erva-doce + camomila<br>6. hortelã + camomila</div>
+            <i>"E hortelã + erva-doce? Já está na linha 4! É o mesmo chá."</i></div></div>
+          <div class="passo-r"><span class="n">5</span><div><i>"Conto as linhas: <b>6 chás</b>. Leio a pergunta de novo: quantos chás diferentes? 6. Marco a letra C."</i></div></div>
           <div class="resp">✅ Resposta: letra C (6 chás)</div>
-          <div class="esc">⚠️ <b>Escorregão:</b> contar "hortelã com erva-doce" e "erva-doce com hortelã" como dois chás. É a mesma mistura! Na lista, cada erva só se junta com as que vêm <b>depois</b> dela.</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> contar "hortelã + erva-doce" e "erva-doce + hortelã" como dois chás. É a mesma mistura, só escrita ao contrário!</div>
         </details></div>
     </div></div>
 
@@ -666,9 +670,11 @@
         <details class="dq"><summary>💡 Dica 2</summary>Sobra só <b>1 vagão</b>. Ele é a diferença entre os dois trens: 38 − 28. Sabendo quanto mede 1 vagão, volta no trem de cima.</details>
         <details class="res"><summary>Ver resposta e explicação</summary>
           <div class="quer">🎯 A pergunta: o comprimento da <b>LOCOMOTIVA</b> (só ela, sem os vagões).</div>
-          <div class="passo-r"><span class="n">1</span><div>Os dois trens têm a mesma locomotiva e 2 vagões iguais. O de baixo tem <b>1 vagão a mais</b>. Então 1 vagão mede 38 − 28 = <b>10 metros</b>.</div></div>
-          <div class="passo-r"><span class="n">2</span><div>O trem de cima: locomotiva + 2 vagões = 28. Os 2 vagões medem 10 + 10 = 20.</div></div>
-          <div class="passo-r"><span class="n">3</span><div>A locomotiva é o que falta: 28 − 20 = <b>8 metros</b>. (Confere no de baixo: 8 + 10 + 10 + 10 = 38 ✔)</div></div>
+          <div class="passo-r"><span class="n">1</span><div>Desenha os dois trens no caderno, um embaixo do outro:
+            <div style="background:#fff;border:1px solid var(--line);border-radius:8px;padding:6px 12px;margin:6px 0;font-size:20px;line-height:1.6">🚂🚃🚃 = 28 metros<br>🚂🚃🚃🚃 = 38 metros</div></div></div>
+          <div class="passo-r"><span class="n">2</span><div>Os dois têm 🚂🚃🚃. Risca isso nos dois. No de cima não sobra nada. No de baixo sobra <b>só 1 vagão</b> 🚃.</div></div>
+          <div class="passo-r"><span class="n">3</span><div>O de baixo é maior <b>só por causa desse vagão</b>. Quanto ele é maior? 38 − 28 = <b>10 metros</b>. Então 1 vagão 🚃 = 10 metros.</div></div>
+          <div class="passo-r"><span class="n">4</span><div>Volta no trem de cima: 🚂 + 🚃 + 🚃 = 28. Os dois vagões são 10 + 10 = 20. Que número junto com 20 dá 28? <b>8</b>. A locomotiva mede 8 metros. (Confere no de baixo: 8 + 10 + 10 + 10 = 38 ✔)</div></div>
           <div class="resp">✅ Resposta: letra B (8 metros)</div>
           <div class="esc">⚠️ <b>Escorregão:</b> parar no vagão e marcar 10 metros (letra C). A pergunta é sobre a <b>locomotiva</b>!</div>
         </details></div>
@@ -694,7 +700,21 @@
   <!-- ============ DIA 6 (horas) ============ -->
   <section class="dia" data-nome="Dia 6">
     <h2>Dia 6 — Horas e minutos <span class="tag">Tempo</span></h2>
-    <p class="quando">sugestão: quinta, 08/10 · ⏱ uns 30 minutos</p>
+    <p class="quando">sugestão: quinta, 08/10 · ⏱ uns 40 minutos</p>
+
+    <div class="passo"><input type="checkbox" id="d6r1"><div class="corpo"><label for="d6r1">🔁 <b>Revendo os trens</b> (8 min). A questão dos trens (Dia 5) foi difícil. Aqui tem 2 historinhas com a mesma ideia. Faz igual à explicação dos trens: <b>desenha</b> as duas coisas uma embaixo da outra e <b>risca o que é igual</b>.
+      <span class="t" style="display:block">Terminei quando: resolvi as 2 e conferi.</span></label>
+      <div class="etq treino">✏️ TREINO (não é da prova)</div>
+      <ol>
+        <li>UMA CAIXA COM 2 BONECOS IGUAIS DENTRO PESA 13 QUILOS. A MESMA CAIXA COM 3 DESSES BONECOS DENTRO PESA 17 QUILOS. QUANTO PESA A CAIXA VAZIA?</li>
+        <li>UM SANDUÍCHE COM 2 FATIAS DE QUEIJO CUSTA 9 REAIS. O MESMO SANDUÍCHE COM 4 FATIAS DE QUEIJO CUSTA 13 REAIS. QUANTO CUSTA O SANDUÍCHE SEM QUEIJO?</li>
+      </ol>
+      <details class="dq"><summary>💡 Dica</summary>Na 1: desenha 📦🧸🧸 = 13 e 📦🧸🧸🧸 = 17. Risca o que é igual. O que sobra? Na 2: cuidado, agora sobram <b>2</b> fatias, e não 1!</details>
+      <details><summary>Ver respostas</summary>
+        1) Risca 📦🧸🧸 nos dois. Sobra 1 boneco 🧸 = 17 − 13 = 4 quilos. Volta: 📦 + 4 + 4 = 13 → a caixa vazia pesa <b>5 quilos</b>. (Confere: 5 + 4 + 4 + 4 = 17 ✔)<br>
+        2) Risca o sanduíche e 2 fatias nos dois. Sobram <b>2 fatias</b> = 13 − 9 = 4 reais. Então 1 fatia custa 2 reais. Volta: sanduíche + 2 + 2 = 9 → o sanduíche sem queijo custa <b>5 reais</b>. (Confere: 5 + 2 + 2 + 2 + 2 = 13 ✔)
+      </details>
+    </div></div>
 
     <div class="passo"><input type="checkbox" id="d5p1"><div class="corpo"><label for="d5p1">🧠 <b>O truque da hora cheia</b> (10 min). Lê com calma:
       <span class="t" style="display:block">Terminei quando: fiz os 4 treinos e conferi.</span></label>
@@ -733,6 +753,20 @@
           <div class="passo-r"><span class="n">3</span><div>50 + 5 = <b>55 minutos</b>.</div></div>
           <div class="resp">✅ Resposta: letra D (55 minutos)</div>
           <div class="esc">⚠️ <b>Escorregão:</b> achar que passou 1 hora inteira ou mais (60 ou 75 minutos). De 3:10 até 4:10 seria 1 hora, mas o jogo começa às 4:05, 5 minutos antes disso. Sempre para na hora cheia!</div>
+        </details></div>
+    </div></div>
+
+    <div class="passo"><input type="checkbox" id="d6p5"><div class="corpo"><label for="d6p5">🏆 <b>Desafio</b> (8 min). Uma questão de horas mais difícil, com uma tabela para preencher (a tabela está na figura). Tenta primeiro sem ajuda. Travou? Abre só a Dica 1.
+      <span class="t" style="display:block">Terminei quando: marquei uma letra e conferi.</span></label>
+      <div class="q"><div class="etq prova">📄 QUESTÃO DA PROVA</div><div class="qt">Prova de 2025 (1ª fase) · questão 6 · desafio <span class="grau g2">💡 com dicas</span></div><img src="img/2025-1fase-q6.png" alt="Questão 6 da 1ª fase de 2025: 8 comprimidos, um a cada 8 horas" loading="lazy">
+        <details class="dq"><summary>💡 Dica 1</summary>Um dia tem 24 horas. 8 + 8 + 8 = 24. Então, a cada 8 horas, muda o pedaço do dia: <b>manhã → tarde → noite → manhã do dia seguinte</b>.</details>
+        <details class="dq"><summary>💡 Dica 2</summary>Copia a tabela no caderno. Escreve <b>1</b> na segunda de manhã (o primeiro comprimido conta!). Depois escreve 2, 3, 4… em cada quadradinho, seguindo manhã → tarde → noite, até chegar no 8.</details>
+        <details class="res"><summary>Ver resposta e explicação</summary>
+          <div class="quer">🎯 A pergunta: <b>quando</b> ele toma o <b>ÚLTIMO</b> comprimido, o 8º.</div>
+          <div class="passo-r"><span class="n">1</span><div>A cada 8 horas, o pedaço do dia muda: manhã → tarde → noite → manhã do outro dia.</div></div>
+          <div class="passo-r"><span class="n">2</span><div>Preenche a tabela: segunda: 1 (manhã), 2 (tarde), 3 (noite) · terça: 4, 5, 6 · quarta: <b>7</b> (manhã), <b>8</b> (tarde).</div></div>
+          <div class="resp">✅ Resposta: letra B (quarta-feira à tarde)</div>
+          <div class="esc">⚠️ <b>Escorregão:</b> esquecer de contar o comprimido de segunda de manhã. Aí você acaba um quadradinho depois, em quarta à noite (letra C). O primeiro comprimido também conta!</div>
         </details></div>
     </div></div>
 
