@@ -31,9 +31,9 @@ ficam recolhidos. Pular um dia não atrasa nada; a data sugerida aparece só com
 | Semana | Dias |
 |---|---|
 | S1 (real) | D0 divisão + tabuada 24–27/09 ✅ · treino tabuada+divisão ter 29/09 ✅ · (30/09–04/10 sem estudo) · D1 Como ler seg 05/10 · D2 Palavras-armadilha ter 06/10 · treino "vezes ou dividir?" qua 07/10 · D3 Divisão qui 08/10 · D4 Direita, esquerda e dobra sex 09/10 · **sáb 10/10 mini-simulado 1** (5 questões de 1ª fase, 30 min, impresso) · D5 Horas ter 13/10 (seg 12/10 feriado) |
-| S2 14/10 em diante | metade, dobro e fazer ao contrário · grupos iguais e fileiras (× e ÷ disfarçadas; aqui entra o vídeo da Gis "Resolução de problemas de divisão", `ociudK7Oovg`, tirado do Dia 0) · girar figuras · contar todas as possibilidades (+ dominó) · calendário · **sáb 17/10 simulado 2022** (empurrado de 10/10) |
+| S2 14/10 em diante (retomada real: Dia 6 qua 14 · S2 qui 15–sex 16 · **meio-simulado sáb 17/10**) | metade, dobro e fazer ao contrário · grupos iguais e fileiras (× e ÷ disfarçadas; aqui entra o vídeo da Gis "Resolução de problemas de divisão", `ociudK7Oovg`, tirado do Dia 0) · girar figuras · contar todas as possibilidades (+ dominó) · calendário · **sáb 24/10 simulado 2022** (empurrado de novo em 14/10) |
 | S3 (datas a refazer depois do mini-simulado) | encaixar e montar figuras · soma e diferença / dinheiro · tabelinha lógica (+ mínimo e máximo) · vistas · fila e posição · **régua, gráfico de barras e ábaco** (os ~8% de "outros", antes sem dia) |
-| S4 19–23/10 | planificação do cubo · sequências e padrões · espelho (direita e esquerda já foi no D4) · **sáb 24/10 simulado 2023** |
+| S4 19–23/10 | planificação do cubo · sequências e padrões · espelho (direita e esquerda já foi no D4) · ~~sáb 24/10 simulado 2023~~ (data passou para o 2022; 2023/2024/2025 disputam 31/10 e 07/11) |
 | S5 26–30/10 | revisão dos ⭐ e dos erros · **sáb 31/10 simulado 2024** |
 | S6 03–06/11 (02/11 feriado) | revisão · **sáb 07/11 simulado 2025 (ensaio geral)** |
 | 09/11 | leve: só o card de leitura e 2 questões fáceis. 10/11 = PROVA |

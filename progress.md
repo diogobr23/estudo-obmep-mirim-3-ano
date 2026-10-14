@@ -212,6 +212,12 @@
   POS 5 · SEQ 3 · NUM 1 · TEM 1. Dificuldade F 26 · M 56 · D 37. Muitas respostas de figura só pelo gabarito oficial (não
   refeitas); **2021 Q12 marcada CONFERIR**. Uso: só impresso/local; a página pública cita "Canguru AAAA, questão N".
 
+## Retomada (qua 14/10, Diogo)
+- A criança **não estudou de 09 a 13/10**; retoma hoje no **Dia 6 (horas)**.
+- Datas (Diogo escolheu "empurrar 2022"): Dia 6 qua 14/10 · semana 2 qui 15 e sex 16 · **meio-simulado sáb 17/10** ·
+  **simulado 2022 sáb 24/10** · depois 31/10 e 07/11 → sobram 2 vagas para 3 provas (2023, 2024, 2025): **decidir qual sai
+  ou vira treino** quando montar a S3.
+
 ## Próximo passo
-1. Diogo conta como foram os Dias 1–4 (quantas dicas abriu, onde travou) e o resultado do mini-simulado (__/5, tempo, leitura × conta).
-2. Montar a semana 2 (13/10 em diante, rascunho em `PLANO.md`) com isso, antes do simulado inteiro de 17/10.
+1. Montar a semana 2 (2 dias: qui 15 e sex 16/10). **Urgente:** depois do meio-simulado a página fica vazia.
+2. Diogo conta como foi o Dia 6 e, no sábado, o meio-simulado (__/10, tempo, leitura × conta em cada erro).
