@@ -218,6 +218,16 @@
   **simulado 2022 sáb 24/10** · depois 31/10 e 07/11 → sobram 2 vagas para 3 provas (2023, 2024, 2025): **decidir qual sai
   ou vira treino** quando montar a S3.
 
+## Dia 6 feito (qua 14/10) ✅ — Diogo: "foi bem"
+
+## Dia 7 "Calendário e dias da semana" (qui 15/10) — publicado
+- Escolha minha (Diogo pediu para eu recomendar): continua "tempo" e prepara a Q6 do meio-simulado (aniversários).
+- `d7p1` ideia (semana dá voltas, 7 em 7 dias, hoje não conta, D S T Q Q S S, ontem/anteontem/amanhã/depois de amanhã,
+  penúltimo) + 6 treinos ✏️ (2º agente às cegas: 6/6 iguais) · `d7p2` exemplo Nível A 2019 Q2 (B) + 2022-1f Q2 com dicas (E) ·
+  `d7p3` Nível A 2018 Q8 sem ajuda (E) · `d7p4` desafio 2024-1f Q15 (E) · `d7tab` 2 rodadas · `d7p5`. ~40 min.
+- 1º uso do Nível A (recorte manual: 2 colunas, `recorta.py` não acha). Revisor: PODE IR COM AJUSTES, 0 graves; 1 médio
+  (Dica 2 da 2022 Q2 entregava tudo → letras D S T Q Q S S foram para a ideia do dia) + 3 pequenos, todos aplicados.
+
 ## Próximo passo
-1. Montar a semana 2 (2 dias: qui 15 e sex 16/10). **Urgente:** depois do meio-simulado a página fica vazia.
-2. Diogo conta como foi o Dia 6 e, no sábado, o meio-simulado (__/10, tempo, leitura × conta em cada erro).
+1. Montar o **Dia 8 — girar e encaixar figuras** (sex 16/10; visão espacial ~28%, ainda sem dia próprio).
+2. Diogo conta como foi o Dia 7 e, no sábado 17/10, o meio-simulado (__/10, tempo, leitura × conta em cada erro).
